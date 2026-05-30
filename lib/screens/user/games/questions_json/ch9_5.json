@@ -1,0 +1,362 @@
+[
+    {
+        "text": "If you execute `String s1 = \"Hello\"; String s2 = \"Hello\";`, how many string objects are created in memory?",
+        "choices": [
+            "Two, one for each variable",
+            "One, shared by both variables",
+            "Zero, they are primitives",
+            "Three, including the pool"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When two String objects are created using same string literals, memory is not allocated for the second object. Both objects refer to the same memory location.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the specific return value of `Arrays.binarySearch()` if the element is NOT found, according to the textbook?",
+        "choices": [
+            "0",
+            "The negative insertion point",
+            "-1",
+            "null"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The textbook simplifies the standard Java behavior and states: 'It returns index position when an element is found; otherwise it returns -1'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the `Calendar` class, what integer value represents 'January'?",
+        "choices": [
+            "1",
+            "0",
+            "10",
+            "12"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The `MONTH` constant uses 0 for January and 11 for December.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If `int[][] m = new int[4][5];`, what is the value of `m.length` versus `m[0].length`?",
+        "choices": [
+            "4 and 5",
+            "5 and 4",
+            "20 and 4",
+            "4 and 20"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "`m.length` is the number of rows (4). `m[0].length` is the number of columns in the first row (5).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Why does `String s3 = new String(\"Hello\")` behave differently from `String s1 = \"Hello\"` regarding memory?",
+        "choices": [
+            "It creates a primitive instead of an object.",
+            "It forces the creation of a new object with separate memory, bypassing the literal pool reuse.",
+            "It allows the string to be mutable.",
+            "It stores the string in the stack instead of the heap."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Separate memory is allocated when string objects are created using the `new` operator even if strings are identical. They refer to different memory locations.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the result of `\"Apple\".compareTo(\"Banana\")`?",
+        "choices": [
+            "0",
+            "A positive integer",
+            "A negative integer",
+            "Compilation Error"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`compareTo` returns a negative integer (<0) if the invoking string ('Apple') is less than the argument string ('Banana').",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which constructor allows you to create a String from a byte array `byte[] b` using only a subset of the bytes?",
+        "choices": [
+            "String(byte[], int start, int length)",
+            "String(byte[], int index)",
+            "String(byte[], boolean subset)",
+            "There is no such constructor"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The text describes constructors that take a start index and length. Just as there is `String(char[], start, len)`, there are byte array equivalents (implied by the list of constructors).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In a 2-D array variable declaration `int[][] matrix`, what does the variable `matrix` actually hold?",
+        "choices": [
+            "The entire 2D block of data.",
+            "A reference to an array of integers.",
+            "A reference to an array of references.",
+            "The size of the array."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The diagram shows the reference variable points to a main array, which contains references to the individual row arrays. It is an array of references.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the precision level of the `Date` class?",
+        "choices": [
+            "Nanoseconds",
+            "Milliseconds",
+            "Seconds",
+            "Days"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Date class encapsulates both date and time and represents the value using milliseconds precision.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If `str1` refers to \"Java\" and `str2` refers to a separate object \"Java\", what does `str1 == str2` return?",
+        "choices": [
+            "True",
+            "False",
+            "Null",
+            "1"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`==` compares references. Since they refer to different memory locations (separate objects), it returns False.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "When using `Arrays.sort(array, start, last)`, which elements are actually sorted?",
+        "choices": [
+            "From index `start` to `last` (inclusive).",
+            "From index `start` to `last-1`.",
+            "From index `0` to `last`.",
+            "From index `start+1` to `last`."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The method sorts the partial array from the element at index `start` to the element at index `last-1`.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which `Calendar` constant would you use to distinguish between 10 AM and 10 PM?",
+        "choices": [
+            "HOUR",
+            "AM_PM",
+            "HOUR_OF_DAY",
+            "MINUTE"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`AM_PM` constant indicates whether it is AM (0) or PM (1).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the result of `\"abc\".compareTo(\"abc\")`?",
+        "choices": [
+            "True",
+            "1",
+            "0",
+            "-1"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`compareTo` returns 0 if the invoking string is equal to the argument string.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If you call `Arrays.fill(arr, 5)` on an array of size 10, what is the value of `arr[9]`?",
+        "choices": [
+            "0",
+            "5",
+            "Null",
+            "Undefined"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The `fill` method (without range) assigns the specified value (5) to *all* elements of the array.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What base date is used by `Date(long date)` to calculate time?",
+        "choices": [
+            "January 1, 1900",
+            "January 1, 2000",
+            "January 1, 1970 GMT",
+            "The current system time"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The constructor accepts milliseconds elapsed since January 1, 1970 GMT.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What distinguishes `GregorianCalendar` from `Calendar`?",
+        "choices": [
+            "`Calendar` is abstract; `GregorianCalendar` is a concrete subclass.",
+            "`GregorianCalendar` is deprecated.",
+            "`Calendar` handles time, `GregorianCalendar` only handles dates.",
+            "`GregorianCalendar` is in a different package."
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The text states we will see the use of `GregorianCalendar` subclass of `Calendar` class (implying `Calendar` is the base/general class).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which method would you use to check if two strings contain the same characters, ignoring case sensitivity?",
+        "choices": [
+            "equals()",
+            "compareTo()",
+            "equalsIgnoreCase()",
+            "match()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`equalsIgnoreCase(String str)` returns true if invoking string is same as str after ignoring case.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In a 1-D array of objects (like Strings), what is the default initial value of elements?",
+        "choices": [
+            "\"\"",
+            "0",
+            "null",
+            "Undefined"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "For arrays of objects (like String[]), the elements are initialized to `null` by default.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If `str.length()` returns 5, what is the index of the last character?",
+        "choices": [
+            "5",
+            "4",
+            "6",
+            "Unknown"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Indices are 0-based. If length is 5, indices are 0, 1, 2, 3, 4.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What happens if you invoke `getChars()` with a `targetIndx` that causes the array to overflow?",
+        "choices": [
+            "The array expands automatically.",
+            "A runtime exception occurs.",
+            "It truncates the string.",
+            "It overwrites adjacent memory."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Although not explicitly detailed, standard Java behavior (implied by 'High Level') for array access out of bounds is an exception. The method copies characters to a fixed-size target array.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the purpose of `long getTime()` in the Date class?",
+        "choices": [
+            "To get the current hour.",
+            "To get the number of milliseconds since the epoch.",
+            "To format the date as a String.",
+            "To get the date in Julian format."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "It returns the number of milliseconds since January 1, 1970 GMT.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of these is NOT a valid way to create a String object?",
+        "choices": [
+            "String s = \"abc\";",
+            "String s = new String(\"abc\");",
+            "String s = 'abc';",
+            "String s = new String(charArray);"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Single quotes are used for character literals (`char`). Strings must use double quotes. `String s = 'abc';` is a compilation error.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does `Calendar.DAY_OF_WEEK` return for Sunday?",
+        "choices": [
+            "0",
+            "1",
+            "7",
+            "Sunday"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text table specifies: `DAY_OF_WEEK` is the day number within a week (1 for Sunday, 7 for Saturday).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In `Arrays.fill(list, 2, 6, 5)`, how many elements are modified?",
+        "choices": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "It fills from index 2 up to (but not including) 6. Indices: 2, 3, 4, 5. Total = 4 elements.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "If `String s = \"Java\";`, what does `s.toUpperCase()` modify?",
+        "choices": [
+            "The original object `s`.",
+            "Nothing, it creates a new String object.",
+            "The variable reference `s`.",
+            "The literal pool."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Strings are immutable. `toUpperCase()` returns a *new* string with converted characters; it does not modify the invoking string.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which method signature is used to convert a String to a primitive byte array?",
+        "choices": [
+            "byte[] toByteArray()",
+            "byte[] getBytes()",
+            "byte[] toBytes()",
+            "char[] getBytes()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`byte[] getBytes()` returns an array of characters as bytes from the invoking string.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Why might you use a character array instead of a String for storing passwords?",
+        "choices": [
+            "Strings are slower.",
+            "Strings are immutable and stay in memory longer (security risk).",
+            "Character arrays are easier to sort.",
+            "Strings cannot contain numbers."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "While not explicitly in the text, this is a classic 'High IQ' Java question derived from String immutability/pool concepts discussed. The text emphasizes String immutability and memory pools.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What logic does `Arrays.sort()` use for sorting?",
+        "choices": [
+            "Random sort",
+            "Ascending order",
+            "Descending order",
+            "Insertion order"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The example output shows numbers sorted from lowest to highest (e.g., 6.0, 7.0, 8.0...), which is ascending order.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "If `int[] a = {1, 2, 3};` and `int[] b = {1, 2, 3};`, why is `a == b` false?",
+        "choices": [
+            "The contents are different.",
+            "They are different object references.",
+            "Integers cannot be compared with ==.",
+            "Arrays are primitive types."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Arrays are objects. `==` compares references. `a` and `b` are separate objects in memory.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the `Calendar.AM_PM` constant value '1' represent?",
+        "choices": [
+            "AM",
+            "PM",
+            "Midnight",
+            "Error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "0 for AM, 1 for PM.",
+        "timeSeconds": 30
+    }
+]

@@ -1,0 +1,633 @@
+MCQ Question Paper
+
+Q1. Hard: What is the function of the `Archive Manager` regarding `.tar` vs `.tar.gz`?
+A. .tar is compressed, .tar.gz is not
+B. .tar puts files in a single uncompressed file; .tar.gz is compressed
+C. They are the same
+D. Archive Manager only handles .zip
+
+Q2. Hard: What is the limitation of the 'Preview' mode in KompoZer regarding scripts?
+A. Scripts run slower.
+B. Scripts do not run.
+C. Only CSS runs, not JS.
+D. It opens a separate browser window.
+
+Q3. Which statement correctly describes the 'break' statement with a label?
+A. It restarts the loop at the label.
+B. It transfers control out of the loop identified by the label.
+C. It breaks only the innermost loop.
+D. It pauses the program.
+
+Q4. In the Java `Date` class, what does the constructor `Date(long elapsedTime)` initialize the object with?
+A. Current system time
+B. Time elapsed since Jan 1, 1900
+C. Time elapsed since Jan 1, 1970 GMT
+D. Time elapsed since the program started
+
+Q5. Hard: In the KompoZer 'Table Properties' dialog box, what does the 'Spacing' attribute specifically control?
+A. The distance between the table and the page margins.
+B. The gap between the cell content and the cell border.
+C. The gap between individual cells.
+D. The thickness of the table border.
+
+Q6. Hard: In JavaScript, what does `isNaN("123")` return?
+A. true
+B. false
+C. undefined
+D. error
+
+Q7. Hard: In the data compression example, if the original file is 324 bytes, what is the compressed size?
+A. 100 bytes
+B. 226 bytes
+C. 300 bytes
+D. 150 bytes
+
+Q8. Hard: What is the function of the `Archive Manager` tool in Linux?
+A. To play media files.
+B. To manage email archives.
+C. To compress and extract files (e.g., .tar, .zip).
+D. To organize photos.
+
+Q9. Which JavaScript function checks if a value is Not-a-Number?
+A. isNum()
+B. checkNumber()
+C. isNaN()
+D. notNumber()
+
+Q10. When a variable is declared as `static final`, it is typically used as:
+A. A loop counter
+B. A constant
+C. A local variable
+D. An object reference
+
+Q11. Hard: If you choose 'internal stylesheet' in KompoZer, where is the CSS code generated?
+A. In a separate .css file.
+B. In the `<body>` section of the page.
+C. In the `<head>` section inside `<style>` tags.
+D. It is not generated until you save.
+
+Q12. Hard: Which key is used to close the Site Manager pane in KompoZer?
+A. F5
+B. F12
+C. F9
+D. Esc
+
+Q13. What value is assigned to the variable if you use the literal 045?
+A. 45
+B. 37
+C. 53
+D. 0
+
+Q14. Hard: In Java, what is the difference between `length` for arrays and `length()` for Strings?
+A. Both are methods
+B. Both are attributes
+C. Array uses `length` attribute, String uses `length()` method
+D. Array uses `length()` method, String uses `length` attribute
+
+Q15. Hard: What is 'UML'?
+A. Unified Modelling Language
+B. Universal Modeling Language
+C. Unified Management Language
+D. Universal Management Language
+
+Q16. Hard: What does the JavaScript function `isNaN("123")` return?
+A. true
+B. false
+C. undefined
+D. error
+
+Q17. Hard: In the KompoZer 'Block Background Color' dialog, color values are often represented by a code starting with '#'. What is this format called?
+A. Binary
+B. Decimal
+C. Hexadecimal (Hex)
+D. Octal
+
+Q18. Hard: Which specific JavaScript check is used to ensure a required field is not empty in the provided example?
+A. `if (x == 0)`
+B. `if (x == null || x == "")`
+C. `if (x.length < 1)`
+D. `if (x != valid)`
+
+Q19. Hard: In the CSS 'Text' tab, which option is used to make text blink?
+A. Font Weight
+B. Case
+C. Text Decoration
+D. Alignment
+
+Q20. Hard: In E-Commerce, what is a key advantage of 'Support Services' for companies?
+A. Higher shipping costs
+B. Reduced need for physical stores
+C. Ability to solve problems online (e.g., software updates, complaints)
+D. Slower customer response
+
+Q21. How can you close the Site Manager pane in KompoZer?
+A. Press F5
+B. Press F9
+C. Press F12
+D. Press Esc
+
+Q22. Hard: In the Java `Date` class, the constructor `Date()` initializes the object with:
+A. January 1, 1970
+B. A null value
+C. The current system time
+D. The start of the program
+
+Q23. Hard: In the shopping cart JavaScript (Code Listing 3.1), what information is stored in the `cookievalue` variable?
+A. Only the total price
+B. A pipe-separated string of product details
+C. A colon-separated string of product details (Name, Price, Quantity, Total)
+D. The user's credit card number
+
+Q24. Hard: In the context of network security, what is 'Sniffing'?
+A. Flooding a website with traffic.
+B. A virus that deletes files.
+C. Recording data passing through a network like wiretapping.
+D. Defacing a website's content.
+
+Q25. Hard: What is 'IEEE'?
+A. Institute of Electrical & Electronic Engineers
+B. International Electrical & Electronic Engineers
+C. Institute of Energy & Electronic Engineers
+D. International Energy & Electronic Engineers
+
+Q26. Hard: What does the Java method `s1.compareTo(s2)` return if `s1` is "Apple" and `s2` is "Banana"?
+A. 0
+B. A positive integer
+C. A negative integer
+D. False
+
+Q27. Hard: What is the result of `12.5 % 7.2` in Java?
+A. 5
+B. 5.3
+C. 1
+D. Error
+
+Q28. Hard: Why can't a static method access an instance variable directly?
+A. Because instance variables are private.
+B. Because static methods belong to the class, not an object.
+C. Because static methods run before the class loads.
+D. It can, but only using 'this'.
+
+Q29. Hard: To enable CSS by default in KompoZer, which menu path must be followed?
+A. Tools > Options
+B. Format > Styles
+C. Edit > Preferences
+D. File > Page Setup
+
+Q30. Hard: What is the specific function of the `q()` command in R?
+A. Query a database
+B. Quit the environment
+C. Queue a calculation
+D. Quick save
+
+Q31. Hard: What does the abbreviation 'GSWAN' refer to?
+A. Gujarat State Wide Area Network
+B. Global State Wide Area Network
+C. General State Wide Area Network
+D. Government State Wide Area Network
+
+Q32. Hard: In the CSS 'Text' tab, which option allows you to make text uppercase?
+A. Font Style
+B. Font Weight
+C. Case
+D. Decoration
+
+Q33. Hard: What is 'JDK'?
+A. Java Development Kit
+B. Java Design Kit
+C. Java Deployment Kit
+D. Java Desktop Kit
+
+Q34. Hard: What does the 'General' tab in the CSS Stylesheets dialog show?
+A. Font settings
+B. Background options
+C. The generated CSS code
+D. Border settings
+
+Q35. Hard: In the CSS syntax `H1 { color: green }`, what is `H1`?
+A. Declaration
+B. Property
+C. Value
+D. Selector
+
+Q36. Which symbol represents 'Aggregation' (not composition) in a Class Diagram?
+A. Filled diamond
+B. Empty diamond
+C. Solid Arrow
+D. Dashed Arrow
+
+Q37. Hard: What is 'Cyber Vandalism'?
+A. Stealing a laptop.
+B. Electronic defacing of an existing website page.
+C. Sending spam emails.
+D. Phishing for passwords.
+
+Q38. Hard: In the JavaScript example `document.write('HELLO STUDENTS')`, what does `document` refer to?
+A. The web browser window
+B. The HTML document object
+C. The server
+D. The text editor
+
+Q39. Hard: In a JavaScript validation script, why is `return false` used?
+A. To submit the form
+B. To stop the function execution and prevent form submission
+C. To clear the form fields
+D. To refresh the page
+
+Q40. Hard: If you select 'internal stylesheet' in KompoZer, where is the code placed?
+A. In a separate .css file
+B. In the <body> tag
+C. In the <head> tag
+D. At the end of the file
+
+Q41. Hard: In Java, what is the index of the last element in an array of size `n`?
+A. n
+B. n - 1
+C. n + 1
+D. 0
+
+Q42. Which statement is TRUE?
+A. Class is an object
+B. Object is a class
+C. Object is an instance of class
+D. Class stores object memory
+
+Q43. What is 'Spoofing'?
+A. Stealing hardware.
+B. Pretending to be someone else or a fake website.
+C. Deleting files.
+D. Monitoring network traffic.
+
+Q44. Hard: Which Java method is used to sort the elements of an array in ascending order?
+A. Array.sort()
+B. Arrays.sort()
+C. Object.sort()
+D. List.sort()
+
+Q45. What happens when you execute 'java CallCost.class' instead of 'java CallCost'?
+A. The program runs normally.
+B. The JVM looks for a 'main' method.
+C. It causes an error because the extension should be omitted.
+D. It recompiles the class file.
+
+Q46. Hard: In a JavaScript validation function, what is the effect of `return false;`?
+A. It returns an error code.
+B. It prevents the form from being submitted to the server.
+C. It closes the browser window.
+D. It resets the form values.
+
+Q47. Hard: In Java, when you create a String using a literal (e.g., `String s = "Hello"`), where is it stored?
+A. In the Heap (general)
+B. In the Stack
+C. In the String Constant Pool (special memory area)
+D. It is not stored
+
+Q48. Hard: When attaching a validation script to a form, which event attribute is typically used in the 'Advanced Property Editor'?
+A. onclick
+B. onchange
+C. onsubmit
+D. onload
+
+Q49. Hard: In the KompoZer 'Image Properties' dialog, what is the effect of checking 'Don't use alternate text'?
+A. The image will not load.
+B. No text will be displayed if the image fails to load.
+C. It disables the tooltip.
+D. It hides the image.
+
+Q50. Which attribute of the `<input>` tag specifies the default value displayed in a field?
+A. name
+B. id
+C. value
+D. type
+
+Q51. In the 'Form Properties' dialog box, what value should be in the 'Action URL' field?
+A. The name of the form
+B. The HTTP method
+C. The filename where data is sent
+D. The CSS file
+
+Q52. Hard: What does the JavaScript function `isNaN(123)` return?
+A. True
+B. False
+C. Error
+D. Undefined
+
+Q53. Hard: In the Browser Object Model (BOM), the `document` object is a child of which object?
+A. history
+B. location
+C. window
+D. screen
+
+Q54. Hard: In the CSS 'Text' tab, what does the 'Alignment' option control?
+A. Vertical alignment
+B. Text justification (Left, Center, Right)
+C. Image position
+D. Floating elements
+
+Q55. Hard: What does 'NaN' signify?
+A. Not a Number
+B. New and Null
+C. Null and Number
+D. Not a Null
+
+Q56. In a Class Diagram, what does the middle section of the class rectangle contain?
+A. Class Name
+B. Operations/Methods
+C. Attributes/Properties
+D. Package Name
+
+Q57. Hard: What is a major infrastructure cost limitation for M-Commerce?
+A. Cost of mobile phones
+B. Cost of electricity
+C. High cost of establishing mobile and wireless broadband infrastructure
+D. Cost of software
+
+Q58. What does the text imply is the reason `linear search` is used in the custom example instead of `binary search`?
+A. Linear search is faster.
+B. The text is demonstrating algorithm logic before using library methods.
+C. Binary search is deprecated.
+D. Linear search works on unsorted data.
+
+Q59. Hard: In Java, what is the default value of an object reference variable if not initialized?
+A. 0
+B. undefined
+C. null
+D. void
+
+Q60. Hard: What is the specific result of `12.5 % 7.2` in Java?
+A. 5
+B. 5.3
+C. 1
+D. Error
+
+Q61. Which view mode in KompoZer displays yellow markers for start tags?
+A. Normal
+B. HTML Tags
+C. Preview
+D. Source
+
+Q62. Hard: In Java, if `String s1 = "Hello"` and `String s2 = new String("Hello")`, what is the result of `s1 == s2`?
+A. True
+B. False
+C. Error
+D. Null
+
+Q63. Hard: In the JavaScript validation code, what does the condition `if (isNaN(y))` check?
+A. If y is a valid number
+B. If y is Not a Number
+C. If y is null
+D. If y is empty
+
+Q64. What is the full form of CSS?
+A. Computer Style Sheets
+B. Creative Style Sheets
+C. Cascading Style Sheets
+D. Colorful Style Sheets
+
+Q65. Hard: In the JavaScript code `var x = document.js1.name.value;`, if the user enters nothing, what is the value of `x`?
+A. null
+B. "" (empty string)
+C. undefined
+D. 0
+
+Q66. Hard: In the CSS 'Background' tab, if you want an image to scroll with the page, what should be the setting for 'Attachment' (implied)?
+A. Fixed
+B. Scroll
+C. Local
+D. Static
+
+Q67. Hard: If you select 'internal stylesheet' in the CSS dialog, where is the code generated?
+A. In an external .css file
+B. Inside the <head> tag of the HTML file
+C. Inside the <body> tag
+D. In the KompoZer preferences
+
+Q68. Hard: In the CSS 'Background' tab, which option allows you to make an element transparent?
+A. Visibility
+B. Opacity
+C. Hue
+D. Saturation
+
+Q69. In the JavaScript `if(x==null || x=="")` condition, what is being checked?
+A. If x contains a number
+B. If x is undefined
+C. If the field represented by x is empty or null
+D. If x is equal to zero
+
+Q70. Hard: What is a disadvantage of CSS mentioned in the text?
+A. It increases file size.
+B. It is difficult to learn.
+C. CSS compatibility varies with different browsers.
+D. It cannot format text.
+
+Q71. Hard: Which toolbar in KompoZer contains the 'Cascade' button?
+A. Format Toolbar 1
+B. Format Toolbar 2
+C. Composition Toolbar
+D. Edit Toolbar
+
+Q72. Hard: What does 'CTAN' refer to?
+A. Comprehensive TeX Archive Network
+B. Computer TeX Archive Network
+C. Common TeX Archive Network
+D. Central TeX Archive Network
+
+Q73. Hard: Which Java keyword is used to declare a variable that belongs to the class rather than an instance?
+A. public
+B. private
+C. static
+D. void
+
+Q74. Hard: What limitation regarding bandwidth is associated with M-Commerce?
+A. It is unlimited.
+B. It is too fast.
+C. It offers limited bandwidth.
+D. It is free.
+
+Q75. Hard: What does 'CA' stand for in security?
+A. Certification Authority
+B. Certificate Authentication
+C. Computer Authority
+D. Central Authentication
+
+Q76. Hard: What specific JavaScript event is triggered when a user clicks the Submit button?
+A. onchange
+B. onselect
+C. onsubmit
+D. onblur
+
+Q77. Hard: In Java, which method is used to get the number of characters in a String object?
+A. length
+B. size()
+C. length()
+D. getSize()
+
+Q78. Hard: Which security issue is a significant concern in M-Commerce due to the nature of networks?
+A. Slow speed
+B. Physical theft
+C. Wireless networks are less secure than wired ones
+D. Screen size
+
+Q79. Hard: What is the specific purpose of 'Mobile Ticketing'?
+A. Buying movie/travel tickets via mobile device
+B. Watching movies
+C. Paying bills
+D. Auctioning items
+
+Q80. Hard: In the JavaScript 'Advanced Property Editor', under which tab do you add the `onsubmit` event?
+A. HTML Attributes
+B. Inline Style
+C. JavaScript Events
+D. General
+
+Q81. Hard: In the R environment, what signifies that the interpreter is waiting for the completion of a command?
+A. >
+B. +
+C. $
+D. #
+
+Q82. Hard: What specifically happens to the default constructor in a Java class if you define a parameterized constructor?
+A. It remains available.
+B. It is no longer available and must be explicitly defined if needed.
+C. It becomes private.
+D. It creates a compilation error immediately.
+
+Q83. Hard: In the JavaScript validation script (Figure 2.22), which specific method is used to bring the cursor back to the 'Pincode' field if validation fails?
+A. document.js1.pincode.select()
+B. document.js1.pincode.focus()
+C. document.js1.pincode.click()
+D. document.js1.pincode.reset()
+
+Q84. Which HTML tag is used for multi-line text input?
+A. <input>
+B. <textarea>
+C. <textbox>
+D. <text>
+
+Q85. In the context of M-Commerce, what does 'L-Commerce' stand for?
+A. Local Commerce
+B. Location-based Commerce
+C. Legal Commerce
+D. Linked Commerce
+
+Q86. Hard: Where should the `<script>` tag ideally be placed in an HTML document?
+A. Inside the <title> tag
+B. Inside the <head> or <body> tag
+C. Only after the </html> tag
+D. Inside the CSS file
+
+Q87. Hard: Which R function argument is used to specify the labels for the X-axis bars?
+A. main
+B. ylab
+C. xlab
+D. names.arg
+
+Q88. Hard: In the KompoZer CSS Stylesheets dialog, under which tab would you find the option to make text blink?
+A. General
+B. Background
+C. Text
+D. Box
+
+Q89. Hard: Which button allows you to add JavaScript events to a form element in KompoZer?
+A. More Properties
+B. Advanced Edit
+C. Define Script
+D. Add Event
+
+Q90. Hard: What does the statement `return false;` do in a form validation script?
+A. It submits the form.
+B. It stops the form from being submitted.
+C. It refreshes the page.
+D. It closes the browser window.
+
+Q91. In the `Image Properties` dialog, checking the 'Don't use alternate text' option does what?
+A. Prevents the image from loading.
+B. Disables the tooltip.
+C. Removes the requirement for an alt tag attribute (often used for accessibility).
+D. Hides the image.
+
+Q92. In Java, what is the result of the expression `1 % 2`?
+A. 0
+B. 1
+C. 0.5
+D. Error
+
+Q93. Hard: In the CSS Stylesheets dialog, to apply a style to all `<p>` tags, which selector type do you choose?
+A. style applied to all elements of class
+B. style applied to an element with specified ID
+C. style applied to all elements of type
+D. custom style rule
+
+Q94. Hard: In the R environment, what does the '+' prompt indicate?
+A. The command was executed successfully.
+B. The previous command is incomplete and requires more input.
+C. An arithmetic addition is pending.
+D. The program has crashed.
+
+Q95. Which escape sequence creates a new line?
+A. \t
+B. \n
+C. \b
+D. \r
+
+Q96. Which HTML tag is used to define a CSS style rule within the document header (internal CSS)?
+A. <css>
+B. <script>
+C. <style>
+D. <link>
+
+Q97. Hard: What does 'ADT' stand for in data structures?
+A. Abstract Data Types
+B. Advanced Data Types
+C. Array Data Types
+D. Algorithm Data Types
+
+Q98. Hard: In the KompoZer CSS Stylesheets dialog, where would you find the option to 'Tile' a background image?
+A. General tab
+B. Box tab
+C. Background tab
+D. Text tab
+
+Q99. To convert a String into an array of bytes, which method is used?
+A. toByte()
+B. getBytes()
+C. convertByte()
+D. byteArray()
+
+Q100. In the statement `Room r1;`, what is the value of `r1` before assignment?
+A. A new Room object
+B. Undefined
+C. null
+D. The address of the class
+
+---
+ANSWER KEY
+
+1 → B	2 → B	3 → B	4 → C
+5 → C	6 → B	7 → B	8 → C
+9 → C	10 → B	11 → C	12 → C
+13 → B	14 → C	15 → A	16 → B
+17 → C	18 → B	19 → C	20 → C
+21 → B	22 → C	23 → C	24 → C
+25 → A	26 → C	27 → B	28 → B
+29 → C	30 → B	31 → A	32 → C
+33 → A	34 → C	35 → D	36 → B
+37 → B	38 → B	39 → B	40 → C
+41 → B	42 → C	43 → B	44 → B
+45 → C	46 → B	47 → C	48 → C
+49 → B	50 → C	51 → C	52 → B
+53 → C	54 → B	55 → A	56 → C
+57 → C	58 → B	59 → C	60 → B
+61 → B	62 → B	63 → B	64 → C
+65 → B	66 → B	67 → B	68 → B
+69 → C	70 → C	71 → C	72 → A
+73 → C	74 → C	75 → A	76 → C
+77 → C	78 → C	79 → A	80 → C
+81 → B	82 → B	83 → B	84 → B
+85 → B	86 → B	87 → D	88 → C
+89 → B	90 → B	91 → C	92 → B
+93 → C	94 → B	95 → B	96 → C
+97 → A	98 → C	99 → B	100 → C
+
+---
+.

@@ -1,0 +1,633 @@
+MCQ Question Paper
+
+Q1. In the KompoZer 'Table Properties' dialog, what is the distinct difference between 'Spacing' and 'Padding'?
+A. Spacing is between cells; Padding is between the cell border and content.
+B. Spacing is internal to the cell; Padding is external.
+C. Spacing controls border width; Padding controls cell height.
+D. There is no difference; they are synonyms.
+
+Q2. Which method places the cursor inside a specific form element?
+A. select()
+B. click()
+C. focus()
+D. place()
+
+Q3. When creating a table in KompoZer, the 'Width' can be defined in which two units?
+A. Inches and Pixels
+B. Pixels and % of window
+C. Points and Centimeters
+D. Em and Px
+
+Q4. Which String constructor creates a string from a character array?
+A. String(char ary[])
+B. String(char c)
+C. String(int[] ary)
+D. String(byte b)
+
+Q5. Which of the following is a valid hexadecimal literal in Java?
+A. 0x1G
+B. 0xFF7A
+C. #FF7A
+D. hFF7A
+
+Q6. Which statement is used to display output to the screen?
+A. System.in.read()
+B. System.out.println()
+C. print()
+D. echo()
+
+Q7. What does the `rows` attribute of a `<textarea>` tag specify?
+A. The width of the text area
+B. The number of visible lines of text
+C. The character limit
+D. The font weight
+
+Q8. Which statement allows you to skip the current iteration of a loop?
+A. break
+B. skip
+C. continue
+D. return
+
+Q9. Which tab in the CSS dialog allows you to set an image as the background?
+A. Box
+B. Text
+C. Background
+D. Lists
+
+Q10. In the 'Advanced Property Editor' for adding JavaScript, why is the keyword `return` used in `return validateForm()`?
+A. To call the function twice.
+B. To ensure the form does NOT submit if the function returns false.
+C. To refresh the page.
+D. To return the focus to the window.
+
+Q11. What does the expression `new Room()` return?
+A. The object itself
+B. The address of the memory location where the object is stored
+C. A boolean value
+D. The size of the object
+
+Q12. In the script `var x = document.js1.name.value;`, what does `js1` refer to?
+A. The name of the document
+B. The name of the form
+C. The name of the input field
+D. The JavaScript version
+
+Q13. Which modifier allows a variable to be seen by 'any other class'?
+A. package
+B. public
+C. protected
+D. private
+
+Q14. In the JavaScript validation script, what does `if(x==null || x=="")` check for?
+A. If x is a number
+B. If x is undefined
+C. If the field represented by x is empty or null
+D. If x contains special characters
+
+Q15. Which function displays an alert box with a message?
+A. msg()
+B. popup()
+C. alert()
+D. display()
+
+Q16. Which button creates a form in KompoZer using the toolbar?
+A. Table
+B. Image
+C. Form
+D. Link
+
+Q17. Can you specify a background image using the CSS Stylesheets dialog?
+A. No, only colors.
+B. Yes, using the 'Image' option in the Background tab.
+C. Yes, but only via the Source tab.
+D. No, CSS doesn't support images.
+
+Q18. Which prefix is used for binary numbers in Java 7?
+A. 0x
+B. 0b
+C. 0B
+D. Both 0b and 0B
+
+Q19. Which method signature is used to convert a String to a primitive byte array?
+A. byte[] toByteArray()
+B. byte[] getBytes()
+C. byte[] toBytes()
+D. char[] getBytes()
+
+Q20. Which operator precedence is correct in the expression 'A + B * C'?
+A. Addition first, then Multiplication
+B. Multiplication first, then Addition
+C. Left to Right
+D. Right to Left
+
+Q21. What is the two-step process to create an array in Java?
+A. Initialize and Print
+B. Declare and Create
+C. Define and Sort
+D. Allocate and Fill
+
+Q22. In the KompoZer 'Selection List Properties' dialog, what is the specific function of the 'Initially Selected' checkbox?
+A. It disables the option so it cannot be deselected.
+B. It pre-selects that specific option when the form loads.
+C. It makes the option the first one in the list.
+D. It hides the option from the user.
+
+Q23. What is 'Sniffing' in the context of network security?
+A. Sending a virus
+B. Recording conversation/data by tapping the network wire
+C. Defacing a website
+D. Denial of Service
+
+Q24. If a class 'Teacher' inherits from class 'Person', which is the superclass?
+A. Teacher
+B. Person
+C. Both
+D. None
+
+Q25. Which tab in the CSS Stylesheets dialog allows you to change the text capitalization (e.g., Uppercase)?
+A. General
+B. Text
+C. Box
+D. Lists
+
+Q26. What is the precise menu path to insert a label for a form field?
+A. Format > Form > Label
+B. Insert > Form > Define Label
+C. Insert > Label > Define
+D. Edit > Form > Label
+
+Q27. Which key can be pressed to execute the 'Cascade' action (implied by typical shortcuts, though button is primary)?
+A. F7
+B. F5
+C. F12
+D. Ctrl+C
+
+Q28. What does the 'static' method 'Math.sqrt()' require as an argument?
+A. An integer only
+B. A boolean
+C. A number (double)
+D. A string
+
+Q29. Which file extension is associated with Cascading Style Sheets in KompoZer?
+A. .html
+B. .css
+C. .style
+D. .sheet
+
+Q30. Which term refers to 'data hiding' capability in OOP?
+A. Encapsulation
+B. Polymorphism
+C. Inheritance
+D. Overloading
+
+Q31. What is the primary function of a 'Digital Certificate' in E-Commerce?
+A. To encrypt data transmission
+B. To prove identity in electronic transactions
+C. To compress files
+D. To block viruses
+
+Q32. Which logical operator represents AND?
+A. &
+B. &&
+C. AND
+D. ||
+
+Q33. If you defined a method `void setAttr(float l, float w)`, can you call it as `setAttr(10, 12)`?
+A. No, because 10 and 12 are integers.
+B. Yes, implicit conversion (widening) allows it.
+C. No, you must cast them to float explicitly.
+D. Yes, but it will throw a runtime error.
+
+Q34. What does 'MFS' stand for?
+A. Mobile File System
+B. Mobile Financial Services
+C. Main Financial System
+D. Multi Functional Service
+
+Q35. Which JavaScript event is triggered when an element, such as a radio button, becomes inactive?
+A. focus
+B. click
+C. blur
+D. change
+
+Q36. What does the `return false` statement do in a form validation function?
+A. It submits the form
+B. It stops the function from executing further and prevents submission
+C. It returns a value to the server
+D. It refreshes the page
+
+Q37. Which Java class provides the method `sort()` to sort arrays?
+A. Array
+B. Arrays
+C. Collections
+D. Object
+
+Q38. Which of these is NOT a valid comment type in Java?
+A. // Comment
+B. /* Comment */
+C. /** Comment */
+D. # Comment
+
+Q39. Review: In KompoZer, the 'Source' tab is used to:
+A. Preview the page
+B. Edit the raw HTML code
+C. Manage site files
+D. Design visually
+
+Q40. In the memory map of a 2-D array, what does the 'Reference Variable' point to?
+A. The first integer data element directly.
+B. An array of integer values.
+C. An array of references (indices).
+D. The heap header only.
+
+Q41. What happens if you invoke `getChars()` with a `targetIndx` that causes the array to overflow?
+A. The array expands automatically.
+B. A runtime exception occurs.
+C. It truncates the string.
+D. It overwrites adjacent memory.
+
+Q42. Which HTML tag is used to create a text box for user input?
+A. <box>
+B. <input>
+C. <text>
+D. <write>
+
+Q43. What does 'ScITE' stand for?
+A. Science Text Editor
+B. Scintilla Text Editor
+C. Script Text Editor
+D. Screen Text Editor
+
+Q44. Can you access a static method using an object reference (e.g., `r1.displayTotalWindows()`)?
+A. No, only ClassName.method() is allowed.
+B. Yes, but it is not recommended.
+C. Yes, it is the only way.
+D. No, it causes a runtime error.
+
+Q45. In `H1 { color : green }`, what is `color`?
+A. Selector
+B. Property
+C. Value
+D. Tag
+
+Q46. Can a class have multiple methods with the same name?
+A. No, it causes a compilation error.
+B. Yes, if they have different return types only.
+C. Yes, if they have different parameter lists (signatures).
+D. Yes, but only one can be public.
+
+Q47. In Java, what is the output of `"Java".length()`?
+A. 3
+B. 4
+C. 5
+D. null
+
+Q48. In Java, how do you find the number of columns in a 2D array `marks`?
+A. marks.length
+B. marks[0].length
+C. marks.size()
+D. marks.width
+
+Q49. What is the full form of 'TTP'?
+A. Trusted Third Party
+B. Total Transfer Protocol
+C. Time To Process
+D. Text Transfer Protocol
+
+Q50. Which visibility level is restricted to only the class where it is defined?
+A. public
+B. private
+C. protected
+D. package
+
+Q51. Which feature allows operators like '-' to handle both numbers and dates differently?
+A. Function Overloading
+B. Operator Overloading
+C. Encapsulation
+D. Inheritance
+
+Q52. Which of the following cannot access instance variables directly?
+A. Instance method
+B. Constructor
+C. Static method
+D. Object method
+
+Q53. If you need to represent the character with Unicode value 00E9 ('é'), how would you write the literal?
+A. '\u00E9'
+B. '\x00E9'
+C. '\00E9'
+D. 'u00E9'
+
+Q54. Which software is used to play audio and video files?
+A. RationalPlan
+B. VLC Media Player
+C. Archive Manager
+D. R
+
+Q55. In E-Commerce, which model involves businesses selling products directly to consumers?
+A. B2B
+B. C2C
+C. B2C
+D. C2B
+
+Q56. What does the `cols` attribute in a `<textarea>` specifically control?
+A. The font width.
+B. The maximum number of characters allowed.
+C. The number of columns of text visible without scrolling.
+D. The total width of the form.
+
+Q57. Declaring an object variable without using new means:
+A. Object is created
+B. Memory allocated
+C. Reference is null
+D. Constructor called
+
+Q58. How can a class `VisibilityPrivateB` access private variables `length` and `width` of class `Rectangle`?
+A. By extending Rectangle.
+B. By using the `friend` keyword.
+C. Indirectly through public 'accessor' methods like `getLength()`.
+D. It is impossible under any circumstance.
+
+Q59. Which element allows creating a menu where items are defined by `<option>` tags?
+A. <menu>
+B. <list>
+C. <select>
+D. <input type='dropdown'>
+
+Q60. In the JavaScript code `var x = document.js1.name.value;`, what does `name` refer to?
+A. The name of the form
+B. The name of the input field element
+C. The value entered by the user
+D. The label of the field
+
+Q61. If `short x = 6`, what happens when you do `x = x + 1` without casting?
+A. It works fine.
+B. It causes a compilation error (possible loss of precision).
+C. It automatically converts to short.
+D. It becomes an int.
+
+Q62. Which HTML tag is used to create a text area for multi-line input?
+A. <input type='textarea'>
+B. <text>
+C. <textarea>
+D. <box>
+
+Q63. In the KompoZer 'Image Properties' dialog, checking 'Don't use alternate text' does what?
+A. Prevents the image from loading.
+B. Hides the image description.
+C. Removes the requirement to enter alternate text.
+D. Hides the image.
+
+Q64. When defining a class, variables defined inside the class are known as:
+A. Attributes
+B. Methods
+C. Functions
+D. Behaviours
+
+Q65. Which statement about String literals is correct?
+A. They are enclosed in single quotes.
+B. They are primitive data types.
+C. They are objects representing a sequence of characters.
+D. They cannot contain escape sequences.
+
+Q66. In a Java 'do...while' loop, how many times is the loop body guaranteed to execute?
+A. 0 times
+B. At least once
+C. Twice
+D. Infinitely
+
+Q67. If you use `new String("Hello")`, where is the memory allocated?
+A. It reuses existing literal memory
+B. It allocates separate memory
+C. It stores it on the hard disk
+D. It doesn't allocate memory
+
+Q68. Which of the following is NOT a step in creating an object?
+A. Declaration
+B. Instantiation
+C. Compilation
+D. Initialization
+
+Q69. Which of these is NOT one of the 'Four P's of Protection'?
+A. Public
+B. Private
+C. Protected
+D. Permanent
+
+Q70. In the data compression 'rhyme' example, what is the role of the table created?
+A. To store the original text.
+B. To map frequent words to single digits or letters.
+C. To encrypt the file.
+D. To sort the words alphabetically.
+
+Q71. Which data type is used for the literal 1.3e12?
+A. float
+B. double
+C. long
+D. int
+
+Q72. Which operator has the highest precedence in the expression 'a + b * c'?
+A. +
+B. *
+C. =
+D. ()
+
+Q73. What is the output of '1.3e2' in Java?
+A. 130.0
+B. 1300.0
+C. 1.3
+D. 0.013
+
+Q74. If `Rectangle` class has a method `isLarge(Rectangle rect)`, what is `rect`?
+A. A primitive value
+B. An object passed as a parameter
+C. A class variable
+D. A return type
+
+Q75. If `int[] a = {1, 2, 3};` and `int[] b = {1, 2, 3};`, why is `a == b` false?
+A. The contents are different.
+B. They are different object references.
+C. Integers cannot be compared with ==.
+D. Arrays are primitive types.
+
+Q76. Which data type would automatically be used for the literal 17777?
+A. byte
+B. short
+C. int
+D. long
+
+Q77. A method defined with the 'static' keyword is called a:
+A. Instance method
+B. Class method
+C. Constructor
+D. Local method
+
+Q78. What does 'API' stand for?
+A. Application Program Interface
+B. Application Programming Interface
+C. Advanced Program Instruction
+D. Automated Process Integration
+
+Q79. String literals are enclosed in which symbols?
+A. Single quotes
+B. Double quotes
+C. Brackets
+D. Parentheses
+
+Q80. What type of file extension is used for Cascading Style Sheets?
+A. .html
+B. .css
+C. .style
+D. .js
+
+Q81. If we do not explicitly free memory in Java, why doesn't the computer run out of RAM?
+A. Java objects use zero memory.
+B. The Garbage Collector reclaims memory from unused objects.
+C. The Operating System deletes the Java Virtual Machine.
+D. Memory is infinite.
+
+Q82. Which concept defines a 'has-a' relationship?
+A. Inheritance
+B. Aggregation/Composition
+C. Polymorphism
+D. Abstraction
+
+Q83. In Java, if 'x = 6' and 'y = -4', what is 'x % y'?
+A. -2
+B. 2
+C. -1
+D. 1
+
+Q84. Which type of variable is allocated memory from the 'Heap' area?
+A. Local variables
+B. Instance variables
+C. Loop counters
+D. Method parameters
+
+Q85. What does 'ROM' stand for according to the notes?
+A. Random Only Memory
+B. Read Only Memory
+C. Real Object Model
+D. Read On Mobile
+
+Q86. What logic does `Arrays.sort()` use for sorting?
+A. Random sort
+B. Ascending order
+C. Descending order
+D. Insertion order
+
+Q87. Which method returns the character at a specific index in a string?
+A. getChar()
+B. charAt()
+C. indexAt()
+D. valueAt()
+
+Q88. What is the function of the `Archive Manager` regarding file extraction?
+A. It deletes the original archive.
+B. It decompresses and copies files from the archive to a destination.
+C. It converts files to PDF.
+D. It encrypts the files.
+
+Q89. What essentially is an 'instance' in Object-Oriented Programming?
+A. A compiler error
+B. The concrete representation of a class (an object)
+C. A static method
+D. A primitive data type
+
+Q90. In the KompoZer 'Image Properties' dialog, what does selecting 'Don't use alternate text' do?
+A. It prevents the image from loading.
+B. It hides the image description from screen readers.
+C. It removes the requirement to enter text for when the image doesn't display.
+D. It automatically generates a caption.
+
+Q91. Which specific JavaScript validation check is used to ensure a field is not left empty?
+A. `if (x == null || x == "")`
+B. `if (x == 0)`
+C. `if (isNaN(x))`
+D. `if (x.length > 5)`
+
+Q92. What is the full form of 'XOR'?
+A. eXtra OR
+B. Exclusive OR
+C. Cross OR
+D. Extended OR
+
+Q93. What is the full form of 'W3C'?
+A. World Wide Web Centre
+B. World Wide Web Consortium
+C. Web 3 Connection
+D. Wide Web Community
+
+Q94. In the statement 'System.out.println("Sum=" + 1 + 2);', what is the output?
+A. Sum=3
+B. Sum=12
+C. Sum=1+2
+D. Error
+
+Q95. What happens if the checkbox 'Use CSS styles instead of HTML elements and attributes' is NOT selected in Preferences?
+A. KompoZer will not save the file.
+B. KompoZer will use HTML tags for formatting instead of CSS.
+C. KompoZer will use JavaScript.
+D. The page will be blank.
+
+Q96. Which application of M-Commerce allows users to book air or rail tickets via mobile?
+A. Mobile Marketing
+B. Mobile Ticketing
+C. Mobile Auctions
+D. Mobile Entertainment
+
+Q97. How does Java handle memory management for unused objects?
+A. The programmer must use `delete` keyword.
+B. Memory is never reclaimed.
+C. Garbage collector reclaims memory of unused objects.
+D. The OS handles it when the computer restarts.
+
+Q98. Which Java class is used to manipulate arrays, such as sorting and filling them?
+A. ArrayHelper
+B. Arrays
+C. ArrayUtil
+D. Collections
+
+Q99. In Java, what does the `length` property of an array return?
+A. The last index
+B. The number of elements
+C. The size in bytes
+D. The type of the array
+
+Q100. Which shortcut key is used to close the Site Manager pane in KompoZer?
+A. F5
+B. F9
+C. Ctrl+S
+D. Esc
+
+---
+ANSWER KEY
+
+1 → A	2 → C	3 → B	4 → A
+5 → B	6 → B	7 → B	8 → C
+9 → C	10 → B	11 → B	12 → B
+13 → B	14 → C	15 → C	16 → C
+17 → B	18 → D	19 → B	20 → B
+21 → B	22 → B	23 → B	24 → B
+25 → B	26 → B	27 → A	28 → C
+29 → B	30 → A	31 → B	32 → B
+33 → B	34 → B	35 → C	36 → B
+37 → B	38 → D	39 → B	40 → C
+41 → B	42 → B	43 → B	44 → B
+45 → B	46 → C	47 → B	48 → B
+49 → A	50 → B	51 → B	52 → C
+53 → A	54 → B	55 → C	56 → C
+57 → C	58 → C	59 → C	60 → B
+61 → B	62 → C	63 → C	64 → A
+65 → C	66 → B	67 → B	68 → C
+69 → D	70 → B	71 → B	72 → B
+73 → A	74 → B	75 → B	76 → C
+77 → B	78 → B	79 → B	80 → B
+81 → B	82 → B	83 → B	84 → B
+85 → B	86 → B	87 → B	88 → B
+89 → B	90 → C	91 → A	92 → B
+93 → B	94 → B	95 → B	96 → B
+97 → C	98 → B	99 → B	100 → B
+
+---
+.

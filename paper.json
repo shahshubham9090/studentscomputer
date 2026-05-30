@@ -1,0 +1,1202 @@
+[
+    {
+        "text": "What is the primary purpose of HTML forms on a website?",
+        "choices": [
+            "To display images",
+            "To collect user input",
+            "To design web layouts",
+            "To increase internet speed"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "HTML forms are primarily used to collect various types of user input, which can then be sent to a server for processing.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following is NOT mentioned as an element of an HTML form?",
+        "choices": [
+            "Label",
+            "Checkbox",
+            "Radio button",
+            "Image slider"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Standard HTML form elements include labels, checkboxes, and radio buttons. Image sliders are typically custom widgets or require specialized implementation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which input type allows the user to select only one option from a group?",
+        "choices": [
+            "Checkbox",
+            "Text",
+            "Radio",
+            "Password"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Radio buttons are designed for cases where exactly one option must be chosen from a group.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What happens when a reset button is clicked in an HTML form?",
+        "choices": [
+            "The form is submitted to the server",
+            "The entered values are saved",
+            "The form values are cleared and set to default",
+            "The password is hidden"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The reset button clears all current user entries in the form and restores elements to their default values.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which combination of information best represents the different types of data that can be collected using HTML forms, as stated in the passage?",
+        "choices": [
+            "Only personal information and login credentials",
+            "Personal information, product feedback, surveys, and payment details",
+            "Website layout data and server configuration details",
+            "Source code and graphical interface settings"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Forms are versatile and can collect personal data, feedback, survey answers, and payment information.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why is KompoZer described as a fast and simple tool for creating HTML forms?",
+        "choices": [
+            "It automatically writes server-side scripts",
+            "It supports only text-based form creation",
+            "It provides a WYSIWYG graphical interface for form design",
+            "It directly stores user data in databases"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "KompoZer uses a 'What You See Is What You Get' interface, allowing users to design forms visually without writing code.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why does CSS significantly reduce redundancy when styling large HTML documents?",
+        "choices": [
+            "It replaces HTML tags with graphical components",
+            "It allows styling rules to be applied globally using selectors",
+            "It embeds styles directly into each HTML element",
+            "It converts HTML content into visual templates"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "CSS selectors allow a single rule to apply to many elements across the entire document, avoiding repeated style definitions.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the CSS rule selector { property : value }, which part determines where the style will be applied?",
+        "choices": [
+            "Property",
+            "Value",
+            "Declaration",
+            "Selector"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "The selector targets specific HTML elements to which the defined styles will be applied.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement best explains the conceptual difference between HTML and CSS as described in the passage?",
+        "choices": [
+            "HTML controls layout while CSS controls data",
+            "HTML defines content, while CSS defines presentation",
+            "CSS stores content and HTML formats it",
+            "Both HTML and CSS perform the same role"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "HTML is for the structure and content of the page, while CSS handles the visual style and presentation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why is using CSS preferred over repeatedly applying the <b> tag to multiple <p> elements?",
+        "choices": [
+            "<b> tags slow down server performance",
+            "CSS allows centralized styling and easier maintenance",
+            "<b> tags are deprecated in HTML",
+            "CSS automatically converts tags into bold"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "CSS allows global styling changes from one location, making it much easier to maintain than individual formatting tags.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement best explains how CSS helps prevent accidental data modification in a website?",
+        "choices": [
+            "By embedding style rules directly inside HTML tags",
+            "By separating layout and formatting from the logical structure",
+            "By converting HTML content into dynamic scripts",
+            "By reducing browser compatibility issues"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Separating style from structure ensures that changes to the appearance don't accidentally alter the underlying data or logic.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What limitation of early HTML led to the development of JavaScript?",
+        "choices": [
+            "HTML could not support CSS styling",
+            "HTML pages were static after being rendered by the browser",
+            "HTML did not support form elements",
+            "HTML could not load external resources"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Standard HTML pages are static; JavaScript was created to add interactivity and dynamic behavior after the page is loaded.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In client-side form validation using JavaScript, which condition is checked before data is sent to the server?",
+        "choices": [
+            "Server response time",
+            "Browser compatibility of CSS",
+            "Whether required fields are empty or incorrectly formatted",
+            "Logical structure of the HTML document"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "JavaScript validates that the user has filled out required fields and that the data format (like email) is correct before submission.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following best describes a JavaScript function as defined in the passage?",
+        "choices": [
+            "A variable that stores user input",
+            "A reusable block of code that performs a specific task",
+            "A built-in object used to control the browser",
+            "A conditional statement that validates data"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "A function is a discrete, reusable block of code designed to perform a particular action or calculation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the primary purpose of the built-in JavaScript function alert()?",
+        "choices": [
+            "To validate form input",
+            "To return a value from a function",
+            "To display text in an alert box",
+            "To set focus on an HTML element"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The alert() function is used to pop up a message box to show information or warnings to the user.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What happens when a return statement is executed inside a JavaScript function?",
+        "choices": [
+            "The function pauses and resumes later",
+            "The function stops executing and sends back a value",
+            "The function continues execution after returning a value",
+            "The function displays an alert message"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Executing 'return' immediately stops function execution and passes the specified value back to the caller.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the given example, when is the function validateForm() executed?",
+        "choices": [
+            "When the HTML page loads",
+            "When the submit button is clicked",
+            "When the browser window closes",
+            "When the alert box is displayed"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Form validation functions are usually triggered by high-level events like clicking the 'Submit' button.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement correctly explains how a JavaScript function can be invoked?",
+        "choices": [
+            "Only from the head section of HTML",
+            "Automatically without any event or call",
+            "By an event or by calling it inside the source code",
+            "Only using conditional statements"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Functions can be executed in response to user actions (events) or directly called by other parts of the script.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What causes a JavaScript event to occur according to the passage?",
+        "choices": [
+            "Execution of a return statement",
+            "Compilation of the JavaScript code",
+            "An action performed by the user",
+            "Definition of a variable in the script"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Events are typically triggered by user interactions like clicks, keypresses, or window resizing.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following conditions will cause isNaN(value) to return true according to the passage?",
+        "choices": [
+            "When value contains exactly six numeric digits",
+            "When value is a numeric string like \"123\"",
+            "When value represents non-numeric data such as \"hello\"",
+            "When value is an empty string only"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The isNaN() function checks if a value is 'Not-a-Number'. It returns true for non-numeric data.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement correctly describes the behavior of static members in a class?",
+        "choices": [
+            "They are created separately for each object of the class",
+            "They are allocated memory once per class and shared by all objects",
+            "They can be accessed only through instance objects",
+            "They belong only to constructors and not to the class"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Static members belong to the class itself, not to individual instances, and are shared by all objects of that class.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does publishing a website mean according to the passage?",
+        "choices": [
+            "Designing web pages using an IDE",
+            "Transferring website files to a web server for user access",
+            "Creating user accounts on the Internet",
+            "Buying software licenses for web development"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Publishing involves uploading the website's files to a server so it can be accessed by the public via the internet.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following is mentioned as a free open-source web development IDE?",
+        "choices": [
+            "Dreamweaver",
+            "Visual Studio Code",
+            "Blue Griffon",
+            "NetBeans"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "While others are popular, Blue Griffon is specifically highlighted in some curricula as a free open-source visual editor.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "According to the passage, what was the primary purpose of earlier websites?",
+        "choices": [
+            "Conducting online transactions and payments",
+            "Providing customer support and services",
+            "Disseminating information about products or organizations",
+            "Offering interactive business applications"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Early websites were primarily informational, used by organizations to share details about themselves or their products.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which activity is explicitly identified as part of E-commerce business operations?",
+        "choices": [
+            "Broadcasting news through television",
+            "Trading stocks and providing customer service",
+            "Developing telecommunication infrastructure",
+            "Publishing educational content only"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "E-commerce includes various business activities like online trading, stock transactions, and digital customer support.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement best explains how E-commerce benefits businesses and consumers?",
+        "choices": [
+            "It limits business operations to local markets",
+            "It increases costs but improves product quality",
+            "It overcomes time and distance barriers and improves delivery speed",
+            "It reduces product variety available to consumers"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "E-commerce allows 24/7 access regardless of location, eliminating physical proximity requirements for buying and selling.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the primary purpose of online billing as described in the passage?",
+        "choices": [
+            "To advertise products through email",
+            "To allow companies to send bills and receive payments electronically",
+            "To provide customer support services",
+            "To manage inventory online"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Online billing systems replace paper bills with electronic ones, facilitating faster and more efficient payment collection.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following is an example of Information Services?",
+        "choices": [
+            "Online shopping of electronic gadgets",
+            "Sending examination results and notices through websites",
+            "Online payment of utility bills",
+            "Online auctions of goods"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Information services involve the dissemination of data, such as educational results or public notices, via websites.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why are certain products like perishable food items difficult to sell through E-commerce?",
+        "choices": [
+            "High transaction costs",
+            "Lack of online payment systems",
+            "Customers cannot touch or examine them before purchase",
+            "Limited Internet availability"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Some products require physical inspection or have short lifespans, making them less suitable for the indirect nature of online sales.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which feature differentiates E-commerce from traditional commerce according to the passage?",
+        "choices": [
+            "Operates only during business hours",
+            "Requires physical store layout and merchandising",
+            "Uses electronic advertising and online product catalogues",
+            "Does not require customer interaction"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "E-commerce relies on digital marketing and online catalogs rather than physical displays and traditional advertising.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which limitation of E-commerce is related to fear of misuse of personal and financial data?",
+        "choices": [
+            "Initial cost",
+            "Resistance to change",
+            "Privacy",
+            "Time for delivery of products"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Privacy concerns stem from the risk that sensitive personal or financial information might be stolen or misused.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In which E-commerce business model do consumers directly sell products to other consumers?",
+        "choices": [
+            "Business to Consumer (B2C)",
+            "Business to Business (B2B)",
+            "Consumer to Business (C2B)",
+            "Consumer to Consumer (C2C)"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "C2C models involve individual consumers transacting with each other, often through online facilitators or marketplaces.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which E-commerce model allows consumers to decide the price they are willing to pay, and businesses bid accordingly?",
+        "choices": [
+            "B2B",
+            "B2C",
+            "C2C",
+            "C2B"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "In Consumer-to-Business (C2B), consumers set conditions or prices, and businesses compete to fulfill them.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following is a limitation of M-commerce related to device hardware?",
+        "choices": [
+            "Lack of online payment options",
+            "Limited computing power and storage",
+            "High transaction speed",
+            "Excessive bandwidth availability"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Mobile devices naturally have less processing power and storage compared to desktop computers, which can limit complex applications.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why is displaying videos sometimes difficult in M-commerce?",
+        "choices": [
+            "Due to lack of encryption",
+            "Due to limited screen size and bandwidth",
+            "Due to absence of software support",
+            "Due to high cost of mobile devices"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Small screens and potentially unstable mobile networks make high-quality video streaming more challenging on mobile devices.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which service uses the mobile user’s location to provide nearby store details?",
+        "choices": [
+            "Mobile Information Service",
+            "Support Service",
+            "Location and Search Service",
+            "Online Billing Service"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Location and search services use GPS or cell data to offer local information, such as finding a nearby restaurant or shop.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is L-commerce primarily based on?",
+        "choices": [
+            "Wireless payment systems",
+            "Location information of mobile users",
+            "High-speed Internet connectivity",
+            "Credit card authentication"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "L-commerce (Location-based commerce) uses the geographic position of a mobile user to provide relevant services or offers.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which security principle ensures that data is not altered during transmission?",
+        "choices": [
+            "Confidentiality",
+            "Authorization",
+            "Integrity",
+            "Non-repudiation"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Integrity ensures that information remains accurate and unchanged while being sent over a network.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which Internet security threat involves pretending to be a legitimate website?",
+        "choices": [
+            "Sniffing",
+            "Spoofing",
+            "Cyber vandalism",
+            "Denial of Service"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Spoofing is an attack where an untrusted source masquerades as a known, trusted source to gain access or steal data.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the main purpose of cryptography in E-commerce?",
+        "choices": [
+            "Increase data speed",
+            "Hide website layout",
+            "Protect information by encryption",
+            "Reduce transaction cost"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Cryptography uses complex algorithms to encrypt sensitive data, ensuring only authorized parties can read it.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which technique hides information inside images, audio, or text files?",
+        "choices": [
+            "Cryptography",
+            "Spoofing",
+            "Steganography",
+            "Sniffing"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Steganography is the practice of concealing a file, message, image, or video within another file.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How does a charge card differ from a credit card?",
+        "choices": [
+            "It has a lower interest rate",
+            "It does not have a spending limit",
+            "It requires PIN authentication",
+            "It cannot be used online"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Typically, charge cards do not have a pre-set spending limit but require the full balance to be paid every month.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which payment system transfers money electronically between bank accounts?",
+        "choices": [
+            "Credit Card",
+            "Net Banking",
+            "Electronic Fund Transfer (EFT)",
+            "Charge Card"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "EFT is the general term for transferring money from one bank account to another using electronic systems.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In object-oriented methodology, what fundamentally distinguishes one object from another object of the same class?",
+        "choices": [
+            "The methods defined in the class",
+            "The access modifiers used",
+            "The values of attributes representing its state",
+            "The inheritance hierarchy"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "While they share same methods, objects are distinguished by the specific data (state) they hold in their attributes.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which relationship represents an exclusive “has-a” association where the contained object cannot exist independently?",
+        "choices": [
+            "Inheritance",
+            "Aggregation",
+            "Association",
+            "Composition"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Composition is a strong 'has-a' relationship where the life of the child object is managed by the parent object.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How does encapsulation primarily protect data in object-oriented programming?",
+        "choices": [
+            "By exposing all variables as public",
+            "By separating interface from implementation",
+            "By restricting direct access and allowing controlled interaction through methods",
+            "By using global variables"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Encapsulation bundles data and methods together and controls access to the data, hiding the internal implementation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement best differentiates data abstraction from encapsulation?",
+        "choices": [
+            "Abstraction hides data; encapsulation hides behavior",
+            "Encapsulation hides implementation details; abstraction hides complexity of usage",
+            "Both are identical concepts",
+            "Encapsulation focuses on interfaces; abstraction focuses on security"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Encapsulation is about shielding the internal workings, while abstraction is about showing only relevant features to the outside world.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In method invocation, how does an object determine which version of a method with the same name should be executed?",
+        "choices": [
+            "By the return type of the method",
+            "By the object that invokes the method",
+            "By the access specifier used",
+            "By the superclass definition"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In dynamic polymorphism, the specific method to execute is determined at runtime based on the actual object type calling it.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which feature of object-oriented programming allows multiple methods with the same name but different parameter lists?",
+        "choices": [
+            "Inheritance",
+            "Encapsulation",
+            "Method overloading",
+            "Data abstraction"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Method overloading is a form of compile-time polymorphism where methods share the same name but have different signatures.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Operator overloading contributes to polymorphism because it:",
+        "choices": [
+            "Prevents misuse of operators",
+            "Allows operators to have different meanings for different object types",
+            "Restricts operator usage to numeric data",
+            "Replaces method overloading"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "It allows standard operators like '+' or '*' to work in specialized ways for user-defined classes.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why is a class described as a “blueprint” in object-oriented programming?",
+        "choices": [
+            "It stores executable code only",
+            "It defines a single object",
+            "It represents common attributes and behaviors shared by multiple objects",
+            "It controls program execution flow"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "A class provides the template or structure from which individual objects (instances) are created.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement best explains why a class variable is declared using the static keyword?",
+        "choices": [
+            "To allocate memory every time an object is created",
+            "To ensure the variable belongs to an object instance",
+            "To allocate memory once per class and share it among all objects",
+            "To restrict access to subclasses only"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Static (class) variables are shared by all instances of a class; only one copy of the variable exists.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What happens if a class defines no constructor explicitly?",
+        "choices": [
+            "Object creation fails at runtime",
+            "The compiler inserts a parameterized constructor",
+            "A default no-argument constructor is automatically provided",
+            "The class becomes abstract"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "If no constructor is provided, the Java compiler automatically adds a public, no-argument default constructor.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following variables is not initialized with a default value in Java?",
+        "choices": [
+            "Instance variable",
+            "Class (static) variable",
+            "Local variable",
+            "Static variable"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Local variables (defined inside methods) must be explicitly initialized before use; they don't get default values.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In Java, which statement about reference variables is TRUE?",
+        "choices": [
+            "They store the actual object",
+            "They store the address of an object in heap memory",
+            "They store primitive values",
+            "They automatically create objects"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Reference variables do not contain the object itself; they contain a memory address pointing to where the object is stored.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Constructors differ from normal methods because they:",
+        "choices": [
+            "Can return any data type",
+            "Can be inherited by subclasses",
+            "Must have the same name as the class and no return type",
+            "Are executed only once per class"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Constructors have no return type and must match the class name exactly. They are called during object instantiation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which concept allows methods with the same name but different parameter lists in Java?",
+        "choices": [
+            "Inheritance",
+            "Method overriding",
+            "Method overloading",
+            "Encapsulation"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Method overloading allows a class to have multiple methods with the same name as long as their parameters differ.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In inheritance, which relationship is correctly described?",
+        "choices": [
+            "Subclass is a subset of superclass",
+            "Superclass inherits from subclass",
+            "Subclass represents an “is-a” relationship",
+            "Constructor inheritance is mandatory"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Inheritance defines an 'is-a' relationship (e.g., a Dog *is a*n Animal), where the subclass extends the superclass.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which members of a superclass are not inherited by a subclass?",
+        "choices": [
+            "Public methods",
+            "Protected variables",
+            "Instance variables",
+            "Constructors"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "While subclasses can call superclass constructors using 'super()', they do not technically inherit them.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why are getter and setter methods preferred over public variables?",
+        "choices": [
+            "They reduce memory usage",
+            "They enable direct variable access",
+            "They support data encapsulation and controlled access",
+            "They eliminate the need for constructors"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Accessor and mutator methods allow a class to control how its internal data is accessed or modified, protecting its integrity.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the primary purpose of the new keyword in Java?",
+        "choices": [
+            "Declaring a variable",
+            "Allocating memory for an object and returning its reference",
+            "Initializing static variables",
+            "Invoking a class method"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The 'new' operator allocates memory on the heap for a new object and calls the appropriate constructor.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which access modifier provides the widest visibility in Java?",
+        "choices": [
+            "private",
+            "protected",
+            "package-private",
+            "public"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "The 'public' modifier allows the element to be accessed from any other class or package in the application.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which access level allows visibility only within the same package and subclasses?",
+        "choices": [
+            "private",
+            "protected",
+            "public",
+            "default only"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The 'protected' modifier makes a member accessible within its own package and by subclasses in other packages.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "When an object is no longer referenced, how is its memory reclaimed in Java?",
+        "choices": [
+            "Manually using free()",
+            "Automatically by the garbage collector",
+            "By the destructor",
+            "By terminating the program"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Java has automatic memory management; the Garbage Collector identifies and deletes objects that are no longer in use.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following correctly describes instance variables?",
+        "choices": [
+            "Shared among all objects",
+            "Stored in class memory",
+            "Created when an object is instantiated and unique per object",
+            "Accessible without creating an object"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Instance variables belong to a specific object; each instance gets its own copy of these variables.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement about polymorphism in Java is CORRECT?",
+        "choices": [
+            "It requires inheritance only",
+            "It allows one method name to perform different tasks",
+            "It applies only to variables",
+            "It prevents method reuse"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Polymorphism (meaning 'many forms') allows the same method to behave differently depending on the object it acts upon.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In Java, an array is best described as:",
+        "choices": [
+            "A collection of variables of different data types",
+            "A collection of homogeneous data elements stored contiguously",
+            "A collection of objects stored randomly in memory",
+            "A dynamic data structure like a list"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "An array is a fixed-size container that holds elements of the same type in adjacent memory locations.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following correctly declares a 1-D integer array in Java?",
+        "choices": [
+            "int marks(5);",
+            "int marks[];",
+            "array int marks;",
+            "int[] marks(5);"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Java supports 'type variable[]' or 'type[] variable' syntax for array declarations.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the default initial value of elements in an int array in Java?",
+        "choices": [
+            "-1",
+            "null",
+            "0",
+            "Garbage value"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "When an integer array is initialized, Java automatically sets all its elements to zero.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement about array index in Java is correct?",
+        "choices": [
+            "Index starts from 1",
+            "Index starts from 0",
+            "Index starts from -1",
+            "Index depends on data type"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Java arrays are zero-indexed; the first element is at index 0 and the last is at index (length - 1).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In Java, array name represents:",
+        "choices": [
+            "The first element of array",
+            "A constant pointer",
+            "A reference variable to memory location",
+            "Size of the array"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The array identifier is a reference variable that points to the start of the array's memory on the heap.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which class provides utility methods like sort() and fill() for arrays?",
+        "choices": [
+            "Array",
+            "Collections",
+            "Arrays",
+            "UtilArray"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The java.util.Arrays class contains various static methods for manipulating arrays (such as sorting and searching).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which method is used to get the length of a String in Java?",
+        "choices": [
+            "length",
+            "size()",
+            "length()",
+            "count()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In Java, String objects have a length() method, whereas arrays have a length property.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following correctly compares the content of two strings?",
+        "choices": [
+            "==",
+            "compare()",
+            "equals()",
+            "match()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The equals() method checks if two String objects contain the same sequence of characters.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does compareTo() method return when two strings are equal?",
+        "choices": [
+            "true",
+            "false",
+            "0",
+            "1"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The compareTo() method returns zero if the two strings are lexicographically equal.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which String method converts all characters to lowercase?",
+        "choices": [
+            "toLower()",
+            "lower()",
+            "toLowerCase()",
+            "changeCase()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "toLowerCase() returns a new string with all capital letters converted to their lowercase equivalents.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which constructor creates a String object using a character array?",
+        "choices": [
+            "String(String str)",
+            "String(char[] arr)",
+            "String(byte[] arr)",
+            "String()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "String has a constructor that accepts an array of characters and uses them to build the string content.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "When two String objects are created using the same string literal, they:",
+        "choices": [
+            "Always occupy different memory locations",
+            "Refer to the same memory location",
+            "Cause compilation error",
+            "Are stored in heap only"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Java uses a 'String Pool'; literals with identical content point to the same shared object in memory to save space.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which Date class method returns milliseconds elapsed since 1 Jan 1970?",
+        "choices": [
+            "getDate()",
+            "getMillis()",
+            "getTime()",
+            "setTime()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The getTime() method returns the number of milliseconds since the epoch (January 1, 1970, 00:00:00 GMT).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which Calendar constant represents hour in 24-hour format?",
+        "choices": [
+            "HOUR",
+            "AM_PM",
+            "HOUR_OF_DAY",
+            "MINUTE"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "HOUR_OF_DAY is used for a 24-hour clock (0-23), while HOUR is for a 12-hour clock (0-11).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In Calendar class, month value for January is:",
+        "choices": [
+            "1",
+            "12",
+            "0",
+            "-1"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java's Calendar API uses 0 for January, 1 for February, and so on up to 11 for December.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which method sets date and time using milliseconds in Date class?",
+        "choices": [
+            "setDate()",
+            "setTime()",
+            "updateTime()",
+            "changeTime()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The setTime(long time) method updates a Date object to represent a specific point in time in milliseconds since the epoch.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following is NOT true about Java arrays?",
+        "choices": [
+            "Arrays are objects",
+            "Arrays store elements in contiguous memory",
+            "Declaring an array allocates memory automatically",
+            "Array elements are initialized with default values"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Declaring an array variable does not allocate memory for the elements; you must use 'new' to allocate that space.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Skype primarily allows users to communicate using which combination of services?",
+        "choices": [
+            "Text only",
+            "Text and email",
+            "Voice, video, and text",
+            "Email and file storage"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Skype is a VoIP service that supports instant messaging, voice calls, and video conferencing.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Calls made between Skype users are:",
+        "choices": [
+            "Charged per minute",
+            "Free of charge",
+            "Charged monthly",
+            "Free only for video calls"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Voice and video calls between two Skype accounts are generally free over the internet.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following best describes the source code availability of Skype?",
+        "choices": [
+            "Open source and modifiable",
+            "Open source but not modifiable",
+            "Proprietary and not available for modification",
+            "Available only for educational use"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Skype is a proprietary software owned by Microsoft; its source code is not publicly available.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Google Maps collects map data using all of the following EXCEPT:",
+        "choices": [
+            "Satellite imagery",
+            "Cars with mounted cameras",
+            "Data purchased from organizations",
+            "Manual user drawings only"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Google Maps uses sophisticated data sources like satellites and Street View cars, rather than just manual drawings.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "On mobile phones, Google Maps can determine a user’s location most accurately using:",
+        "choices": [
+            "IP address",
+            "Wi-Fi signals",
+            "GPS facility",
+            "Cell tower names"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Global Positioning System (GPS) provides the most precise coordinate data for mobile device location.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "The default view shown when Google Maps is opened is:",
+        "choices": [
+            "Satellite view",
+            "Terrain view",
+            "Map view",
+            "Street view"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The standard 'Map view' is the default interface showing roads, borders, and place names.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which compressed file format is most commonly used on Linux systems for distributing software bundles?",
+        "choices": [
+            ".zip",
+            ".rar",
+            ".tar.gz",
+            ".exe"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The 'tarball' format (.tar.gz) is the standard for packaging and compressing files in the Linux ecosystem.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Archive Manager in Linux is mainly used for:",
+        "choices": [
+            "Editing videos",
+            "Playing audio files",
+            "Creating, extracting, and managing archive files",
+            "Browsing the Internet"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Archive Manager (like File Roller) handles compressed files like ZIP, TAR, and GZ.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "VLC Media Player is popular mainly because of its:",
+        "choices": [
+            "Paid licensing model",
+            "Limited format support",
+            "Versatility and wide feature set",
+            "Dependence on external codecs only"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "VLC is highly regarded for being free, open-source, and able to play almost any media format without extra codecs.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "The primary goal of data compression is to:",
+        "choices": [
+            "Increase file security",
+            "Reduce memory and disk space usage",
+            "Improve graphical quality",
+            "Increase processing speed"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Compression reduces the physical size of a file, saving storage space and making transfers faster.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "HTML stands for:",
+        "choices": [
+            "Hyper Text Markup Language",
+            "High Transfer Machine Language",
+            "Hyperlink Text Management Language",
+            "Home Tool Markup Language"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "HTML is the standard language used to create the structure and content of web pages.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "HTTP stands for:",
+        "choices": [
+            "Hyper Text Transfer Protocol",
+            "High Transmission Text Protocol",
+            "Hyper Transfer Text Process",
+            "Host Text Transfer Program"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "HTTP is the foundational protocol used by the World Wide Web for data communication.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "UML stands for:",
+        "choices": [
+            "Unified Modeling Language",
+            "Universal Machine Language",
+            "User Modeling Language",
+            "Unified Machine Logic"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "UML is a standardized modeling language used to visualize the design of a software system.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "API stands for:",
+        "choices": [
+            "Application Programming Interface",
+            "Advanced Program Interaction",
+            "Application Process Integration",
+            "Automated Programming Interface"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "An API is a set of rules and protocols that allows different software applications to communicate with each other.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "PHP stands for:",
+        "choices": [
+            "Personal Home Page",
+            "Private Home Page",
+            "PHP: Hypertext Preprocessor",
+            "Personal Hypertext Processor"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "While originally meaning 'Personal Home Page', PHP's modern recursive backronym is 'PHP: Hypertext Preprocessor'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "JVM stands for:",
+        "choices": [
+            "Java Virtual Machine",
+            "Java Variable Method",
+            "Joint Virtual Memory",
+            "Java Visual Model"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The JVM is the engine that provides the runtime environment to drive Java code (bytecode).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "IRCTC stands for:",
+        "choices": [
+            "Indian Railway Catering and Tourism Corporation",
+            "Indian Rail Coach and Travel Company",
+            "Indian Railway Cargo and Transport Corporation",
+            "Indian Rail Catering and Ticket Corporation"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "IRCTC is a subsidiary of the Indian Railways that handles the online ticketing, catering, and tourism operations.",
+        "timeSeconds": 45
+    }
+]

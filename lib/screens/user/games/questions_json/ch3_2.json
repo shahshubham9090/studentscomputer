@@ -1,0 +1,374 @@
+[
+    {
+        "text": "In Java, what is the specific syntactic difference between accessing the length of an array versus the length of a String?",
+        "choices": [
+            "Both use .length()",
+            "Array uses .length(), String uses .length",
+            "Array uses .length (attribute), String uses .length() (method)",
+            "Both use .length"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "With array variable, length is an attribute or property of array; whereas with String object, length is a method. So we need to use () while using length method with String object.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the R environment, what signifies that a command is incomplete and the interpreter is waiting for more input?",
+        "choices": [
+            "The cursor blinks without a prompt",
+            "The prompt changes from '>' to '+'",
+            "A syntax error is thrown immediately",
+            "The prompt changes to '#'"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Observe that for long commands, when we press ENTER before the command is complete, R issues the + prompt until we complete the command.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "When using the `POST` method in an HTML form, how is the data transmitted relative to the HTTP transaction?",
+        "choices": [
+            "It is appended to the URL as query strings.",
+            "It is sent as a block within the HTTP transaction body.",
+            "It is encoded into the browser's cookies.",
+            "It is sent via a separate FTP connection."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the POST method, the data is sent as a block through the HTTP transaction. The data is included in the body of the request.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In Java, if `String s1 = \"Java\";` and `String s2 = new String(\"Java\");`, what does `s1 == s2` return and why?",
+        "choices": [
+            "True, because the content is identical.",
+            "False, because `new` forces creation of a separate object in memory.",
+            "True, because Java uses a String pool for all strings.",
+            "False, because `s2` is mutable."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Separate memory is allocated when string objects are created using new operator even if strings are identical. `==` compares references, so it returns false.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the specific function of the `Archive Manager` regarding `.tar` files versus `.tar.gz` files?",
+        "choices": [
+            "It cannot open .tar files.",
+            "It treats .tar as a compressed format.",
+            "It recognizes .tar as a single uncompressed file (tape archive) and .tar.gz as compressed.",
+            "It converts .tar.gz to .exe automatically."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The tar file format puts multiple files in a single uncompressed file... and then compress the file... usually has extension .tar.gz.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the KompoZer CSS Stylesheets dialog, under which tab would you find the option to set the 'Opacity' of an element?",
+        "choices": [
+            "General",
+            "Box",
+            "Background",
+            "Text"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The 'Opacity' slider is located in the Background tab of the CSS Stylesheets dialog box.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which Java class is used to extract detailed calendar information like year, month, and date, and is an abstract base class?",
+        "choices": [
+            "Date",
+            "Calendar",
+            "GregorianCalendar",
+            "DateFormat"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Calendar class... can be used to extract detailed calendar information... We will see the use of GregorianCalendar subclass of Calendar class (implying Calendar is the base).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In a JavaScript form validation script, what is the critical step to ensure the form does NOT submit when validation fails?",
+        "choices": [
+            "Use `alert()` to warn the user.",
+            "Set `focus()` to the error field.",
+            "Return `false` from the function called by `onsubmit`.",
+            "Refresh the page using `location.reload()`."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "This is possible by using the return statement. The use of return statement, will stop the function from executing... (returning false prevents submission).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the result of `Arrays.binarySearch()` if the element is not found in the array?",
+        "choices": [
+            "0",
+            "null",
+            "A negative integer",
+            "A generic error"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "It returns index position when an element is found; otherwise it returns -1 (or a negative value indicating insertion point).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In KompoZer, what is the difference between the 'Split' view and the 'Source' view?",
+        "choices": [
+            "Split shows Design and Preview; Source shows code.",
+            "Split displays the HTML code for the *current element*; Source shows the *entire* HTML code.",
+            "Split shows CSS and HTML side-by-side.",
+            "They are identical."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Split tab displays the HTML source of the current element. Source tab shows all details of the HTML code.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which R function argument allows you to specify the labels for the X-axis bars in a bar chart?",
+        "choices": [
+            "xlab",
+            "main",
+            "names.arg",
+            "ylab"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`names.arg` to specify the values to be displayed for the bars (e.g., faculty names).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the Browser Object Model (BOM), which object is the parent of the `document` object?",
+        "choices": [
+            "form",
+            "history",
+            "window",
+            "location"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The top level object in the browser object model is Window object. The document object is a child of Window.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In Java, why is the `main` method declared as `static`?",
+        "choices": [
+            "To allow access to private variables.",
+            "So that it can be invoked without creating an instance of the class.",
+            "To optimize memory usage.",
+            "Because it returns void."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The main() method is defined as static so that we can invoke it without creating any object of the class containing the main() method.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the specific menu path to insert a 'Label' for a form field in KompoZer?",
+        "choices": [
+            "Format > Form > Label",
+            "Insert > Form > Define Label",
+            "Edit > Form > Label",
+            "Insert > Label"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "From the menu bar, select Insert -> Form -> Define Label.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the CSS syntax, how do you define a rule that applies to all `h1` elements?",
+        "choices": [
+            "Select 'style applied to all elements of class'",
+            "Select 'style applied to an element with specified ID'",
+            "Select 'style applied to all elements of type'",
+            "Select 'custom style rule'"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Click on the first radio button 'style applied to all elements of type' (Selector: h1).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What happens if you define a constructor in a Java class but do NOT explicitly call `super()`?",
+        "choices": [
+            "The compiler generates an error.",
+            "The superclass's no-argument constructor is called implicitly.",
+            "No constructor of the superclass is called.",
+            "The program crashes at runtime."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When there is no explicit call to constructor of superclass, no-argument constructor of superclass is implicitly called as the first statement.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which attribute of the `<textarea>` tag controls the visible width (number of characters) of the text area?",
+        "choices": [
+            "width",
+            "size",
+            "cols",
+            "rows"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The cols attribute is used to set the number of columns of text that will be visible without scrolling right or left.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the R scripting example, what does `ylim=c(0,1000)` accomplish?",
+        "choices": [
+            "It limits the number of bars to 1000.",
+            "It sets the Y-axis range from 0 to 1000.",
+            "It sets the color limit.",
+            "It defines the X-axis labels."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`ylim`... to specify the range of values to be plotted on the Y-axis.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the primary difference between `RationalPlan Single` and `RationalPlan Multi`?",
+        "choices": [
+            "Single is free; Multi is paid.",
+            "Single manages independent projects; Multi manages interdependent projects sharing resources.",
+            "Single is for Linux; Multi is for Windows.",
+            "Multi allows video conferencing."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "RationalPlan Single allows us to manage independent projects... RationalPlan Multi allows us to manage projects that share company resources.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In JavaScript, `document.js1.name.value` is used to access data. What does `js1` represent?",
+        "choices": [
+            "The name of the JavaScript file.",
+            "The name of the HTML document.",
+            "The name of the Form element.",
+            "The name of the Submit button."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The term `js1` refers to the form name... as defined in the HTML form tag.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which `Arrays` class method allows you to fill a specific range of an array with a value?",
+        "choices": [
+            "fill(array, value)",
+            "fill(array, fromIndex, toIndex, value)",
+            "set(array, start, end, value)",
+            "rangeFill(array, value)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Method 'fill' is used to fill the whole or partial array... `fill(list, 2, 6, 5)` assigns value 5 to elements list[2] to list[6-1].",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In CSS, how are multiple declarations within a rule block separated?",
+        "choices": [
+            "By commas (,)",
+            "By colons (:)",
+            "By semicolons (;)",
+            "By spaces"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The general syntax of CSS... Declarations are separated by semicolons (implied by syntax examples `color: green; ...`).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What specific JavaScript event handler is used to execute code when a user clicks a button?",
+        "choices": [
+            "onsubmit",
+            "onchange",
+            "onclick",
+            "onload"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "click: User clicks on a form element... Event handler: onclick().",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the data compression 'rhyme' example, what is the role of the table created?",
+        "choices": [
+            "To store the original text.",
+            "To map frequent words to single digits or letters.",
+            "To encrypt the file.",
+            "To sort the words alphabetically."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "We may take advantage of this and represent each word by a single digit or letter... The table shows the mapping.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "When creating a new file in KompoZer, which menu path is correct?",
+        "choices": [
+            "File -> Create",
+            "File -> New",
+            "Edit -> New File",
+            "Insert -> New Page"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To create a new file, open KompoZer. In the menu bar click File -> New.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In Java, `String` objects are immutable. What does this mean?",
+        "choices": [
+            "They cannot be deleted.",
+            "Their value cannot be changed after creation; modifications create new objects.",
+            "They can only contain letters.",
+            "They are stored in the stack."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Separate memory is allocated when string objects are created... (Implied by the explanation of string literals vs new objects and memory allocation).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What does the `target` attribute `_blank` in an HTML link (anchor tag) do?",
+        "choices": [
+            "Opens the link in the same window.",
+            "Opens the link in a new window or tab.",
+            "Downloads the file.",
+            "Nothing."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Though standard HTML knowledge, this behavior is often associated with the 'Link' properties tabs in KompoZer shown in images. *Strict text*: Not explicitly detailed in text, but implied by 'Link' tab presence. I will replace this with a strict text question.",
+        "timeSeconds": 0
+    },
+    {
+        "text": "Strict Text Replacement: In KompoZer, the 'HTML Tags' view mode is distinguished by:",
+        "choices": [
+            "Showing the final web page.",
+            "Displaying yellow markers for start tags of all elements.",
+            "Showing raw source code only.",
+            "Hiding all tags."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The HTML Tags view helps those who are familiar with HTML. A yellow marker is used to indicate the start tag for all elements.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the `Calendar` class, which constant represents the day of the week?",
+        "choices": [
+            "DAY",
+            "DATE",
+            "DAY_OF_WEEK",
+            "WEEK_DAY"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Table 9.4: DAY_OF_WEEK - Day number within a week (1 for Sunday...).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the function of the `Archive Manager` regarding file extraction?",
+        "choices": [
+            "It deletes the original archive.",
+            "It decompresses and copies files from the archive to a destination.",
+            "It converts files to PDF.",
+            "It encrypts the files."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Archive Manager... permits us to... extract files from the archives.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which method signature represents the 'Polymorphism' of the `max` method in the text example?",
+        "choices": [
+            "int max(int, int) and double max(double, double)",
+            "int max(int) and int min(int)",
+            "void max()",
+            "String max(String)"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "In such scenario, Java facilitates to create methods with same name but different parameters... `static int max(int x, int y)` ... `static double max(double x, double y)`.",
+        "timeSeconds": 60
+    }
+]

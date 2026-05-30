@@ -1,0 +1,362 @@
+[
+    {
+        "text": "According to the textbook's table on Access Modifiers, how does 'Protected' visibility compare to 'Package' visibility?",
+        "choices": [
+            "Protected is wider than Package.",
+            "Protected is narrower than Package.",
+            "They are exactly the same.",
+            "Protected is wider than Public."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The textbook explicitly states: 'Thus the visibility is narrower than previous two levels (public, package)' regarding Protected access.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "When a subclass constructor does NOT explicitly call `super()`, what action does the Java compiler take?",
+        "choices": [
+            "It throws a compilation error.",
+            "It implicitly calls the no-argument constructor of the superclass.",
+            "It creates a new instance of the superclass separately.",
+            "It skips superclass initialization."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When there is no explicit call to constructor of superclass, no-argument constructor of superclass is implicitly called as the first statement.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the statement `Room r1 = new Room();`, `r1` is an 'L-value'. What does 'L-value' refer to?",
+        "choices": [
+            "A literal value",
+            "A logical value",
+            "A memory location (Left Hand Side)",
+            "A long integer"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "When a variable is used on the left-hand side of an assignment statement, it refers to memory location... So, variable on left-hand side... is called lvalue.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If you modify an object passed as a parameter inside a method, why is the change reflected outside the method?",
+        "choices": [
+            "Because Java passes objects by value.",
+            "Because the address of the actual parameter is copied, pointing to the same memory.",
+            "Because the method returns the modified object automatically.",
+            "Because the object is static."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Object parameters are passed by reference... an address (and not value) of the actual parameter is copied to formal parameter. Whatever modifications are performed... the original object is affected.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the key difference between 'Composition' and 'Aggregation' regarding object lifecycle?",
+        "choices": [
+            "In Composition, the part exists independently of the owner.",
+            "In Composition, if the owner is deleted, the part is also deleted.",
+            "Aggregation is a stronger relationship than Composition.",
+            "They are synonymous."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Composition is a strong type of aggregation where the lifetime of the part class depends on the existence of the owner class. If owner is deleted, part class object also gets deleted.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which symbol represents 'Composition' in a UML Class Diagram?",
+        "choices": [
+            "Empty Diamond",
+            "Filled Diamond",
+            "Solid Arrow",
+            "Dashed Arrow"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Composition relationships are represented using a filled diamond symbol next to the whole class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "When an object of a subclass is instantiated, for which attributes is memory allocated?",
+        "choices": [
+            "Only the subclass attributes.",
+            "Only the superclass attributes.",
+            "All attributes, including those inherited from the superclass.",
+            "Only public attributes."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "When an object of subclass is instantiated, memory is allocated for all its attributes including inherited ones.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why must the `package` statement be the first non-comment line in a file?",
+        "choices": [
+            "To speed up compilation.",
+            "Because the compiler ignores lines after the class definition.",
+            "To explicitly define which group the classes belong to before processing.",
+            "It is optional and can go anywhere."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Package statement should be added as the first non-comment or non-blank line in the source file to organize classes.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In Method Overriding, what happens if the subclass method has a different return type than the superclass method?",
+        "choices": [
+            "It is treated as a valid override.",
+            "It becomes an overloaded method.",
+            "It causes a compilation error (if signatures match).",
+            "The superclass method is deleted."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Method overriding requires the method name, return type, and parameter list (signature) to be exactly the same. If only return type differs, it's an invalid override/error.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What happens to the 'Default Constructor' if you define a parameterized constructor `Room(float l, float w)`?",
+        "choices": [
+            "It remains available.",
+            "It is deleted/hidden and must be manually redefined if needed.",
+            "It becomes private.",
+            "It takes default arguments."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In presence of user-defined constructors in a class, default constructor is no more available.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement correctly describes 'Data Abstraction' vs 'Encapsulation'?",
+        "choices": [
+            "Encapsulation hides complexity; Abstraction protects data.",
+            "Abstraction hides complexity; Encapsulation protects data.",
+            "They are the same thing.",
+            "Abstraction is for methods; Encapsulation is for classes."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Abstraction is a process of representing essential features... hiding complexity. Encapsulation protects data by making them inaccessible from outside.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "If `Classroom` extends `Room`, and you want to use the `display()` method of `Room` inside `Classroom`'s overriding `display()` method, how do you write it?",
+        "choices": [
+            "Room.display();",
+            "this.display();",
+            "super.display();",
+            "display();"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Method display() in subclass is used to override display() method of superclass. When such method of superclass is to be referred, we need to use keyword 'super'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Can a static method access an instance variable directly?",
+        "choices": [
+            "Yes, always.",
+            "No, never.",
+            "Only if the variable is public.",
+            "Only if the method is main()."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Instance variables cannot be accessed from class methods (static methods) because class methods are global to the class itself.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the expression `a += b`, what is the equivalent long-form expression?",
+        "choices": [
+            "b = a + b",
+            "a = b + a",
+            "a = a + b",
+            "a = +b"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java supports shorthand version of assignment... `a += b` is same as `a = a + b`.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which memory area is used to store 'Local Variables'?",
+        "choices": [
+            "Heap",
+            "Stack (implied by context of method scope)",
+            "Hard Drive",
+            "ROM"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "While the text explicitly assigns Objects to Heap, it contrasts Local variables as existing only during method execution, implying Stack storage (standard Java concept supported by the text's scope description).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If `x = 6` and `y = 4`, what is the result of `x % y`?",
+        "choices": [
+            "2",
+            "1.5",
+            "4",
+            "6"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The modulus operator (%) returns the remainder. 6 divided by 4 is 1 with a remainder of 2.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the primary role of the 'JVM'?",
+        "choices": [
+            "To compile source code.",
+            "To interpret bytecode for a specific platform.",
+            "To write Java code.",
+            "To debug applications."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The JVM (Java Virtual Machine) acts as an interpreter that interprets bytecode and executes it for a specific computer.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which operator has the highest precedence in Java?",
+        "choices": [
+            "Assignment (=)",
+            "Logical OR (||)",
+            "Multiplication (*)",
+            "Unary (++ or --)"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "According to the precedence table, Unary operations (++, --, !, unary -) are evaluated first.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why is `main()` declared as `static`?",
+        "choices": [
+            "So it can be called by the garbage collector.",
+            "So it can be invoked without creating an object of the class.",
+            "So it can access private variables.",
+            "So it can return an integer."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The main() method is defined as static so that we can invoke it without creating any object of the class.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the result of `12.5 % 7.2` in Java?",
+        "choices": [
+            "5",
+            "5.3",
+            "1",
+            "Error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The modulus operator works on floating point numbers. 12.5 % 7.2 yields a remainder of 5.3.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How do you allow a private variable to be modified by other classes safely?",
+        "choices": [
+            "Change it to public.",
+            "Use a 'Mutator' (setter) method.",
+            "Use a 'Getter' method.",
+            "Declare it as static."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "If we want to allow such data to be modified by others, then we write 'mutator' methods (e.g., setLength).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In a class diagram, what does the top section of the rectangle represent?",
+        "choices": [
+            "Attributes",
+            "Operations",
+            "Name of the Class",
+            "Initial Values"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In a class diagram, a class is represented with a rectangle... The top section contains the Name of the class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the statement `break out;` do if `out` is a label?",
+        "choices": [
+            "It prints 'out'.",
+            "It breaks the loop labelled 'out'.",
+            "It breaks the current method.",
+            "It pauses the program."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To use a labelled loop, add the label... break statement breaks the nearest enclosing loop... `break out;` transfers control.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is 'Polymorphism' achieved through within a single class?",
+        "choices": [
+            "Method Overriding",
+            "Method Overloading",
+            "Inheritance",
+            "Composition"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Object-oriented programming allows defining more than one method having the same name but different signatures... known as function or method overloading (a form of polymorphism).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If `short x = 6`, what happens when you do `x = x + 1` without casting?",
+        "choices": [
+            "It works fine.",
+            "It causes a compilation error (possible loss of precision).",
+            "It automatically converts to short.",
+            "It becomes an int."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Though the text uses `y = 4 + ++x` examples, it mentions implicit conversion issues. Specifically, adding an int (1) to a short results in an int, which cannot be assigned back to short without a cast. (Inferred from type cast section).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which visibility modifier is the 'Default' if none is specified?",
+        "choices": [
+            "Public",
+            "Private",
+            "Protected",
+            "Package"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "If no modifier is used, it is the default one... known as 'package' protection.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the expression `x = y = z = 7`, in which order is the assignment performed?",
+        "choices": [
+            "Left to Right",
+            "Right to Left",
+            "Simultaneously",
+            "Randomly"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Associativity determines the direction... For assignment operators, associativity is from right to left.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the return type of a Constructor?",
+        "choices": [
+            "void",
+            "int",
+            "Class Name",
+            "No return type"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Constructor does not have return type (not even void).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Can a class implement Multiple Inheritance directly in Java?",
+        "choices": [
+            "Yes, using 'extends A, B'",
+            "No, Java does not support multiple inheritance with classes.",
+            "Yes, if the classes are abstract.",
+            "Yes, if the classes are in the same package."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "It is to be noted that Java does not support multiple inheritance. A subclass can be derived from only one superclass.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the hexadecimal literal for the decimal number 10?",
+        "choices": [
+            "0xA",
+            "0x10",
+            "10",
+            "A"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "In Java, a hexadecimal literal begins with 0x... The letters A to F represent numbers 10 to 15. So 10 is 0xA.",
+        "timeSeconds": 45
+    }
+]

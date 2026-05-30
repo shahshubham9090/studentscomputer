@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Easy: Which Java package must be imported to use the `Date` class?",
+        "choices": [
+            "java.lang",
+            "java.util",
+            "java.io",
+            "java.sql"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Date class is provided in the java.util package.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In KompoZer, what is the purpose of the 'Alternate text' field when inserting an image?",
+        "choices": [
+            "To set the image title",
+            "To display text if the image fails to load",
+            "To set the image caption",
+            "To link the image to a URL"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Giving alternate text will display the text in case the image is not displayed. It is also useful for screen readers.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In a JavaScript validation script, why is `return false` used?",
+        "choices": [
+            "To submit the form",
+            "To stop the function execution and prevent form submission",
+            "To clear the form fields",
+            "To refresh the page"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The use of the return statement will stop the function from executing. Returning false specifically prevents the default action (submission).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What does CSS stand for?",
+        "choices": [
+            "Creative Style Sheets",
+            "Computer Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Cascading Style Sheets (CSS) allows you to specify styles for the visual elements of the website.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which function in R is used to create a bar chart?",
+        "choices": [
+            "hist()",
+            "plot()",
+            "barplot()",
+            "chart()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We may use the function `barplot` with various arguments for drawing the plot.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In Java, what is the difference between `length` for arrays and `length()` for Strings?",
+        "choices": [
+            "Both are methods",
+            "Both are attributes",
+            "Array uses `length` attribute, String uses `length()` method",
+            "Array uses `length()` method, String uses `length` attribute"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "With array variable, length is an attribute... whereas with String object, length is a method.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which HTML tag is used to create a drop-down list?",
+        "choices": [
+            "<list>",
+            "<input>",
+            "<select>",
+            "<dropdown>"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The select element is used to create a drop down list or menu in a form.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does the term 'Ubiquity' mean in the context of M-Commerce?",
+        "choices": [
+            "Low cost",
+            "High speed",
+            "Access virtually anytime and anywhere",
+            "Limited range"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Mobile device enables the user to be contacted at virtually anytime and anywhere. This benefit is known as Ubiquity.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Easy: Which KompoZer view allows you to see the source code and the design simultaneously?",
+        "choices": [
+            "Design",
+            "Source",
+            "Split",
+            "Preview"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Split tab displays the HTML source of the current element (along with the design view).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Hard: In the CSS syntax `H1 { color: green }`, what is `H1`?",
+        "choices": [
+            "Declaration",
+            "Property",
+            "Value",
+            "Selector"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "The selector is the HTML element on which you want to apply the style. Here `H1` is the selector.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Medium: Which JavaScript event handler is triggered when a form is submitted?",
+        "choices": [
+            "onclick",
+            "onchange",
+            "onsubmit",
+            "onload"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "So, we need to use the `onsubmit()` event handler to validate the form before sending data.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Easy: What is the file extension for a compiled Java class?",
+        "choices": [
+            ".java",
+            ".js",
+            ".class",
+            ".txt"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "When the program gets compiled... compiler creates a file with extension .class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In the KompoZer 'Table Properties' dialog, what does 'Spacing' refer to?",
+        "choices": [
+            "Gap between content and border",
+            "Gap between cells",
+            "Border width",
+            "Table width"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Spacing is used to specify gap between cells. (Padding is gap between edge and text).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What does the JavaScript function `isNaN(\"123\")` return?",
+        "choices": [
+            "true",
+            "false",
+            "undefined",
+            "error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`isNaN(123)` returns false because \"123\" is a valid number (after type coercion).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which E-Commerce model involves businesses selling to consumers?",
+        "choices": [
+            "B2B",
+            "C2C",
+            "B2C",
+            "C2B"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Business to Consumer (B2C) refers to business and organizations that sell products or services to consumers.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which tab in the CSS Stylesheets dialog allows you to set a background image?",
+        "choices": [
+            "Text",
+            "Box",
+            "Background",
+            "Borders"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "To set the background color or image, select the Background tab... click on 'Choose file' for image.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In Java, what is the index of the last element in an array of size `n`?",
+        "choices": [
+            "n",
+            "n - 1",
+            "n + 1",
+            "0"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Array indices start at 0, so the last element is at index `length - 1` (implied by 0-based indexing).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Easy: Which tool allows you to compress files in Linux?",
+        "choices": [
+            "VLC",
+            "Archive Manager",
+            "Character Map",
+            "R"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Archive Manager... permits us to combine many files... and compress the file.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does the `<textarea>` tag do in an HTML form?",
+        "choices": [
+            "Creates a single-line text box",
+            "Creates a password field",
+            "Creates a multi-line text input",
+            "Creates a submit button"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Textarea element allows multi-line text input.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: Which security issue is a significant concern in M-Commerce due to the nature of networks?",
+        "choices": [
+            "Slow speed",
+            "Physical theft",
+            "Wireless networks are less secure than wired ones",
+            "Screen size"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "It operates over wireless networks which are less secured as compared to wired network.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which button on the Composition Toolbar opens the CSS dialog?",
+        "choices": [
+            "Image",
+            "Link",
+            "Cascade",
+            "Table"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In the composition toolbar, select the Cascade button. This will open the CSS Stylesheets dialog box.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does `document.write()` do in JavaScript?",
+        "choices": [
+            "Saves the file",
+            "Writes content dynamically to the web page",
+            "Validates a form",
+            "Alerts the user"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The string to be displayed is passed as a variable to the method `document.write()` to display it on the page.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the CSS 'Text' tab, which option is used to make text blink?",
+        "choices": [
+            "Font Weight",
+            "Case",
+            "Text Decoration",
+            "Alignment"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Under 'Text decorations', there is a checkbox for 'Blinking'.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which website is an example of 'Electronic Newspaper'?",
+        "choices": [
+            "Amazon",
+            "Washington Post",
+            "eBay",
+            "IRCTC"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 4.2 shows the home page of E-newspaper Washington Post.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In Java, which operator is used to compare two values for equality?",
+        "choices": [
+            "=",
+            "==",
+            "equals",
+            "<>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The `==` operator is used to compare references or primitive values.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is the specific purpose of 'Mobile Ticketing'?",
+        "choices": [
+            "Buying movie/travel tickets via mobile device",
+            "Watching movies",
+            "Paying bills",
+            "Auctioning items"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Users can easily buy tickets for air or rail travel, movies etc... sent to the user's mobile device.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: Which keyword creates a variable in JavaScript?",
+        "choices": [
+            "int",
+            "string",
+            "var",
+            "dim"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We have declared a variable named x... `var x = ...`.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does 'GPS' stand for?",
+        "choices": [
+            "Global Positioning System",
+            "General Packet Service",
+            "Geographic Place System",
+            "Global Place Satellite"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The Global Positioning System (GPS) is the most accurate in determining a mobile device's position.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: If you select 'internal stylesheet' in KompoZer, where is the code placed?",
+        "choices": [
+            "In a separate .css file",
+            "In the <body> tag",
+            "In the <head> tag",
+            "At the end of the file"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The CSS code is generated inside the `<style>` tag within the `<head>` section.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What allows a user to pay online using a mobile device?",
+        "choices": [
+            "Mobile Banking/Purchase",
+            "Mobile Marketing",
+            "Mobile Ticketing",
+            "Mobile Auction"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Mobile purchase allows customers to shop online... using a secure payment method.",
+        "timeSeconds": 30
+    }
+]

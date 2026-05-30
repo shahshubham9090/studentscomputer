@@ -1,0 +1,362 @@
+[
+    {
+        "text": "What is the result of the expression 12.5 % 7.2 in Java?",
+        "choices": [
+            "5.3",
+            "1.0",
+            "5.0",
+            "Error"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The modulus operator (%) works on floating-point numbers in Java. 12.5 divided by 7.2 yields a quotient of 1 and a remainder of 5.3.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following statements about Java compilation is true?",
+        "choices": [
+            "Java code is compiled directly to native machine code.",
+            "Java bytecode is machine-dependent.",
+            "Java bytecode is interpreted by the JVM.",
+            "The JVM compiles source code to bytecode."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java source code is compiled into bytecode, which is then interpreted by the Java Virtual Machine (JVM) for the specific platform.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the expression 'y = 4 + ++x;', if the initial value of x is 3, what are the final values of x and y?",
+        "choices": [
+            "x=3, y=7",
+            "x=4, y=7",
+            "x=4, y=8",
+            "x=3, y=8"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The pre-increment operator (++x) increments x to 4 *before* the addition. Then, 4 + 4 is calculated, resulting in y=8.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the decimal value of the octal literal 045?",
+        "choices": [
+            "45",
+            "37",
+            "53",
+            "29"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In Java, a leading 0 indicates an octal number. 045 in octal is 4*8^1 + 5*8^0 = 32 + 5 = 37 in decimal.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which escape sequence represents a 'Form feed' in Java?",
+        "choices": [
+            "\\f",
+            "\\r",
+            "\\b",
+            "\\n"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The escape sequence \\f represents a Form feed (new page) character.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Why does 'float rate = 10.2;' cause a compilation error?",
+        "choices": [
+            "Variables cannot be named 'rate'.",
+            "10.2 is a double literal by default.",
+            "Float variables cannot store decimals.",
+            "The syntax is missing a semicolon."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Floating-point literals like 10.2 are double by default. Assigning a double to a float causes a possible loss of precision unless suffixed with 'f' or 'F'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following is a valid hexadecimal literal in Java?",
+        "choices": [
+            "0x1G",
+            "0xFF7A",
+            "#FF7A",
+            "hFF7A"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Hexadecimal literals in Java must start with 0x or 0X and use digits 0-9 and letters A-F.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the command 'javac CallCost.java' produce if successful?",
+        "choices": [
+            "CallCost.exe",
+            "CallCost.class",
+            "CallCost.obj",
+            "CallCost.jvm"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The 'javac' compiler produces a bytecode file with a .class extension (e.g., CallCost.class).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How is the boolean expression '(x > 0) == (y > 0)' evaluated?",
+        "choices": [
+            "It checks if x and y are both positive.",
+            "It assigns the value of y to x.",
+            "It compares the truth values of the two relational expressions.",
+            "It is a syntax error."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The == operator compares the result of the two boolean expressions (x > 0) and (y > 0). It evaluates to true if both have the same boolean value.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which data type is used for the literal 1.3e12?",
+        "choices": [
+            "float",
+            "double",
+            "long",
+            "int"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Scientific notation literals like 1.3e12 are treated as double by default in Java.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What happens when you execute 'java CallCost.class' instead of 'java CallCost'?",
+        "choices": [
+            "The program runs normally.",
+            "The JVM looks for a 'main' method.",
+            "It causes an error because the extension should be omitted.",
+            "It recompiles the class file."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "When using the 'java' interpreter, you must specify the class name *without* the .class extension. Including it typically results in a 'Could not find or load main class' error (implied by instructions).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement correctly forces a long integer literal?",
+        "choices": [
+            "long x = 4000;",
+            "long x = (long)4000;",
+            "long x = 4000L;",
+            "long x = L4000;"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "To force a literal to be of type long, you must append an 'L' or 'l' suffix (e.g., 4000L).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the output of 'System.out.println(\"a / b = \" + (a / b));' where a=12.5 (float) and b=7.2 (float)?",
+        "choices": [
+            "a / b = 1",
+            "a / b = 1.7361112",
+            "a / b = 2",
+            "a / b = 1.7"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When operands are float, the division results in a floating-point value. 12.5 / 7.2 is approximately 1.7361112.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which Unicode sequence produces the trademark symbol (™)?",
+        "choices": [
+            "\\u2122",
+            "\\u00E9",
+            "\\tm",
+            "\\u2022"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The Unicode escape sequence \\u2122 represents the trademark symbol (™).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the primary disadvantage of using Java bytecode compared to native code?",
+        "choices": [
+            "It is platform-dependent.",
+            "It has a larger file size.",
+            "It has slower execution speed.",
+            "It cannot handle floating-point numbers."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The disadvantage of bytecode is its slower execution speed compared to native code because it requires interpretation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the statement 'y = 4 + x++;', if x is initially 3, what is the value of y?",
+        "choices": [
+            "7",
+            "8",
+            "6",
+            "4"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The post-increment operator (x++) uses the *current* value of x (3) for the expression. So, y = 4 + 3 = 7. x is incremented to 4 *afterward*.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which of these is NOT a valid comment type in Java?",
+        "choices": [
+            "// Comment",
+            "/* Comment */",
+            "/** Comment */",
+            "# Comment"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Java supports single-line (//), multi-line (/* */), and documentation (/** */) comments. # is not a valid comment starter in Java.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which operator precedence is correct in the expression 'A + B * C'?",
+        "choices": [
+            "Addition first, then Multiplication",
+            "Multiplication first, then Addition",
+            "Left to Right",
+            "Right to Left"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Multiplication (*) has higher precedence than addition (+), so B * C is computed first, and the result is added to A.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which data type would automatically be used for the literal 17777?",
+        "choices": [
+            "byte",
+            "short",
+            "int",
+            "long"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Ordinary integer literals like 17777 are of type int unless they exceed the range, in which case they might be long (if suffixed).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the binary literal prefix supported in Java 7?",
+        "choices": [
+            "0x",
+            "0b",
+            "0B",
+            "Both 0b and 0B"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Java 7 supports binary literals using the prefix 0b or 0B (e.g., 0b10110).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the expression 'x % y' evaluate to when x=6 and y=-4?",
+        "choices": [
+            "-2",
+            "2",
+            "-1",
+            "1"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In Java, the sign of the result of the modulus operator (%) is determined by the sign of the *first* operand (dividend). Since x (6) is positive, the result is positive: 2.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which character escape code represents a backslash?",
+        "choices": [
+            "\\",
+            "\\\\",
+            "/\\",
+            "//"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To represent a backslash character itself, you must use the escape sequence \\\\.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the purpose of the 'main' method in a Java application?",
+        "choices": [
+            "To declare variables.",
+            "To define the class structure.",
+            "It is the first routine run when the program executes.",
+            "It compiles the code."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The main() method is the entry point of a Java application; it is the first routine executed when the program runs.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement about String literals is correct?",
+        "choices": [
+            "They are enclosed in single quotes.",
+            "They are primitive data types.",
+            "They are objects representing a sequence of characters.",
+            "They cannot contain escape sequences."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In Java, Strings are objects rather than primitive data types, and they represent a sequence of characters enclosed in double quotes.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If you need to represent the character with Unicode value 00E9 ('é'), how would you write the literal?",
+        "choices": [
+            "'\\u00E9'",
+            "'\\x00E9'",
+            "'\\00E9'",
+            "'u00E9'"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "A Unicode literal consists of \\u followed by four hexadecimal digits. So, '\\u00E9' represents the character 'é'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following operators can be used on boolean values?",
+        "choices": [
+            "+",
+            "%",
+            "!=",
+            "<"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The != (not equal) and == (equal) operators can be used to compare boolean values. Arithmetic operators like + and % cannot.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why is Java considered platform-independent at the binary level?",
+        "choices": [
+            "It uses C++ compilers.",
+            "It converts code to .exe files.",
+            "Bytecode interpreters (JVM) exist for different platforms.",
+            "It only runs on Linux."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java is platform-independent at the binary level because the same bytecode can be interpreted by a JVM specific to any operating system (Windows, Mac, Linux).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the result of 'System.out.println(\"x + y = \" + x + y);' if x=6 and y=4?",
+        "choices": [
+            "x + y = 10",
+            "x + y = 64",
+            "10",
+            "Error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The expression evaluates from left to right. It concatenates the string \"x + y = \" with x (6) to get \"x + y = 6\", then concatenates y (4) to get \"x + y = 64\".",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which of these is a correct example of a scientific notation literal in Java?",
+        "choices": [
+            "12.3737e-108",
+            "12.3737^108",
+            "e12.3737",
+            "12.3737*10^-108"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Scientific notation in Java uses 'e' or 'E'. For example, 12.3737e-108 represents 12.3737 * 10^-108.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the file extension of a Java source code file?",
+        "choices": [
+            ".class",
+            ".obj",
+            ".java",
+            ".txt"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java source program files must have the extension .java.",
+        "timeSeconds": 30
+    }
+]

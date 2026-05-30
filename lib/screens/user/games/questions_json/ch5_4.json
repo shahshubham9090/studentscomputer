@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Easy: Which HTML tag is used to create a multi-line text input area in a form?",
+        "choices": [
+            "<input type='text'>",
+            "<textarea>",
+            "<textbox>",
+            "<edit>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Textarea element allows multi-line text input. The tag <textarea> is used to implement this element.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In Java, what is the difference between `length` and `length()`?",
+        "choices": [
+            "They are the same.",
+            "`length` is a method for arrays, `length()` is a property for Strings.",
+            "`length` is a property for arrays, `length()` is a method for Strings.",
+            "Both are properties."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "With array variable, length is an attribute or property of array; whereas with String object, length is a method. So we need to use () while using length method with String object.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the KompoZer 'Table Properties' dialog box, what does the 'Spacing' attribute specifically control?",
+        "choices": [
+            "The distance between the table and the page margins.",
+            "The gap between the cell content and the cell border.",
+            "The gap between individual cells.",
+            "The thickness of the table border."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Spacing is used to specify gap between cells. (Note: Padding gives a gap between the edge of the cell and the text within it).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is the full form of GPS in the context of M-Commerce?",
+        "choices": [
+            "Global Positioning System",
+            "General Packet Service",
+            "Geographic Placement System",
+            "Global Payment Standard"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The Global Positioning System (GPS) is the most accurate in determining a mobile device's position.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which JavaScript event is triggered when an element, such as a radio button, becomes inactive (loses focus)?",
+        "choices": [
+            "click",
+            "focus",
+            "blur",
+            "change"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "blur: Element such as a radio button becomes inactive.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What does the JavaScript function `isNaN(\"123\")` return?",
+        "choices": [
+            "true",
+            "false",
+            "undefined",
+            "error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`isNaN(\"123\")` returns false because the string \"123\" represents a valid number.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which E-Commerce model involves business organizations selling products to consumers?",
+        "choices": [
+            "B2B",
+            "C2C",
+            "B2C",
+            "C2B"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Business to Consumer (B2C) refers to business and organizations that sell products or services to consumers.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which Java operator is used to allocate memory for a new object?",
+        "choices": [
+            "create",
+            "new",
+            "class",
+            "alloc"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The keyword 'new' is used to create the object by allocating memory.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the KompoZer CSS Stylesheets dialog, under which tab would you find the option to make text blink?",
+        "choices": [
+            "General",
+            "Background",
+            "Text",
+            "Box"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 2.5 shows the 'Text' tab where 'Text decorations' include options like Overline, Line-through, Underline, and Blinking.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which software tool is used for statistical computing and graphics?",
+        "choices": [
+            "VLC",
+            "RationalPlan",
+            "R",
+            "Skype"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "R is a free software environment for statistical computing.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is the purpose of the `action` attribute in an HTML form?",
+        "choices": [
+            "It specifies the HTTP method (GET/POST).",
+            "It specifies the file or URL where form data is sent.",
+            "It defines the form's name.",
+            "It sets the background color."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The action attribute is used to specify where to send the form data... It takes a filename as value.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the context of network security, what is 'Sniffing'?",
+        "choices": [
+            "Flooding a website with traffic.",
+            "A virus that deletes files.",
+            "Recording data passing through a network like wiretapping.",
+            "Defacing a website's content."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "A sniffer is a program that uses Internet to record information that passes through a computer or router... like tapping the telephone wire.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which Java package contains the `Date` class?",
+        "choices": [
+            "java.lang",
+            "java.io",
+            "java.util",
+            "java.net"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java library also provides Date class in java.util package.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In KompoZer, which view allows you to see the source code and the design simultaneously?",
+        "choices": [
+            "Design",
+            "Source",
+            "Preview",
+            "Split"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "The Split tab displays the HTML source of the current element (alongside the visual design).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: If you choose 'internal stylesheet' in KompoZer, where is the CSS code generated?",
+        "choices": [
+            "In a separate .css file.",
+            "In the `<body>` section of the page.",
+            "In the `<head>` section inside `<style>` tags.",
+            "It is not generated until you save."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 2.12 shows the CSS code generated in the head section of the page source code when using an internal stylesheet.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is the main purpose of 'Net Banking'?",
+        "choices": [
+            "To buy train tickets.",
+            "To conduct banking transactions over the Internet.",
+            "To auction items online.",
+            "To chat with bank employees."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Net banking... is the process of conducting the banking transactions over the Internet.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In Java, which method of the `String` class is used to check if two strings have the same content?",
+        "choices": [
+            "==",
+            "check()",
+            "equals()",
+            "same()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The `==` operator compares references. To compare content, the `equals()` method (or `compareTo`) is used (Concept implied by the distinction shown between literal/object comparison).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: Which specific JavaScript check is used to ensure a required field is not empty in the provided example?",
+        "choices": [
+            "`if (x == 0)`",
+            "`if (x == null || x == \"\")`",
+            "`if (x.length < 1)`",
+            "`if (x != valid)`"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The script uses the condition `if (x==null || x==\"\")` to check if the user left the name field empty.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What does the acronym 'CSS' stand for?",
+        "choices": [
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Cascading Style Sheets",
+            "Common Style Sheets"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Cascading Style Sheets or CSS allows you to specify styles for the visual elements of the website.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which of the following is an example of an 'Online Auction' site mentioned in the text?",
+        "choices": [
+            "Amazon",
+            "eBay",
+            "IRCTC",
+            "Google"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 4.3 shows the home page of online auction site www.ebay.com.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is the function of the `Archive Manager` tool in Linux?",
+        "choices": [
+            "To play media files.",
+            "To manage email archives.",
+            "To compress and extract files (e.g., .tar, .zip).",
+            "To organize photos."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Archive Manager... permits us to combine many files... into a single file... and compress the file.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which HTML tag is used to create a drop-down list?",
+        "choices": [
+            "<input>",
+            "<list>",
+            "<select>",
+            "<option>"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The select element is used to create a drop down list or menu in a form.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does the term 'Ubiquity' mean in M-Commerce?",
+        "choices": [
+            "Low cost.",
+            "High speed.",
+            "The user can be contacted virtually anytime and anywhere.",
+            "Limited range."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Mobile device enables the user to be contacted at virtually anytime and anywhere. This benefit is known as Ubiquity.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the CSS syntax `H1 { color : green }`, what is `H1` called?",
+        "choices": [
+            "Property",
+            "Value",
+            "Selector",
+            "Declaration"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The selector is the HTML element on which you want to apply the style. In the example `H1 { color : green }`, H1 is the selector.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which button on the KompoZer Composition Toolbar is used to open the CSS dialog?",
+        "choices": [
+            "Image",
+            "Table",
+            "Cascade",
+            "Form"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In the composition toolbar, select the Cascade button. This will open the CSS Stylesheets dialog box.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which JavaScript method is used to write content dynamically to the web page?",
+        "choices": [
+            "alert()",
+            "document.write()",
+            "console.log()",
+            "window.print()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The string to be displayed is passed as variable to the method `document.write()`.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is the result of `12.5 % 7.2` in Java?",
+        "choices": [
+            "5",
+            "5.3",
+            "1",
+            "Error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The modulus operator works on floating point numbers. 12.5 % 7.2 yields a remainder of 5.3.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is the file extension for a compiled Java class file?",
+        "choices": [
+            ".java",
+            ".class",
+            ".txt",
+            ".exe"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When the program gets compiled... compiler creates a file with extension .class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which function in R is used to create a histogram?",
+        "choices": [
+            "barplot()",
+            "plot()",
+            "hist()",
+            "graph()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The histogram can be drawn using the code shown in figure 13.14 (code uses `hist(marks...)`).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the KompoZer 'Image Properties' dialog, what is the effect of checking 'Don't use alternate text'?",
+        "choices": [
+            "The image will not load.",
+            "No text will be displayed if the image fails to load.",
+            "It disables the tooltip.",
+            "It hides the image."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Specify the alternate text... otherwise select the 'Don't use alternate text' radio button. Giving alternate text will display the text in case the image is not displayed.",
+        "timeSeconds": 60
+    }
+]

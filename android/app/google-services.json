@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1010864816996",
+    "project_id": "computerstudent-a0511",
+    "storage_bucket": "computerstudent-a0511.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010864816996:android:d724e564f78b75b738f071",
+        "android_client_info": {
+          "package_name": "com.shubham.computerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010864816996-5ialn10j8usm8hdadjpms3hpthvo4ia3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.computerapp",
+            "certificate_hash": "c5b709f58a265eb248392cbc457e93011ad5935e"
+          }
+        },
+        {
+          "client_id": "1010864816996-vfi1skou27r2u9trhe8fcfuh84h6oeo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1p1Nr19BosMfFiVi0k82K4-mP0Vw8ceA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010864816996-vfi1skou27r2u9trhe8fcfuh84h6oeo8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1010864816996-lj64p3pb9rimid7gjg6tb8frkg9k2ap8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.studentscomputer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,633 @@
+MCQ Question Paper
+
+Q1. Medium: In Java, how do you determine the size of an array named `list`?
+A. list.size()
+B. list.length()
+C. list.length
+D. list.count
+
+Q2. When using the `POST` method in an HTML form, how is the data transmitted relative to the HTTP transaction?
+A. It is appended to the URL as query strings.
+B. It is sent as a block within the HTTP transaction body.
+C. It is encoded into the browser's cookies.
+D. It is sent via a separate FTP connection.
+
+Q3. Medium: In Java, are 'constructors' inherited by subclasses?
+A. Yes, always.
+B. No, never.
+C. Only public constructors.
+D. Only if super() is called.
+
+Q4. Hard: Which function key is used to close the Site Manager pane in KompoZer?
+A. F5
+B. F12
+C. F9
+D. Esc
+
+Q5. Which statement best describes the life cycle of a 'Local Variable'?
+A. Created when object is created, destroyed when object is destroyed.
+B. Created when method/block starts, destroyed when it ends.
+C. Created when class is loaded, destroyed when program ends.
+D. Created when main starts, destroyed when main ends.
+
+Q6. Scientific notation '1.3e12' is treated as which data type by default?
+A. float
+B. double
+C. long
+D. int
+
+Q7. Which CSS tab allows you to set 'Text decorations' like blink or underline?
+A. General
+B. Text
+C. Box
+D. Background
+
+Q8. Medium: In a KompoZer table, what is the function of 'Padding'?
+A. Space between cells
+B. Space between text and cell border
+C. Border thickness
+D. Table alignment
+
+Q9. Hard: What specific JavaScript event handler is used when a user clicks a button?
+A. onsubmit
+B. onchange
+C. onclick
+D. onload
+
+Q10. Medium: What is 'ASCII'?
+A. American Standard Code for Information Interchange
+B. American System Code for Information Interchange
+C. Advanced Standard Code for Information Interchange
+D. Automated Standard Code for Information Interchange
+
+Q11. What is the return type of a Constructor?
+A. void
+B. int
+C. The class type
+D. It has no return type
+
+Q12. Medium: What does the `var` keyword do in JavaScript?
+A. Declares a function
+B. Declares a variable
+C. Validates a form
+D. Links a CSS file
+
+Q13. In KompoZer, if you select 'internal stylesheet', where is the CSS code placed?
+A. In an external .css file
+B. In the <body> tag
+C. In the <head> tag inside <style>
+D. It is not generated
+
+Q14. What does the '//' symbol represent in Java code?
+A. Division
+B. Single-line comment
+C. Multi-line comment
+D. Import
+
+Q15. Medium: Which JavaScript event is triggered when an element, such as a radio button, becomes inactive (loses focus)?
+A. click
+B. focus
+C. blur
+D. change
+
+Q16. Medium: To insert a table in KompoZer, which menu do you use?
+A. Format
+B. Insert
+C. Table
+D. Edit
+
+Q17. Medium: Which organization sets the standards for the World Wide Web (W3C)?
+A. World Wide Web Consortium
+B. World Wide Web Company
+C. World Wide Web Center
+D. World Wide Web Committee
+
+Q18. What is a variable in JavaScript?
+A. A function call
+B. A container for storing data
+C. A type of loop
+D. A styling rule
+
+Q19. Which open-source WYSIWYG web editor was developed by the World Wide Web Consortium (W3C)?
+A. BlueGriffon
+B. Aptana Studio
+C. Amaya
+D. KompoZer
+
+Q20. Medium: In CSS syntax `color : green`, what is `color`?
+A. Selector
+B. Property
+C. Value
+D. Rule
+
+Q21. What allows you to select multiple items in a form?
+A. Radio button
+B. Checkbox
+C. Text field
+D. Submit button
+
+Q22. The 'Action' attribute specifies the filename. When is this file opened?
+A. Immediately when the form loads.
+B. When the user clicks the submit button.
+C. When the user clicks the reset button.
+D. When the browser closes.
+
+Q23. Medium: What does the 'Borders' tab in the CSS dialog allow you to customize?
+A. Background color
+B. Font size
+C. Border style, width, and color
+D. Text alignment
+
+Q24. In the KompoZer 'Table Properties' dialog, what is 'Spacing'?
+A. Gap between content and border
+B. Gap between cells
+C. Border width
+D. Table width
+
+Q25. Medium: What does the `names.arg` argument do in the R `barplot` function?
+A. Sets the title
+B. Sets the Y-axis label
+C. Sets the labels/names for the bars
+D. Sets the color
+
+Q26. Why is Java considered platform-independent at the binary level?
+A. It uses C++ compilers.
+B. It converts code to .exe files.
+C. Bytecode interpreters (JVM) exist for different platforms.
+D. It only runs on Linux.
+
+Q27. Hard: In the 'Image Properties' dialog, checking 'Don't use alternate text' means:
+A. The image will not load.
+B. No text will be displayed if the image fails to load.
+C. The image description is hidden from search engines.
+D. The image becomes a background.
+
+Q28. What keyword is used to declare a class variable?
+A. global
+B. final
+C. static
+D. public
+
+Q29. Medium: What is 'TTP'?
+A. Trusted Third Party
+B. Trusted Transaction Protocol
+C. Third Transaction Party
+D. Transfer Third Party
+
+Q30. Medium: Which function in JavaScript sets the cursor focus to a specific element?
+A. select()
+B. click()
+C. focus()
+D. move()
+
+Q31. Medium: Which website is an example of an online bookstore?
+A. www.amazon.com
+B. www.irctc.co.in
+C. www.google.com
+D. www.facebook.com
+
+Q32. What is 'Method Overloading' specifically?
+A. Using different method names for the same task.
+B. Defining methods with the same name but different signatures.
+C. Overriding a method in a subclass.
+D. Writing recursive methods.
+
+Q33. Medium: In KompoZer, which view allows you to see the source code and the design simultaneously?
+A. Design
+B. Source
+C. Preview
+D. Split
+
+Q34. Medium: When creating a table in KompoZer, 'Width' can be specified in which two units?
+A. Inches and Centimeters
+B. Pixels and % of window
+C. Points and Picas
+D. Lines and Words
+
+Q35. Medium: In the CSS 'Text' tab, which option allows you to underline or blink text?
+A. Font Family
+B. Font Weight
+C. Text decorations
+D. Alignment
+
+Q36. Hard: In a 2-D array declared as `int marks[][] = new int[5][3]`, what does `marks.length` return?
+A. 15
+B. 3
+C. 5
+D. 8
+
+Q37. What is the correct syntax for a method in UML?
+A. name(): returnType
+B. returnType name()
+C. name: returnType
+D. func name()
+
+Q38. Can you specify the size of dimensions during declaration like `int marks[5]`?
+A. Yes, always
+B. No, it is illegal syntax
+C. Only for 2D arrays
+D. Only for local variables
+
+Q39. Which arrow style represents 'Inheritance' (Generalization) in UML?
+A. Dotted line with arrow
+B. Solid line with filled diamond
+C. Solid line with empty triangle/arrow
+D. Line with no arrow
+
+Q40. Hard: What specific value does the `<form>` attribute `action` expect?
+A. A boolean (true/false)
+B. A filename or URL
+C. A method type (GET/POST)
+D. A CSS style
+
+Q41. Why do we declare the `main()` method as `static`?
+A. To allow it to access instance variables.
+B. To prevent it from being overridden.
+C. To allow the interpreter to invoke it without creating an object of the class.
+D. To make it run faster.
+
+Q42. Hard: What is 'IRCTC'?
+A. Indian Railway Catering & Tourism Corporation Ltd
+B. Indian Railway Corporation & Tourism Centre
+C. Indian Railway Catering & Travel Corporation
+D. International Railway Catering & Tourism Corporation
+
+Q43. If 'int a = 17' and 'short b', how must you assign 'a' to 'b'?
+A. b = a;
+B. b = (short)a;
+C. b = short(a);
+D. b = a.toShort();
+
+Q44. Medium: What is 'BOM' in web browsers?
+A. Browser Object Model
+B. Basic Object Model
+C. Binary Object Model
+D. Browser Oriented Model
+
+Q45. Medium: What is the difference between `float` and `double` literals in Java?
+A. Float is the default; double requires a suffix.
+B. Double is the default; float requires an 'f' suffix.
+C. They are the same.
+D. Float uses more memory.
+
+Q46. What base date is used by `Date(long date)` to calculate time?
+A. January 1, 1900
+B. January 1, 2000
+C. January 1, 1970 GMT
+D. The current system time
+
+Q47. In the shopping cart JavaScript, how is the 'total' variable calculated?
+A. total = price + quantity
+B. total = price * quantity
+C. total = price / quantity
+D. total = price - quantity
+
+Q48. Which access modifier is described as providing 'Friend' like access?
+A. public
+B. protected
+C. private
+D. package (default)
+
+Q49. What is 'Multilevel Inheritance'?
+A. A class inherits from multiple classes simultaneously.
+B. A class inherits from a class which inherits from another class.
+C. A class has multiple objects.
+D. A class contains another class.
+
+Q50. Medium: In data compression, what is the 'tar' format on Linux systems?
+A. A compressed file format.
+B. A single uncompressed archive file.
+C. A video format.
+D. A system file.
+
+Q51. In a UML Class Diagram, which symbol represents 'protected' visibility?
+A. +
+B. -
+C. #
+D. ~
+
+Q52. In the CSS Stylesheets dialog, which tab is used to change font family and size?
+A. General
+B. Text
+C. Background
+D. Borders
+
+Q53. Medium: In the R language, what is the function `c()` used for?
+A. To calculate cosine
+B. To clear the screen
+C. To create a list or vector of values
+D. To comment out code
+
+Q54. If `r1` and `r2` are distinct objects of class `Room`, what happens if you change `r1.length`?
+A. r2.length also changes.
+B. Only r1.length changes.
+C. The class static length changes.
+D. It causes an error.
+
+Q55. What does the JavaScript event `onblur` signify?
+A. An element loses focus.
+B. An element gets focus.
+C. A button is clicked.
+D. The page is loaded.
+
+Q56. Medium: What does the term 'Ubiquity' mean in the context of M-Commerce?
+A. Low cost
+B. High speed
+C. Access virtually anytime and anywhere
+D. Limited range
+
+Q57. Which JavaScript method is used to write content directly to the HTML document?
+A. window.alert()
+B. console.log()
+C. document.write()
+D. document.print()
+
+Q58. What is the file extension for a compiled Java file?
+A. .java
+B. .class
+C. .exe
+D. .txt
+
+Q59. Medium: What is the difference between the GET and POST methods in HTML forms?
+A. GET sends data as a block; POST appends it to the URL.
+B. GET appends data to the URL; POST sends it as a block.
+C. GET encrypts data; POST does not.
+D. There is no difference.
+
+Q60. Medium: If you want to put an image in the background of a webpage using CSS, which tab do you go to?
+A. Text
+B. Box
+C. Background
+D. Borders
+
+Q61. Hard: In the KompoZer 'Table Properties' dialog, what does 'Spacing' refer to?
+A. Gap between content and cell border
+B. Gap between cells
+C. Width of the border
+D. Table width
+
+Q62. What does the 'Split' view in KompoZer display?
+A. Only the source code
+B. Only the design view
+C. Both the source code and the design view
+D. The browser preview
+
+Q63. Which tab allows you to set a background image for an element?
+A. Box
+B. Text
+C. Background
+D. Lists
+
+Q64. Which attribute of the `<form>` tag specifies the HTTP method to be used when sending data?
+A. action
+B. name
+C. method
+D. type
+
+Q65. Hard: Which CSS tab contains the option to set 'Text Decoration' (like underline or blink)?
+A. General
+B. Box
+C. Text
+D. Borders
+
+Q66. Medium: Which tab in the CSS Stylesheets dialog displays the actual CSS code generated?
+A. Text
+B. General
+C. Background
+D. Lists
+
+Q67. What is the result of the expression x % y when x=6 and y=-4?
+A. -2
+B. 2
+C. -1
+D. 1
+
+Q68. Hard: Which attribute of the `<table>` tag in KompoZer sets the gap between the cell content and the cell wall?
+A. Spacing
+B. Padding
+C. Border
+D. Width
+
+Q69. Which property helps in declaring 10 variables at a time of the same type?
+A. Polymorphism
+B. Inheritance
+C. Array
+D. Encapsulation
+
+Q70. What is the file extension for a Java source code file?
+A. .class
+B. .txt
+C. .java
+D. .exe
+
+Q71. What does 'Math.sqrt()' return?
+A. The square of a number
+B. The square root of a number
+C. The power of a number
+D. The absolute value
+
+Q72. Medium: Which tab in KompoZer allows you to view both the design and the source code of the current element simultaneously?
+A. Design
+B. Source
+C. Split
+D. Preview
+
+Q73. Which package must be imported to use the `Date` class?
+A. java.io
+B. java.lang
+C. java.util
+D. java.sql
+
+Q74. Medium: What does the 'Initial Value' field in the 'Form Field Properties' dialog box do?
+A. It sets the field name.
+B. It sets the default text that appears in the text box when the form loads.
+C. It sets the maximum length of the input.
+D. It validates the input.
+
+Q75. Medium: Which Java operator is used to create a new object?
+A. class
+B. object
+C. new
+D. create
+
+Q76. What is the relationship called when a class contains objects of another class?
+A. Inheritance
+B. Composition / Aggregation
+C. Overloading
+D. Abstraction
+
+Q77. Medium: What does 'SET' stand for in transactions?
+A. Secure Electronic Transfer
+B. Secure Electronic Transaction
+C. Standard Electronic Transfer
+D. Safe Electronic Transaction
+
+Q78. Medium: What is the main advantage of using CSS mentioned in the text?
+A. It makes the website slower.
+B. It avoids duplication in coding.
+C. It replaces HTML completely.
+D. It is a programming language.
+
+Q79. Which method is used to sort only a range of elements in an array?
+A. sortRange()
+B. sort(array, fromIndex, toIndex)
+C. sort(array, index)
+D. partialSort()
+
+Q80. In the KompoZer CSS Stylesheets dialog, under which tab would you find the option to set the 'Opacity' of an element?
+A. General
+B. Box
+C. Background
+D. Text
+
+Q81. Medium: What is the specific purpose of the `RationalPlan Multi` version?
+A. To manage single, independent projects.
+B. To play multimedia files.
+C. To manage interdependent projects sharing common resources.
+D. To view projects only.
+
+Q82. Medium: What does the `return false` statement do in a form validation script?
+A. It submits the form.
+B. It stops the function execution and prevents form submission.
+C. It clears the form fields.
+D. It refreshes the page.
+
+Q83. Which view mode in KompoZer shows the page exactly as it would appear in a browser?
+A. Normal
+B. HTML Tags
+C. Preview
+D. Design
+
+Q84. Medium: What does the `return false;` statement do in a form validation script?
+A. Submits the form
+B. Prevents the form from being submitted
+C. Reloads the page
+D. Validates the data
+
+Q85. Medium: Information Services in E-Commerce allow users to:
+A. Buy physical goods only
+B. Access educational results, notices, and forms online
+C. Chat with friends
+D. Edit videos
+
+Q86. Which tab shows the generated CSS code?
+A. Text
+B. General
+C. Aural
+D. Box
+
+Q87. Medium: In Java, which operator is used to access instance variables of an object?
+A. Arrow (->)
+B. Dot (.)
+C. Colon (:)
+D. Comma (,)
+
+Q88. In E-Commerce security, what does 'Non-repudiation' ensure?
+A. Data is encrypted.
+B. The sender cannot deny sending the message.
+C. Only authorized users access data.
+D. Data is not altered.
+
+Q89. Medium: What is 'IDE' in the context of software development?
+A. Integrated Development Environment
+B. Integrated Design Environment
+C. Internal Development Environment
+D. Interface Design Environment
+
+Q90. In the CSS Stylesheets dialog, which tab is used to change the font family and size?
+A. General
+B. Text
+C. Background
+D. Borders
+
+Q91. What does the JavaScript function `isNaN()` check for?
+A. If the value is null
+B. If the value is not a number
+C. If the value is empty
+D. If the value is a valid number
+
+Q92. What is the primary role of the 'Site Manager'?
+A. To manage CSS styles.
+B. To navigate within the site or between sites.
+C. To preview the page.
+D. To debug HTML code.
+
+Q93. Medium: Which tab in the CSS Stylesheets dialog box allows you to change the 'Case' of text (e.g., to Uppercase)?
+A. General
+B. Text
+C. Box
+D. Borders
+
+Q94. What does the 'Alignment' option in the 'Text' tab allow you to do?
+A. Change text color
+B. Set text to Left, Center, or Right
+C. Make text Bold
+D. Underline text
+
+Q95. Hard: In M-Commerce, what does the term 'Ubiquity' imply?
+A. High cost
+B. Limited range
+C. The user can be contacted virtually anytime and anywhere
+D. Only offline access
+
+Q96. Medium: What distinguishes 'Marketing and Selling' in E-Commerce from traditional catalogs?
+A. It is slower.
+B. It provides a global reach and interactive product display (video/briefs).
+C. It requires physical paper.
+D. It is only for books.
+
+Q97. Medium: What are the two main parts of a CSS rule?
+A. Header and Body
+B. Selector and Declaration
+C. Tag and Attribute
+D. Script and Style
+
+Q98. In the R scripting example, what does `ylim=c(0,1000)` accomplish?
+A. It limits the number of bars to 1000.
+B. It sets the Y-axis range from 0 to 1000.
+C. It sets the color limit.
+D. It defines the X-axis labels.
+
+Q99. Medium: Which tab in the CSS Stylesheets dialog allows you to set a 'dotted' line around an element?
+A. Box
+B. Outline
+C. Borders
+D. General
+
+Q100. Which modifier provides visibility to classes defined in other packages?
+A. private
+B. package
+C. protected
+D. public
+
+---
+ANSWER KEY
+
+1 → C	2 → B	3 → B	4 → C
+5 → B	6 → B	7 → B	8 → B
+9 → C	10 → A	11 → D	12 → B
+13 → C	14 → B	15 → C	16 → B
+17 → A	18 → B	19 → C	20 → B
+21 → B	22 → B	23 → C	24 → B
+25 → C	26 → C	27 → B	28 → C
+29 → A	30 → C	31 → A	32 → B
+33 → D	34 → B	35 → C	36 → C
+37 → A	38 → B	39 → C	40 → B
+41 → C	42 → A	43 → B	44 → A
+45 → B	46 → C	47 → B	48 → B
+49 → B	50 → B	51 → C	52 → B
+53 → C	54 → B	55 → A	56 → C
+57 → C	58 → B	59 → B	60 → C
+61 → B	62 → C	63 → C	64 → C
+65 → C	66 → B	67 → B	68 → B
+69 → C	70 → C	71 → B	72 → C
+73 → C	74 → B	75 → C	76 → B
+77 → A	78 → B	79 → B	80 → C
+81 → C	82 → B	83 → C	84 → B
+85 → B	86 → B	87 → B	88 → B
+89 → A	90 → B	91 → B	92 → B
+93 → B	94 → B	95 → C	96 → B
+97 → B	98 → B	99 → C	100 → D
+
+---
+.

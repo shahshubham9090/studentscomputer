@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Easy: What does 'HTML' stand for?",
+        "choices": [
+            "Hyper Text Markup Language",
+            "Hyper Tool Markup Language",
+            "Hyper Text Makeup Language",
+            "Hybrid Text Markup Language"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #1: HTML - Hyper Text Markup Language.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which organization sets the standards for the World Wide Web (W3C)?",
+        "choices": [
+            "World Wide Web Consortium",
+            "World Wide Web Company",
+            "World Wide Web Center",
+            "World Wide Web Committee"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #12: W3C - World Wide Web Consortium.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What does the abbreviation 'GSWAN' refer to?",
+        "choices": [
+            "Gujarat State Wide Area Network",
+            "Global State Wide Area Network",
+            "General State Wide Area Network",
+            "Government State Wide Area Network"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #20: GSWAN - Gujarat State Wide Area Network.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is 'GUI'?",
+        "choices": [
+            "Graphical User Interface",
+            "General User Interface",
+            "Global User Interface",
+            "Graphical Unit Interface"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #5: GUI - Graphical User Interface.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does 'SSL' stand for in network security?",
+        "choices": [
+            "Secure Socket Layer",
+            "Secure Service Layer",
+            "Standard Socket Layer",
+            "System Socket Layer"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #28: SSL - Secure Socket Layer.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is the full form of 'NPCI'?",
+        "choices": [
+            "National Payment Corporation of India",
+            "National Payment Commission of India",
+            "New Payment Corporation of India",
+            "National Public Corporation of India"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #32: NPCI - National Payment Corporation of India.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What does 'URL' stand for?",
+        "choices": [
+            "Uniform Resource Locator",
+            "Universal Resource Locator",
+            "Uniform Resource Link",
+            "Universal Resource Link"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #3: URL - Uniform Resource Locator.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is 'IDE' in the context of software development?",
+        "choices": [
+            "Integrated Development Environment",
+            "Integrated Design Environment",
+            "Internal Development Environment",
+            "Interface Design Environment"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #4: IDE - Integrated Development Environment.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What does 'ADT' stand for in data structures?",
+        "choices": [
+            "Abstract Data Types",
+            "Advanced Data Types",
+            "Array Data Types",
+            "Algorithm Data Types"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #39: ADT - Abstract Data Types.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is 'CSS'?",
+        "choices": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Colorful Style Sheets"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #7: CSS - Cascading Style Sheets.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does 'WYSIWYG' stand for?",
+        "choices": [
+            "What You See Is What You Get",
+            "What You See Is What You Give",
+            "Where You See Is Where You Go",
+            "Who You See Is Who You Get"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #6: WYSIWYG - What You See Is What You Get.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is 'UML'?",
+        "choices": [
+            "Unified Modelling Language",
+            "Universal Modeling Language",
+            "Unified Management Language",
+            "Universal Management Language"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #38: UML - Unified Modelling Language.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What does 'ISP' stand for?",
+        "choices": [
+            "Internet Service Provider",
+            "Internal Service Provider",
+            "International Service Provider",
+            "Internet System Protocol"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #10: ISP - Internet Service Provider.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is 'BOM' in web browsers?",
+        "choices": [
+            "Browser Object Model",
+            "Basic Object Model",
+            "Binary Object Model",
+            "Browser Oriented Model"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #8: BOM - Browser Object Model.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What does 'NaN' signify?",
+        "choices": [
+            "Not a Number",
+            "New and Null",
+            "Null and Number",
+            "Not a Null"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #9: NaN - Not a Number.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is 'B2C' in e-commerce?",
+        "choices": [
+            "Business to Customer (Consumer)",
+            "Business to Company",
+            "Buyer to Consumer",
+            "Bank to Customer"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #13: B2C - Business to Customer (Consumer).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does 'G2B' stand for?",
+        "choices": [
+            "Government to Business",
+            "Government to Bank",
+            "General to Business",
+            "Global to Business"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #18: G2B - Government to Business.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is 'IRCTC'?",
+        "choices": [
+            "Indian Railway Catering & Tourism Corporation Ltd",
+            "Indian Railway Corporation & Tourism Centre",
+            "Indian Railway Catering & Travel Corporation",
+            "International Railway Catering & Tourism Corporation"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #23: IRCTC - Indian Railway Catering & Tourism Corporation Ltd.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What does 'GPS' stand for?",
+        "choices": [
+            "Global Positioning System",
+            "General Positioning System",
+            "Global Placement System",
+            "General Placement System"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #24: GPS - Global Positioning System.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is 'TTP'?",
+        "choices": [
+            "Trusted Third Party",
+            "Trusted Transaction Protocol",
+            "Third Transaction Party",
+            "Transfer Third Party"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #25: TTP - Trusted Third Party.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What does 'CA' stand for in security?",
+        "choices": [
+            "Certification Authority",
+            "Certificate Authentication",
+            "Computer Authority",
+            "Central Authentication"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #26: CA - Certification Authority.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is 'ATM'?",
+        "choices": [
+            "Automatic Teller Machine",
+            "Automated Transaction Machine",
+            "Any Time Money",
+            "All Time Money"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #27: ATM - Automatic Teller Machine.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does 'SET' stand for in transactions?",
+        "choices": [
+            "Secure Electronic Transfer",
+            "Secure Electronic Transaction",
+            "Standard Electronic Transfer",
+            "Safe Electronic Transaction"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #30: SET - Secure Electronic Transfer.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is 'JDK'?",
+        "choices": [
+            "Java Development Kit",
+            "Java Design Kit",
+            "Java Deployment Kit",
+            "Java Desktop Kit"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #33: JDK - Java Development Kit.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is 'JVM'?",
+        "choices": [
+            "Java Virtual Machine",
+            "Java Visual Machine",
+            "Java Verified Machine",
+            "Java Vital Machine"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #35: JVM - Java Virtual Machine.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does 'OMG' stand for?",
+        "choices": [
+            "Object Management Group",
+            "Object Modeling Group",
+            "Oriented Management Group",
+            "Object Maintenance Group"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #37: OMG - Object Management Group.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is 'IEEE'?",
+        "choices": [
+            "Institute of Electrical & Electronic Engineers",
+            "International Electrical & Electronic Engineers",
+            "Institute of Energy & Electronic Engineers",
+            "International Energy & Electronic Engineers"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #41: IEEE - Institute of Electrical & Electronic Engineers.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What does 'API' stand for?",
+        "choices": [
+            "Application Programing Interface",
+            "Application Protocol Interface",
+            "Advanced Programing Interface",
+            "Automated Programing Interface"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #42: API - Application Programing Interface.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is 'ASCII'?",
+        "choices": [
+            "American Standard Code for Information Interchange",
+            "American System Code for Information Interchange",
+            "Advanced Standard Code for Information Interchange",
+            "Automated Standard Code for Information Interchange"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #51: ASCII - American Standard Code for Information Interchange.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What does 'CTAN' refer to?",
+        "choices": [
+            "Comprehensive TeX Archive Network",
+            "Computer TeX Archive Network",
+            "Common TeX Archive Network",
+            "Central TeX Archive Network"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Based on handwritten note #60: CTAN - Comprehensive TeX Archive Network.",
+        "timeSeconds": 60
+    }
+]

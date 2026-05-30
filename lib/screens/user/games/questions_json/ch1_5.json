@@ -1,0 +1,362 @@
+[
+    {
+        "text": "What does the acronym WYSIWYG stand for?",
+        "choices": [
+            "What You See Is What You Get",
+            "Where You See Is Where You Go",
+            "Who You See Is Who You Get",
+            "What You Say Is What You Get"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "KompoZer provides a web page editor which has a simple graphical interface known as WYSIWYG (What You See Is What You Get).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which Java keyword is used to create a new object?",
+        "choices": [
+            "create",
+            "new",
+            "class",
+            "object"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The keyword 'new' is used to create the object by allocating memory.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the primary use of the 'R' software?",
+        "choices": [
+            "Web browsing",
+            "Statistical computing",
+            "Video editing",
+            "Email management"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "R is a free software environment for statistical computing.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In an HTML form, which attribute specifies the filename where data is sent?",
+        "choices": [
+            "method",
+            "action",
+            "name",
+            "type"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The action attribute is used to specify where to send the form data... It takes a filename as value.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the index of the first element in a Java array?",
+        "choices": [
+            "1",
+            "0",
+            "-1",
+            "10"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Index specifies the position of an element in an array... Index value starts from 0.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which software is used to play audio and video files?",
+        "choices": [
+            "RationalPlan",
+            "VLC Media Player",
+            "Archive Manager",
+            "R"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "VLC media player... provides several options for playback of audio and video.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which HTML tag is used to create a text box for user input?",
+        "choices": [
+            "<box>",
+            "<input>",
+            "<text>",
+            "<write>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The tag <input> ... is used to implement this element. The input tag has different attributes like type....",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In Java, which symbol is used for a single-line comment?",
+        "choices": [
+            "//",
+            "/*",
+            "#",
+            "--"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Single-line comment: It begins with double slashes (//).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Google Maps is a service primarily used for:",
+        "choices": [
+            "Writing code",
+            "Finding locations and directions",
+            "Compressing files",
+            "Managing projects"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Google Maps... It can be used to search for a place and find its exact location... find directions.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which attribute of the form tag specifies the HTTP method (GET or POST)?",
+        "choices": [
+            "action",
+            "method",
+            "name",
+            "value"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The method attribute specifies the HTTP method to be used when sending the data.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the file extension for a compiled Java file?",
+        "choices": [
+            ".java",
+            ".class",
+            ".exe",
+            ".txt"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When the program gets compiled... compiler creates a file with extension .class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which tool allows you to insert special characters like Gujarati letters?",
+        "choices": [
+            "Character Map",
+            "Skype",
+            "R",
+            "Google Maps"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The Character Map program... can be used to enter Unicode characters into any application.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In KompoZer, which tab allows you to see the HTML source code?",
+        "choices": [
+            "Design",
+            "Source",
+            "Preview",
+            "Normal"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Source tab shows all details of the HTML code.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "RationalPlan is software used for?",
+        "choices": [
+            "Project Management",
+            "Photo Editing",
+            "Web Design",
+            "Music Playback"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "RationalPlan is an open source software designed to assist project managers.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which HTML input type is used for a password field?",
+        "choices": [
+            "text",
+            "password",
+            "hidden",
+            "secure"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Password: Creates a password field... the characters are not displayed to the user.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is a 'Class' in Java?",
+        "choices": [
+            "A variable",
+            "A template for creating objects",
+            "A database",
+            "A hardware component"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "A class is a template for multiple objects with similar features.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Skype is primarily used for?",
+        "choices": [
+            "Voice and video communication",
+            "Drawing graphs",
+            "Coding java",
+            "Viewing maps"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The Skype service allows users to communicate with peers using voice, video as well as text.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which tag creates a submit button in a form?",
+        "choices": [
+            "<button>",
+            "<input type='submit'>",
+            "<submit>",
+            "<enter>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Submit: Creates a submit button... <INPUT TYPE = \"submit\" ...>.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the R software, what command is used to quit?",
+        "choices": [
+            "exit()",
+            "q()",
+            "stop()",
+            "end()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Based on the exercise section: Which command is used to quit from R? ... (b) q().",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which HTML tag is used for multi-line text input?",
+        "choices": [
+            "<input>",
+            "<textarea>",
+            "<textbox>",
+            "<text>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Textarea element allows multi-line text input. The tag <textarea>... is used.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the default value of an integer variable in a Java array?",
+        "choices": [
+            "1",
+            "0",
+            "-1",
+            "null"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "As array is an object, so its elements are initialized with default values (0 for int).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does Archive Manager do?",
+        "choices": [
+            "Plays songs",
+            "Compresses and extracts files",
+            "Edits photos",
+            "Browses the web"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Archive Manager permits us to combine many files... into a single file... and compress the file.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which view in KompoZer shows the page as it would appear in a browser?",
+        "choices": [
+            "Source",
+            "Preview",
+            "Design",
+            "Tags"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Preview mode offers the page view as seen in a browser.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which Java package contains the `Date` class?",
+        "choices": [
+            "java.io",
+            "java.util",
+            "java.lang",
+            "java.sql"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Java library also provides Date class in java.util package.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What allows you to select multiple items in a form?",
+        "choices": [
+            "Radio button",
+            "Checkbox",
+            "Text field",
+            "Submit button"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Checkbox: Creates checkboxes in the form. Multiple check boxes can be selected at a time.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What prompt symbol does R use to wait for a command?",
+        "choices": [
+            ">",
+            "$",
+            "#",
+            "@"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The screenshot shows commands entered after the '>' symbol.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which button allows you to create a new file in KompoZer?",
+        "choices": [
+            "Open",
+            "New",
+            "Save",
+            "Print"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To create a new file... click File -> New (or use the New icon).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the extension for a Cascading Style Sheet file?",
+        "choices": [
+            ".html",
+            ".css",
+            ".java",
+            ".txt"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "It also supports the use of 'Styles' through Cascading Style Sheet (CSS).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which Java method is used to sort an array?",
+        "choices": [
+            "Arrays.sort()",
+            "Arrays.order()",
+            "Arrays.organize()",
+            "Arrays.list()"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "We can use sort() method to sort entire or part of array.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the `tar` format stand for?",
+        "choices": [
+            "Tape Archiver",
+            "Total Archive",
+            "Text Arrange",
+            "Technical Archive"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "On Linux systems, tar (tape archiver) is the most common archive format.",
+        "timeSeconds": 30
+    }
+]

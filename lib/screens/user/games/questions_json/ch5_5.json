@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Easy: In KompoZer, which menu option is used to change the background color of a webpage?",
+        "choices": [
+            "Format > Page Colors and Background",
+            "Edit > Preferences",
+            "Insert > Background",
+            "View > Page Source"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Observe that the form background is white colored. If you want to give a background color to the form, go to Format -> Page Colors and Background.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In the Java code `int marks[][] = new int[5][3];`, how many total integers can be stored in the array `marks`?",
+        "choices": [
+            "8",
+            "15",
+            "53",
+            "2"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The array is initialized with 5 rows and 3 columns. Total elements = 5 * 3 = 15.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the JavaScript validation script (Figure 2.22), which specific method is used to bring the cursor back to the 'Pincode' field if validation fails?",
+        "choices": [
+            "document.js1.pincode.select()",
+            "document.js1.pincode.focus()",
+            "document.js1.pincode.click()",
+            "document.js1.pincode.reset()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The script shows: `document.js1.pincode.focus();` inside the validation block to return focus to the field.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is the purpose of the 'Page Title' dialog box in KompoZer?",
+        "choices": [
+            "To save the file name",
+            "To enter the title displayed in the browser window title bar",
+            "To create a header for the page content",
+            "To name the form"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 1.14 shows the Page Title dialog box. The text says: 'Please enter a title for the current page. This identifies the page in the window title'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which security threat involves an attacker secretly recording data passing through a network?",
+        "choices": [
+            "Spoofing",
+            "Sniffing",
+            "Phishing",
+            "Denial of Service"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "A sniffer is a program that uses Internet to record information that passes through a computer or router... like tapping the telephone wire.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the shopping cart JavaScript (Code Listing 3.1), what information is stored in the `cookievalue` variable?",
+        "choices": [
+            "Only the total price",
+            "A pipe-separated string of product details",
+            "A colon-separated string of product details (Name, Price, Quantity, Total)",
+            "The user's credit card number"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The code shows: `cookievalue += \":\" + \"Boy's Blue bag\" + \":\" + price...`. The text confirms details are separated with a delimiter \":\" (colon).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which image format is commonly used for logos and illustrations on the web?",
+        "choices": [
+            ".mp3",
+            ".html",
+            ".gif / .jpeg / .png",
+            ".txt"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "While not explicitly defined in a definition box, the file browser in Figure 3.7 shows image files like 'school1.jpg'. Standard web image formats include .jpg, .png, .gif (General web knowledge context from Image Properties).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does the 'Initial Value' field in the 'Form Field Properties' dialog box do?",
+        "choices": [
+            "It sets the field name.",
+            "It sets the default text that appears in the text box when the form loads.",
+            "It sets the maximum length of the input.",
+            "It validates the input."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In Figure 1.10 caption: 'Here enter text abc@xyz.com in the Initial Value textbox. This will help the user understand the format'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: Which Java method is used to sort the elements of an array in ascending order?",
+        "choices": [
+            "Array.sort()",
+            "Arrays.sort()",
+            "Object.sort()",
+            "List.sort()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Class `Arrays` can be used... Examples of such methods are: sort... (Standard Java syntax is `Arrays.sort(array)`).",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: Which symbol is used to define a CSS ID selector?",
+        "choices": [
+            ". (dot)",
+            "# (hash)",
+            "@ (at)",
+            "$ (dollar)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In CSS, an ID selector is defined using the '#' character (e.g., `#header`).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In the 'Publish Page' dialog box, what does the 'HTTP address of your homepage' field represent?",
+        "choices": [
+            "The FTP username",
+            "The local file path",
+            "The actual web URL where the site can be viewed after publishing",
+            "The email address of the admin"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The field 'HTTP address of your homepage' is shown in Figure 3.14 (e.g., http://www.myisp.com/myusername). This is the public URL.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is 'Cyber Vandalism'?",
+        "choices": [
+            "Stealing a laptop.",
+            "Electronic defacing of an existing website page.",
+            "Sending spam emails.",
+            "Phishing for passwords."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Cyber vandalism is the electronic defacing of an existing website page. An attacker replaces the website's original content with his/her own content.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which view in KompoZer is best for users who know HTML tags and want to see markers for them?",
+        "choices": [
+            "Design View",
+            "HTML Tags View",
+            "Preview View",
+            "Web View"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The HTML Tags view helps those who are familiar with HTML. A yellow marker is used to indicate the start tag for all elements.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which E-Commerce security aspect ensures that information is not accidentally or maliciously altered during transit?",
+        "choices": [
+            "Confidentiality",
+            "Integrity",
+            "Authorization",
+            "Non-repudiation"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Integrity: It ensures that the information must not be accidentally or maliciously altered or tampered in transit.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the JavaScript code `var x = document.js1.name.value;`, if the user enters nothing, what is the value of `x`?",
+        "choices": [
+            "null",
+            "\"\" (empty string)",
+            "undefined",
+            "0"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The script checks `if (x==null || x==\"\")`. If the input box is empty, the value property typically returns an empty string `\"\"`.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What does the acronym 'ISP' stand for?",
+        "choices": [
+            "Internet Service Protocol",
+            "Internal Service Provider",
+            "Internet Service Provider",
+            "International Security Protocol"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Internet Service Provider (ISP) offers limited free space on the web server.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which type of payment card has a microchip embedded in its surface?",
+        "choices": [
+            "Credit Card",
+            "Debit Card",
+            "Smart Card",
+            "Charge Card"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Smart cards look just like credit cards but are different as they have a microchip embedded in their surface.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In Java, which method is used to get the number of characters in a String object?",
+        "choices": [
+            "length",
+            "size()",
+            "length()",
+            "getSize()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "With String object, length is a method. So we need to use `()` while using length method. `str.length()`.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: Which KompoZer toolbar allows you to format text (Bold, Italic, Alignment)?",
+        "choices": [
+            "Site Manager",
+            "Format Toolbar",
+            "Composition Toolbar",
+            "Edit Toolbar"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Format Toolbar 1 and Format Toolbar 2 are used for formatting options (Bold, Italic, etc. are shown in these bars in Figure 1.1).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is 'Spoofing' in network security?",
+        "choices": [
+            "Listening to network traffic",
+            "Pretending to be someone else (e.g., a fake website)",
+            "Overloading a server",
+            "Stealing a credit card"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Spoofing or masquerading is pretending to be someone you are not, or representing a website as authentic when it is actually a fake.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the CSS Stylesheets dialog, to apply a style to all `<p>` tags, which selector type do you choose?",
+        "choices": [
+            "style applied to all elements of class",
+            "style applied to an element with specified ID",
+            "style applied to all elements of type",
+            "custom style rule"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "To apply a style to a specific HTML tag (like h1 or p) across the site, you select 'style applied to all elements of type'.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which HTML tag is used to define a single row in a table?",
+        "choices": [
+            "<td>",
+            "<tr>",
+            "<th>",
+            "<table>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Though not explicitly defined in text, standard HTML knowledge applies. `<tr>` stands for Table Row. The context of inserting tables implies row/column structure.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which specific Java class is mentioned for creating date objects?",
+        "choices": [
+            "Calendar",
+            "GregorianCalendar",
+            "DateFormat",
+            "Time"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The text mentions 'We will see the use of GregorianCalendar subclass of Calendar class'. The `Date` class is also mentioned.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the JavaScript 'Advanced Property Editor', under which tab do you add the `onsubmit` event?",
+        "choices": [
+            "HTML Attributes",
+            "Inline Style",
+            "JavaScript Events",
+            "General"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 2.17 shows the 'Advanced Property Editor' with the 'JavaScript Events' tab selected to add `onsubmit`.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: What is a 'Firewall'?",
+        "choices": [
+            "A physical wall around a server room",
+            "A program to detect viruses",
+            "A barrier between a local network and the outside world",
+            "A backup system"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The most commonly used network protection barrier between the company's network and the outside world is a Firewall.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does the term 'Non-repudiation' ensure in E-Commerce security?",
+        "choices": [
+            "Data is encrypted",
+            "The sender cannot deny sending the message",
+            "Only authorized users can access data",
+            "Data is not altered"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Non-repudiation: It ensures that the sender of the message cannot deny that he/she has sent the message.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: Which attribute of the `<table>` tag in KompoZer sets the gap between the cell content and the cell wall?",
+        "choices": [
+            "Spacing",
+            "Padding",
+            "Border",
+            "Width"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Padding gives a gap between the edge of the cell and the text within it.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: Which type of commerce involves buying and selling using mobile devices?",
+        "choices": [
+            "E-Commerce",
+            "L-Commerce",
+            "M-Commerce",
+            "T-Commerce"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Mobile Commerce also known as M-commerce... refers to buying and selling... through the use of Internet enabled wireless devices.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which Java operator allows you to access methods and variables of an object?",
+        "choices": [
+            "-> (Arrow)",
+            ":: (Scope Resolution)",
+            ". (Dot)",
+            "# (Hash)"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Instance variables and instance methods are accessed via objects. They can be referred by using dot (.) operator.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the CSS 'Background' tab, if you want an image to scroll with the page, what should be the setting for 'Attachment' (implied)?",
+        "choices": [
+            "Fixed",
+            "Scroll",
+            "Local",
+            "Static"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 2.6 shows a checkbox 'Image scrolls with the page'. If checked, it scrolls; if unchecked (Fixed), it stays. The default behavior is scrolling.",
+        "timeSeconds": 60
+    }
+]

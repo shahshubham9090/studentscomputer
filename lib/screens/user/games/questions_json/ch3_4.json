@@ -1,0 +1,362 @@
+[
+    {
+        "text": "In the shopping cart JavaScript (Code Listing 3.1), what specific delimiter is used to separate individual product details in the 'cookievalue' string?",
+        "choices": [
+            "Comma (,)",
+            "Colon (:)",
+            "Semicolon (;)",
+            "Pipe (|)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text below Code Listing 3.1 states: 'Individual product description is separated with delimiter \":\" (colon). The script continues for each item listed.'.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the 'Image Properties' dialog box, under which tab is the 'Alternate text' option located?",
+        "choices": [
+            "Appearance",
+            "Dimensions",
+            "Location",
+            "Link"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 3.7 shows the 'Image Properties' dialog box where the 'Alternate text' radio button and input field are located under the 'Location' tab.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which phase of website planning specifically involves ensuring the design scales for smart phones and tablets?",
+        "choices": [
+            "Purpose",
+            "Content",
+            "Medium",
+            "Audience"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Under the 'Medium' section, it mentions: 'The website design should scale for all the devices like computers, smart phones, and tablets.'.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the JavaScript function `oncart()`, which DOM method is used to check if a specific checkbox is selected?",
+        "choices": [
+            "document.getElementByName()",
+            "document.getElementById()",
+            "document.querySelector()",
+            "document.forms[0].elements"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The code listing shows the logic: `if(document.getElementById(\"b1\").checked)`. It uses `getElementById`.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the CSS Stylesheets dialog, which option in the 'Background' tab allows you to control whether an image repeats?",
+        "choices": [
+            "Opacity",
+            "Position",
+            "Tile",
+            "Scroll"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In Figure 2.6 (Background tab), the option 'Tile' is visible with dropdowns for horizontal and vertical repetition.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the specific definition of 'Spacing' in the KompoZer Table Properties dialog?",
+        "choices": [
+            "Gap between the edge of the cell and the text",
+            "Gap between cells",
+            "Width of the table border",
+            "Margin of the table"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text states: 'Spacing is used to specify gap between cells.' (Contrast with Padding which is gap between edge and text).",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which constructor of the Java `Date` class initializes the object with the time elapsed since January 1, 1970 GMT?",
+        "choices": [
+            "Date()",
+            "Date(long elapsedTime)",
+            "Date(String s)",
+            "Date(int year, int month, int date)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Table 9.3: `Date(long elapsedTime)` Constructs Date object using specified time in milliseconds elapsed since January 1, 1970 GMT.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the 'School Plaza' website example, what is the standard file name recommended for the home page?",
+        "choices": [
+            "home.html",
+            "start.html",
+            "index.html",
+            "school.html"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The text states: 'Save the file with the name \"index.html\". Generally, whenever we create the home page of the website it is named as index.html.'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which tab in the CSS Stylesheets dialog allows you to change the text capitalization (e.g., Uppercase)?",
+        "choices": [
+            "General",
+            "Text",
+            "Box",
+            "Lists"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the Text tab (Figure 2.5), you can choose 'Uppercase' from the Case menu.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the Java method `\"India\".compareTo(\"India\")` return?",
+        "choices": [
+            "True",
+            "1",
+            "0",
+            "Null"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The `compareTo` method returns 0 if the invoking string is equal to the argument string.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the JavaScript statement `var x = document.js1.name.value;`, what does `name` refer to?",
+        "choices": [
+            "The name of the form",
+            "The name of the input field element",
+            "The value entered by the user",
+            "The label of the field"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text explains: '...js1 is the name of the form... name refers to the element name (the name given to the input field \"first name\").'.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the 'Link Properties' dialog, which checkbox ensures the link is saved relative to the current file location?",
+        "choices": [
+            "URL is relative to page location",
+            "The above is an email address",
+            "Target: in a new window",
+            "More Properties"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Figure 3.12 shows the checkbox 'URL is relative to page location' is checked. This makes the site portable.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the shopping cart script (Code Listing 3.2), which function is used to convert the price from a string to a number for calculation?",
+        "choices": [
+            "parseInt()",
+            "parseFloat()",
+            "Number()",
+            "toDecimal()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The code listing shows: `total2+=parseFloat(cookiedata[2]);` and `total3+=parseFloat(cookiedata[3]);`.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which button on the KompoZer Composition toolbar opens the CSS Stylesheets dialog?",
+        "choices": [
+            "Format",
+            "Table",
+            "Cascade",
+            "Edit Mode"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In the composition toolbar, select the Cascade button. This will open the CSS Stylesheets dialog box.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "What does the `String` method `concat()` do in Java?",
+        "choices": [
+            "Removes whitespace",
+            "Appends one string to the end of another",
+            "Splits the string",
+            "Compares two strings"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`String concat(String str)` returns a string after appending str with the invoking string.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "RationalPlan Multi is specifically distinguished from the Single version by its ability to:",
+        "choices": [
+            "Create Gantt charts",
+            "Manage independent projects",
+            "Manage projects sharing company resources",
+            "Export to PDF"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "RationalPlan Multi allows us to manage projects that share company resources... It includes all features of RationalPlan Single plus interdependencies.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which attribute of the `<form>` tag takes a filename as its value?",
+        "choices": [
+            "method",
+            "name",
+            "action",
+            "target"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The action attribute is used to specify where to send the form data... It takes a filename as value.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "In CSS syntax `H1 { color : green }`, what is the entire block inside the curly braces `{ ... }` called?",
+        "choices": [
+            "Selector",
+            "Property",
+            "Declaration block",
+            "Value"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The syntax is `Selector { property : value }`. The content inside `{}` consists of one or more declarations.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the JavaScript `validateForm()` function, what is the specific purpose of `document.js1.name.focus()`?",
+        "choices": [
+            "To highlight the text",
+            "To place the cursor inside the 'name' element",
+            "To clear the field",
+            "To submit the form"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The focus method is used to apply focus on a particular element... the cursor will be placed inside the element.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "When creating a table in KompoZer, the 'Width' can be defined in which two units?",
+        "choices": [
+            "Inches and Pixels",
+            "Pixels and % of window",
+            "Points and Centimeters",
+            "Em and Px"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Height and width can be specified in pixels or % of the window.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which R function allows you to create a histogram?",
+        "choices": [
+            "barplot()",
+            "histogram()",
+            "hist()",
+            "plot()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The histogram can be drawn using the code shown in figure 13.14 (code uses `hist(marks...)`).",
+        "timeSeconds": 40
+    },
+    {
+        "text": "In Java, if `String s = \"Java\";`, what does `s.length()` return?",
+        "choices": [
+            "3",
+            "4",
+            "5",
+            "null"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The string \"Java\" has 4 characters. `length()` returns the number of characters.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "If you select 'internal stylesheet' in the CSS dialog, where is the CSS code physically stored?",
+        "choices": [
+            "In an external .css file",
+            "In the <head> section of the HTML document",
+            "Inline within HTML tags",
+            "In the browser's cache"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The term 'internal stylesheet' corresponds to the generated code shown in Figure 2.12, which places the CSS inside the `<style>` tag within the head section.",
+        "timeSeconds": 55
+    },
+    {
+        "text": "What does the JavaScript event `onmouseout` signify?",
+        "choices": [
+            "Mouse clicks the element",
+            "Mouse moves over the element",
+            "Mouse moves off the element",
+            "Image loading is cancelled"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Table 2.1: `mouseout` - Mouse moves off the element.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "In the shopping cart JavaScript, how is the 'total' variable calculated?",
+        "choices": [
+            "total = price + quantity",
+            "total = price * quantity",
+            "total = price / quantity",
+            "total = price - quantity"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The code listing 3.1 shows: `var total = (price * quantity);`.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "To insert a Horizontal Line in KompoZer, which menu path is correct?",
+        "choices": [
+            "Format > Horizontal Line",
+            "Insert > Horizontal Line",
+            "Table > Insert Line",
+            "Edit > Insert Line"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To insert a horizontal line, go to Insert -> Horizontal line.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "What is the syntax for initializing a 2D array in Java with 5 rows and 3 columns?",
+        "choices": [
+            "int marks[][] = new int[5][3];",
+            "int marks = new int[5,3];",
+            "int marks[][] = {5, 3};",
+            "array marks[5][3];"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Figure 9.10 code shows: `int marks[][] = new int[5][3];`. This confirms the syntax.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the 'Link Properties' dialog box, checking 'URL is relative to page location' ensures what?",
+        "choices": [
+            "The link opens in a new window.",
+            "The link path is stored relative to the file, making the site portable.",
+            "The link is validated.",
+            "The link becomes an email address."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 3.12 shows this checkbox checked. This ensures the link path is relative (e.g. 'school-bags.html') rather than absolute.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the JavaScript validation script, what does `if(x==null || x==\"\")` check for?",
+        "choices": [
+            "If x is a number",
+            "If x is undefined",
+            "If the field represented by x is empty or null",
+            "If x contains special characters"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The script uses `if(x==null || x==\"\")` to check if the user left the name field empty.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which CSS tab allows you to set 'Text decorations' like blink or underline?",
+        "choices": [
+            "General",
+            "Text",
+            "Box",
+            "Background"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 2.5 (Text tab) shows a 'Text decorations' section with checkboxes for Overline, Line-through, Underline, and Blinking.",
+        "timeSeconds": 45
+    }
+]

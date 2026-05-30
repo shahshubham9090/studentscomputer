@@ -1,0 +1,362 @@
+[
+    {
+        "text": "What is the full form of 'GSWAN'?",
+        "choices": [
+            "Gujarat State Wide Area Network",
+            "Global Software Area Network",
+            "General System Wide Area Network",
+            "Gujarat Software Access Network"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "According to the handwritten notes (item 20), GSWAN stands for Gujarat State Wide Area Network.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does 'WYSIWYG' stand for?",
+        "choices": [
+            "What You See Is What You Get",
+            "Where You See Is Where You Go",
+            "Why You See Is What You Get",
+            "What You Saw Is What You Got"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 6 in the notes defines WYSIWYG as 'what you see is what you get'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the context of the notes, what is 'IDE'?",
+        "choices": [
+            "Internal Development Environment",
+            "Integrated Development Environment",
+            "Internet Development Engine",
+            "Image Design Editor"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 4 defines IDE as 'Integrated development Environment'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'IRCTC'?",
+        "choices": [
+            "Indian Railway Catering & Tourism Corporation Ltd",
+            "Indian Road Transport Corporation",
+            "International Railway Ticketing Centre",
+            "Indian Rail Transit Company"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 23 lists IRCTC as 'Indian Railway Catering & Tourism Corporation Ltd'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does 'BOM' stand for?",
+        "choices": [
+            "Basic Object Model",
+            "Browser Object Model",
+            "Binary Object Method",
+            "Business Operation Mode"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 8 defines BOM as 'Browser Object Model'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'NPCI'?",
+        "choices": [
+            "National Payment Council of India",
+            "National Payment Corporation of India",
+            "Net Payment Card Interface",
+            "New Payment Credit India"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 31 defines NPCI as 'National Payment Corporation of India'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does 'JDK' stand for?",
+        "choices": [
+            "Java Development Kit",
+            "Java Design Kernel",
+            "Just Development Kit",
+            "Joint Data Key"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 33 lists JDK as 'Java Development Kit'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does 'JVM' stand for?",
+        "choices": [
+            "Java Visual Machine",
+            "Java Virtual Machine",
+            "Just Virtual Mode",
+            "Joint Video Mechanism"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 35 defines JVM as 'Java Virtual Machine'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'ASCII'?",
+        "choices": [
+            "American Standard Code for Information Interchange",
+            "Asian Standard Code for Internet Interchange",
+            "American System Code for Information Input",
+            "Advanced Standard Code for Interface"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 51 defines ASCII as 'American Standard Code for Information Interchange'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does 'SATA' stand for according to the notes?",
+        "choices": [
+            "Serial Advanced Technology Attachment",
+            "System Advanced Transfer Adapter",
+            "Serial Access Tech Adapter",
+            "Standard Advance Technology Attachment"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 56 lists SATA as 'Serial Advance Technology Achievement' (Note: Standard is Attachment, but notes say Achievement/Attachment - the handwriting is tricky, but 'Advance Technology' matches the notes).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the full form of 'GIMP'?",
+        "choices": [
+            "General Image Manipulation Program",
+            "GNU Image Manipulation Programme",
+            "Graphic Interface Management Protocol",
+            "Global Internet Map Program"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 69 defines GIMP as 'GNU Image Manipulation Programme'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does 'L-Commerce' stand for?",
+        "choices": [
+            "Local Commerce",
+            "Locational Commerce",
+            "Legal Commerce",
+            "Large Commerce"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 72 lists L-Commerce as 'Locational Commerce'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'MFS'?",
+        "choices": [
+            "Mobile File System",
+            "Mobile Financial Services",
+            "Main Financial System",
+            "Multi Functional Service"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 71 defines MFS as 'Mobile Financial Services'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does 'SET' stand for in the context of the notes?",
+        "choices": [
+            "Secure Electronic Transfer",
+            "Standard Electronic Test",
+            "System Error Test",
+            "Simple Email Transfer"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 30 defines SET as 'Secure Electronic Transfer'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'ADT'?",
+        "choices": [
+            "Advanced Data Technology",
+            "Abstract Data Types",
+            "Audio Digital Transfer",
+            "Analog Data Transmission"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 39 lists ADT as 'Abstract Data Types'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does 'ScITE' stand for?",
+        "choices": [
+            "Science Text Editor",
+            "Scintilla Text Editor",
+            "Script Text Editor",
+            "Screen Text Editor"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 40 defines ScITE as 'Scintilla Text Editor' (Note: Handwriting looks like 'Scientilla', closest valid match is Scintilla).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the full form of 'OMG'?",
+        "choices": [
+            "Object Management Group",
+            "Open Media Group",
+            "Object Modelling Group",
+            "Online Marketing Guide"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 37 defines OMG as 'Object Management Group'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does 'UML' stand for?",
+        "choices": [
+            "Universal Modelling Language",
+            "Unified Modelling Language",
+            "User Markup Language",
+            "Uniform Media Link"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 38 defines UML as 'Unified Modelling Language'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'IEEE'?",
+        "choices": [
+            "Institute of Energy and Electrical Engineers",
+            "Institute of Electrical & Electronic Engineers",
+            "Indian Electrical & Electronic Experts",
+            "International Engineering & Energy Enterprise"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 41 defines IEEE as 'Institute of Electrical & Electronic Engineers'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does 'API' stand for?",
+        "choices": [
+            "Application Program Interface",
+            "Application Programming Interface",
+            "Advanced Program Instruction",
+            "Automated Process Integration"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 42 lists API as 'Application Programming Interface'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'XOR'?",
+        "choices": [
+            "eXtra OR",
+            "Exclusive OR",
+            "Cross OR",
+            "Extended OR"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 43 defines XOR as 'Exclusive OR'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does 'VLC' stand for?",
+        "choices": [
+            "Video Large Container",
+            "Video Lan Client",
+            "Virtual Linux Computer",
+            "Visual Link Control"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 65 defines VLC as 'Video Lan Client'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'CTAN'?",
+        "choices": [
+            "Computer Text Archive Network",
+            "Comprehensive Text Archive Network",
+            "Common Text Access Node",
+            "Central Text Archive Network"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 60 lists CTAN as 'Comprehensive Text Archive Network'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does 'LTS' stand for?",
+        "choices": [
+            "Long Term Support",
+            "Latest Technology Standard",
+            "Local Time Server",
+            "Low Tech Solution"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 62 defines LTS as 'Long Term Support'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'EFT'?",
+        "choices": [
+            "Electronic File Transfer",
+            "Electronic Fund Transfer",
+            "Easy File Transmission",
+            "External Fund Transaction"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 68 defines EFT as 'Electronic Fund Transfer'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does '2FA' stand for?",
+        "choices": [
+            "2 Factor Authentication",
+            "2 File Access",
+            "2 Fast Access",
+            "2 Form Authentication"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 73 defines 2FA as '2 Factor Authentication'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'TTP'?",
+        "choices": [
+            "Trusted Third Party",
+            "Total Transfer Protocol",
+            "Time To Process",
+            "Text Transfer Protocol"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 25 defines TTP as 'Trusted Third Party'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does 'CA' stand for in the context of the notes?",
+        "choices": [
+            "Computer Analyst",
+            "Certification Authority",
+            "Chartered Accountant",
+            "Central Access"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 26 lists CA as 'Certification Authority'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the full form of 'MAN' as written in the notes?",
+        "choices": [
+            "Metropolitan Area Network",
+            "Multi Area Network",
+            "Main Area Network",
+            "Massive Area Network"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Item 67 explicitly writes MAN as 'Multi Area Network' (Note: Standard is Metropolitan, but sticking to the provided notes).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does 'JAR' stand for?",
+        "choices": [
+            "Java Archive",
+            "Just A Repository",
+            "Java Application Runtime",
+            "Joint Archive"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Item 64 lists JAR as 'Java Archive'.",
+        "timeSeconds": 30
+    }
+]

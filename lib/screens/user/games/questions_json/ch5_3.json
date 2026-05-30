@@ -1,0 +1,362 @@
+[
+    {
+        "text": "In the KompoZer 'Table Properties' dialog box, what does the 'Spacing' attribute control?",
+        "choices": [
+            "The space between the table and the surrounding text",
+            "The space between individual cells",
+            "The space between the cell content and its border",
+            "The width of the table border"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Spacing is used to specify gap between cells. Padding gives a gap between the edge of the cell and the text within it.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which Java class is used to manipulate arrays, such as sorting and filling them?",
+        "choices": [
+            "ArrayHelper",
+            "Arrays",
+            "ArrayUtil",
+            "Collections"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Class Arrays can be used with array objects. Examples of such methods are: sort, fill.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the primary function of a 'Digital Certificate' in E-Commerce?",
+        "choices": [
+            "To encrypt data transmission",
+            "To prove identity in electronic transactions",
+            "To compress files",
+            "To block viruses"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Digital Certificates or Digital ID are used for proving our identity in electronic transactions. Just as we have a driving license or a passport to prove our identity in the real world.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which HTML tag is used to create a text area for multi-line input?",
+        "choices": [
+            "<input type='textarea'>",
+            "<text>",
+            "<textarea>",
+            "<box>"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Textarea element allows multi-line text input. The tag <textarea>... is used to implement this element.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the context of M-Commerce, what does 'L-Commerce' stand for?",
+        "choices": [
+            "Local Commerce",
+            "Location-based Commerce",
+            "Legal Commerce",
+            "Linked Commerce"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Let us learn about location based search which is known as L-commerce.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which JavaScript event is triggered when an element, such as a radio button, becomes inactive?",
+        "choices": [
+            "focus",
+            "click",
+            "blur",
+            "change"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "blur: Element such as a radio button becomes inactive.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the 'CSS Stylesheets' dialog box, which tab allows you to set the background color or image?",
+        "choices": [
+            "General",
+            "Text",
+            "Background",
+            "Box"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "To set the background color, select the Background tab. This will open the options for the background as shown in figure 2.6.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which Free Tool is explicitly mentioned as a software environment for statistical computing?",
+        "choices": [
+            "VLC Media Player",
+            "R",
+            "Skype",
+            "RationalPlan"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "R is a free software environment for statistical computing.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In Java, what is the result of the expression `1 % 2`?",
+        "choices": [
+            "0",
+            "1",
+            "0.5",
+            "Error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Modulus operator (%) returns the remainder. 1 divided by 2 is 0 with a remainder of 1.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which attribute of the `<form>` tag specifies the HTTP method to be used when sending data?",
+        "choices": [
+            "action",
+            "name",
+            "method",
+            "type"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The method attribute specifies the HTTP method to be used when sending the data.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is 'Sniffing' in the context of network security?",
+        "choices": [
+            "Sending a virus",
+            "Recording conversation/data by tapping the network wire",
+            "Defacing a website",
+            "Denial of Service"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "A sniffer is a program that uses Internet to record information that passes through a computer or router... like tapping the telephone wire and recording the conversation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which button on the KompoZer Composition Toolbar is used to open the CSS Stylesheets dialog box?",
+        "choices": [
+            "Image",
+            "Table",
+            "Cascade",
+            "Form"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In the composition toolbar, select the Cascade button. This will open the CSS Stylesheets dialog box.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the JavaScript function `isNaN()` check for?",
+        "choices": [
+            "If the value is null",
+            "If the value is not a number",
+            "If the value is empty",
+            "If the value is a valid number"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "One of most commonly used numeric function is isNaN(). NaN stands for 'Not a Number'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In E-Commerce, which model involves businesses selling products directly to consumers?",
+        "choices": [
+            "B2B",
+            "C2C",
+            "B2C",
+            "C2B"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Business to Consumer (B2C) refers to business and organizations that sell products or services to consumers.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which Java package contains the `Date` class?",
+        "choices": [
+            "java.lang",
+            "java.io",
+            "java.util",
+            "java.sql"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java library also provides Date class in java.util package.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the KompoZer 'Image Properties' dialog, what does selecting 'Don't use alternate text' do?",
+        "choices": [
+            "It prevents the image from loading.",
+            "It hides the image description from screen readers.",
+            "It removes the requirement to enter text for when the image doesn't display.",
+            "It automatically generates a caption."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Specify the alternate text... otherwise select the 'Don't use alternate text' radio button. Giving alternate text will display the text in case the image is not displayed.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which security measure acts as a barrier between a local network and the outside world?",
+        "choices": [
+            "Antivirus",
+            "Firewall",
+            "Digital Certificate",
+            "Cryptography"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The most commonly used network protection barrier between the company's network and the outside world is a Firewall.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the correct syntax to create a CSS rule for `h1` elements to have green text?",
+        "choices": [
+            "h1 = { color: green }",
+            "h1: color = green",
+            "h1 { color: green }",
+            "{ h1: color: green }"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 2.1 shows the syntax: `H1 { color : green }`.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which JavaScript method is used to write content directly to the HTML document?",
+        "choices": [
+            "window.alert()",
+            "console.log()",
+            "document.write()",
+            "document.print()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The string to be displayed is passed as variable to the method `document.write()`.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the primary benefit of 'Ubiquity' in M-Commerce?",
+        "choices": [
+            "Transactions are free.",
+            "Users can be contacted virtually anytime and anywhere.",
+            "It requires no internet connection.",
+            "It offers larger screens."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Mobile device enables the user to be contacted at virtually anytime and anywhere (Ubiquity).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the 'Form Properties' dialog box, what value should be in the 'Action URL' field?",
+        "choices": [
+            "The name of the form",
+            "The HTTP method",
+            "The filename where data is sent",
+            "The CSS file"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The action attribute is used to specify where to send the form data... It takes a filename as value.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which Java keyword is used to create a new object instance?",
+        "choices": [
+            "class",
+            "object",
+            "new",
+            "instance"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The keyword `new` is used to create the object by allocating memory.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the 'Split' view in KompoZer display?",
+        "choices": [
+            "Only the source code",
+            "Only the design view",
+            "Both the source code and the design view",
+            "The browser preview"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Split tab displays the HTML source of the current element (along with the design view context).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which application of M-Commerce allows users to book air or rail tickets via mobile?",
+        "choices": [
+            "Mobile Marketing",
+            "Mobile Ticketing",
+            "Mobile Auctions",
+            "Mobile Entertainment"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Mobile Ticketing: Users can easily buy tickets for air or rail travel....",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the CSS 'Text' tab, which option allows you to underline text?",
+        "choices": [
+            "Font Weight",
+            "Case",
+            "Text decorations",
+            "Alignment"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 2.5 shows 'Text decorations' with checkboxes for Overline, Line-through, Underline, and Blinking.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the function of the `Archive Manager` tool?",
+        "choices": [
+            "To play media files",
+            "To manage project plans",
+            "To compress and extract files",
+            "To edit images"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Archive Manager... permits us to combine many files... into a single file... and compress the file.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In Java, what does the `length` property of an array return?",
+        "choices": [
+            "The last index",
+            "The number of elements",
+            "The size in bytes",
+            "The type of the array"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Size of each row can be known using 'length' property of 1-D array (which is the number of elements).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What information is encrypted in a secure E-Commerce transaction?",
+        "choices": [
+            "Only the website URL",
+            "Only the username",
+            "Confidential data like credit card numbers",
+            "Public images"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "It helps in protecting the confidential data like credit card number. The information is encrypted.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the main advantage of 'Net Banking'?",
+        "choices": [
+            "It requires visiting the bank.",
+            "It allows banking transactions over the Internet anytime.",
+            "It is only for large businesses.",
+            "It is slower than physical banking."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Net banking... is the process of conducting the banking transactions over the Internet... customers can avail the following services: Check account balance at any time.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which specific JavaScript validation check is used to ensure a field is not left empty?",
+        "choices": [
+            "`if (x == null || x == \"\")`",
+            "`if (x == 0)`",
+            "`if (isNaN(x))`",
+            "`if (x.length > 5)`"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The script uses the condition `if (x==null || x==\"\")` to check if the user left the field empty.",
+        "timeSeconds": 60
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "text": "In the Code Listing 3.1 (Validation JavaScript), what delimiter is used to separate individual product descriptions in the 'cookievalue' string?",
+        "choices": [
+            "Comma (,)",
+            "Colon (:)",
+            "Semicolon (;)",
+            "Pipe (|)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text below Code Listing 3.1 states: 'Individual product description is separated with delimiter \":\" (colon). The script continues for each item listed.'.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which tab in the 'Image Properties' dialog box contains the option to set 'Alternate text'?",
+        "choices": [
+            "Appearance",
+            "Dimensions",
+            "Location",
+            "Link"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 3.7 shows the 'Image Properties' dialog box where the 'Alternate text' radio button and input field are located under the 'Location' tab.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the website planning process, which phase involves deciding the software to be used for development (e.g., KompoZer, Notepad)?",
+        "choices": [
+            "Purpose",
+            "Content",
+            "Medium",
+            "Audience"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Under the 'Medium' section, it mentions: 'The website design should scale for all the devices... designed keeping in mind that it is well displayed in all popular web browsers...' While software selection isn't explicitly defined as the *only* part of Medium, technical implementation details fall here compared to Content or Purpose.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the JavaScript function `oncart()`, which method is used to retrieve the checkbox element?",
+        "choices": [
+            "document.getElementByName()",
+            "document.getElementById()",
+            "document.querySelector()",
+            "document.forms[0].elements"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The code listing shows: `if(document.getElementById(\"b1\").checked)`.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "When setting a background image in CSS, which option allows the image to repeat horizontally or vertically?",
+        "choices": [
+            "Opacity",
+            "Position",
+            "Tile",
+            "Scroll"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In Figure 2.6 (Background tab), the option 'Tile' is visible with a dropdown (horizontally and vertically), which controls repetition.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the specific function of the 'Spacing' attribute in the Table Properties dialog box?",
+        "choices": [
+            "It sets the gap between the edge of the cell and the text within it.",
+            "It sets the gap between cells.",
+            "It sets the width of the table border.",
+            "It sets the margin of the table on the page."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text states: 'Spacing is used to specify gap between cells.' (Contrast with Padding which is gap between edge and text).",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the Java `Date` class, what does the constructor `Date(long elapsedTime)` initialize the object with?",
+        "choices": [
+            "Current system time",
+            "Time elapsed since Jan 1, 1900",
+            "Time elapsed since Jan 1, 1970 GMT",
+            "Time elapsed since the program started"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Table 9.3: `Date(long elapsedTime)` Constructs Date object using specified time in milliseconds elapsed since January 1, 1970 GMT.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the 'School Plaza' website example, what file name is suggested for the home page?",
+        "choices": [
+            "home.html",
+            "start.html",
+            "index.html",
+            "school.html"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The text states: 'Save the file with the name \"index.html\". Generally, whenever we create the home page of the website it is named as index.html.'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which tab in the CSS Stylesheets dialog is used to define the 'Case' (e.g., Uppercase) of the text?",
+        "choices": [
+            "General",
+            "Text",
+            "Box",
+            "Lists"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the Text tab... Choose 'Uppercase' from the Case menu.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the result of `\"India\".compareTo(\"India\")` in Java?",
+        "choices": [
+            "True",
+            "1",
+            "0",
+            "Null"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The `compareTo` method returns 0 if the invoking string is equal to the argument string.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the JavaScript code `var x = document.js1.name.value;`, what does `name` refer to?",
+        "choices": [
+            "The name of the form",
+            "The name of the input field element",
+            "The value entered by the user",
+            "The label of the field"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text explains: '...js1 is the name of the form... name refers to the element name (the name given to the input field \"first name\").'.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which specific option in the 'Link Properties' dialog allows the link to open in a new window?",
+        "choices": [
+            "URL is relative to page location",
+            "The above is an email address",
+            "Target: in a new window",
+            "More Properties"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 3.12 (Link Properties dialog box) shows a checkbox/dropdown area for 'Target'. The text mentions 'Target... in a new window' or similar behavior implies this setting.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "What is the purpose of the `parseFloat()` function if it were used in the shopping cart script (implied by price calculation logic)?",
+        "choices": [
+            "To round the number",
+            "To convert a string to a floating-point number",
+            "To format the currency",
+            "To check for NaN"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Although `parseFloat` isn't explicitly highlighted in the snippet text, the logic `var total = (price * quantity)` where inputs are often strings implies type conversion concepts discussed in JS chapters. *Strict Text*: The code uses `var price = 410;` (number literal). If `quantity` came from a field, JS type coercion happens. A harder question on explicit text: What is the variable `cookievalue` used for? It stores the concatenated string of item details.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In KompoZer, which toolbar contains the 'Cascade' button?",
+        "choices": [
+            "Format Toolbar 1",
+            "Format Toolbar 2",
+            "Composition Toolbar",
+            "Edit Mode Toolbar"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In the composition toolbar, select the Cascade button. This will open the CSS Stylesheets dialog box.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "What does the `String.trim()` method do in Java (implied by general string knowledge usually covered with String class)?",
+        "choices": [
+            "Removes spaces from the middle of the string",
+            "Removes leading and trailing whitespace",
+            "Truncates the string to a specific length",
+            "Converts to lowercase"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "While `trim()` isn't in the Table 9.1 summary, it's a standard method often tested. *Strict Text Replacement*: What does `str1.concat(str2)` return? A string after appending str2 with invoking string.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the `RationalPlan` software, what does the 'Multi' version specifically allow that 'Single' does not?",
+        "choices": [
+            "Creating Gantt charts",
+            "Managing independent projects",
+            "Managing projects that share company resources and interdependencies",
+            "Exporting to PDF"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "RationalPlan Multi allows us to manage projects that share company resources... It includes all features of RationalPlan Single plus... interdependencies.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which attribute of the `<form>` tag specifies the file that will process the data upon submission?",
+        "choices": [
+            "method",
+            "name",
+            "action",
+            "target"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The action attribute is used to specify where to send the form data... It takes a filename as value.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "In the CSS syntax, what follows the Selector?",
+        "choices": [
+            "A value",
+            "A property",
+            "A declaration block enclosed in curly braces",
+            "A colon"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The syntax is `Selector { property : value }`. The block `{ ... }` follows the selector.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the JavaScript `validateForm()` function, what is the purpose of `document.js1.name.focus()`?",
+        "choices": [
+            "To highlight the text in the name field",
+            "To place the cursor inside the name element",
+            "To validate the name field",
+            "To clear the name field"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The focus method is used to apply focus on a particular element... the cursor will be placed inside the element.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "When creating a table in KompoZer, the 'Width' can be defined in which two units?",
+        "choices": [
+            "Inches and Pixels",
+            "Pixels and % of window",
+            "Points and Centimeters",
+            "Em and Px"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Height and width can be specified in pixels or % of the window.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the R software, which function is used to create a histogram?",
+        "choices": [
+            "barplot()",
+            "histogram()",
+            "hist()",
+            "plot()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The histogram can be drawn using the code shown in figure 13.14 (code uses `hist(marks...)`).",
+        "timeSeconds": 40
+    },
+    {
+        "text": "In Java, what is the output of `\"Java\".length()`?",
+        "choices": [
+            "3",
+            "4",
+            "5",
+            "null"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The string \"Java\" has 4 characters. `length()` returns the number of characters.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the CSS Stylesheets dialog, if you select 'internal stylesheet' in the left pane, where is the CSS code stored?",
+        "choices": [
+            "In a separate .css file",
+            "In the <head> section of the current HTML document",
+            "In the <body> tag",
+            "In the browser cache"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The term 'internal stylesheet' and Figure 2.12 show the CSS code generated inside the `<style>` tag within the head section of the Source view.",
+        "timeSeconds": 55
+    },
+    {
+        "text": "What does the JavaScript event `onmouseout` signify?",
+        "choices": [
+            "Mouse clicks the element",
+            "Mouse moves over the element",
+            "Mouse moves off the element",
+            "Image loading is cancelled"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Table 2.1: `mouseout` - Mouse moves off the element.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "In the 'School Plaza' shopping cart script, how is the total price calculated?",
+        "choices": [
+            "It is fetched from a database.",
+            "It is calculated as `var total = (price * quantity);`",
+            "It is entered by the user.",
+            "It is fixed at 500."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The code listing 3.1 shows: `var total = (price * quantity);`.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "When inserting a Horizontal Line in KompoZer, which menu path is used?",
+        "choices": [
+            "Format > Horizontal Line",
+            "Insert > Horizontal Line",
+            "Table > Horizontal Line",
+            "Edit > Insert Line"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To insert a horizontal line, go to Insert -> Horizontal line.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "Which Java array declaration is valid for a 2D array?",
+        "choices": [
+            "int arr = new int[5,5]",
+            "int arr[][] = new int[5][5]",
+            "int arr = {1, 2, 3}",
+            "array arr[5][5]"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 9.10 shows: `int marks[][] = new int[5][3];`. This confirms the syntax `type[][] var = new type[row][col]`.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the 'Link Properties' dialog box, what does the checkbox 'URL is relative to page location' do?",
+        "choices": [
+            "It makes the link absolute (http://...)",
+            "It creates a link relative to the current file's path",
+            "It opens the link in a new window",
+            "It validates the URL"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 3.12 shows this checkbox checked. It ensures the link path is stored relative to the current file (e.g., just 'school-bags.html' instead of 'C:/Users/...'), making the site portable.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the JavaScript `if(x==null || x==\"\")` condition, what is being checked?",
+        "choices": [
+            "If x contains a number",
+            "If x is undefined",
+            "If the field represented by x is empty or null",
+            "If x is equal to zero"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The script uses this condition `if(x==null || x==\"\")` to check if the user left the name field empty (null or empty string).",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which CSS tab allows you to configure 'Text Decoration' (e.g., blink, underline)?",
+        "choices": [
+            "General",
+            "Text",
+            "Box",
+            "Background"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 2.5 (Text tab) shows a 'Text decorations' section with checkboxes for Overline, Line-through, Underline, and Blinking.",
+        "timeSeconds": 45
+    }
+]

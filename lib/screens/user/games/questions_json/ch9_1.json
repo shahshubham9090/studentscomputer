@@ -1,0 +1,362 @@
+[
+    {
+        "text": "An array in Java is a collection of which type of elements?",
+        "choices": [
+            "Heterogeneous",
+            "Homogeneous",
+            "Random",
+            "Dynamic"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "An array is a variable representing a collection of homogeneous type of elements.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "A 1-D data structure is often referred to as a:",
+        "choices": [
+            "Matrix",
+            "Vector",
+            "Table",
+            "Grid"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Vector is a one dimensional (1-D) data structure that can be used to store list of items like characters, numbers.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the correct syntax to declare and create an integer array of size 5?",
+        "choices": [
+            "int marks = new int(5);",
+            "int marks[] = new int[5];",
+            "int marks[5];",
+            "array int marks = new int[5];"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The syntax to declare array is: <data type> <array name>[]; ... Example: int marks[] = new int[5];.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If an `int` takes 4 bytes, how much memory does `int marks[5]` occupy?",
+        "choices": [
+            "4 bytes",
+            "10 bytes",
+            "20 bytes",
+            "5 bytes"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Integer of int data type uses 4 bytes storage space. Thus, array 'marks' requires 5 x 4 = 20 bytes in contiguous locations.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In Java, array indexing starts from:",
+        "choices": [
+            "1",
+            "0",
+            "-1",
+            "Any value"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Index specifies the position of an element in an array; for example, marks[2]. Index value starts from 0.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which values are array elements initialized with by default upon creation?",
+        "choices": [
+            "Garbage values",
+            "Default values (e.g., 0 for int)",
+            "Null",
+            "They are not initialized"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "As array is an object, so its elements are initialized with default values.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "How do you initialize an array with specific values like 90, 70, 77 without using 'new'?",
+        "choices": [
+            "int marks[] = (90, 70, 77);",
+            "int marks[] = [90, 70, 77];",
+            "int marks[] = {90, 70, 77};",
+            "int marks = {90, 70, 77};"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "1-D array is initialized using comma separated values of data elements in braces { }. For example, int marks[] = {90, 70, 77};.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If you try to access an element outside the array bounds, what happens?",
+        "choices": [
+            "It returns 0",
+            "It returns a random value",
+            "It results in an error",
+            "It expands the array"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "If we try to access the elements of an array (outside its size), it will result in an error.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which class provides useful static methods like `sort()` and `fill()` for arrays?",
+        "choices": [
+            "java.util.Array",
+            "java.util.Arrays",
+            "java.lang.System",
+            "java.io.Stream"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Java.util.Arrays class... enables us to make use of methods of Arrays class with array type of data... such as sort() and fill().",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the `Arrays.sort()` method do?",
+        "choices": [
+            "Reverses the array",
+            "Sorts the entire or part of the array",
+            "Fills the array with zeros",
+            "Searches for an element"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "We can use sort() method to sort entire or part of array.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the method `fill(list, 5)` do?",
+        "choices": [
+            "Sets the size of the array to 5",
+            "Assigns value 5 to all elements of the array",
+            "Assigns value 5 to the 5th element",
+            "Sorts the first 5 elements"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Method 'fill' is used to fill the whole or partial array with specified value... Example: fill(list, 7) assigns value 7 to all elements of list array.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which data structure corresponds to a 2-D array?",
+        "choices": [
+            "Vector",
+            "Queue",
+            "Matrix",
+            "Stack"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Matrix is used to represent two dimensional (2-D) data structure like table of rows and columns.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "How is a 2-D array declared in Java?",
+        "choices": [
+            "int marks[][] = new int[5][3];",
+            "int marks[5,3];",
+            "int marks = new int[5,3];",
+            "dim marks[5][3] as int;"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "2-D array can be declared using array name and two pairs of square brackets [ ] [ ]... int marks[][] = new int [5][3];.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In `int marks[5][3]`, what do 5 and 3 represent?",
+        "choices": [
+            "5 columns, 3 rows",
+            "5 rows, 3 columns",
+            "Size 53",
+            "Range 5 to 3"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Here, the logical view of array elements is a table of 5 rows and 3 columns.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Does Java support multi-dimensional arrays directly as a single block?",
+        "choices": [
+            "Yes",
+            "No, it uses arrays of arrays",
+            "Only for 2D",
+            "Only for integers"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Java does not support multi-dimensional arrays directly. To create 2-D array, we have to create an array of array.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In a 2-D array `marks[5][3]`, what is `marks[0]`?",
+        "choices": [
+            "The first integer element",
+            "A 1-D array object of 3 integers",
+            "A 1-D array object of 5 integers",
+            "Null"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "marks[0] refers to the first element which is a 1-D array object of 3 integers (as shown in Figure 9.9).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which search method is provided by the Arrays class?",
+        "choices": [
+            "linearSearch()",
+            "binarySearch()",
+            "quickSearch()",
+            "find()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To search an element in an array, Arrays class provides binarySearch() method.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the two-step process to create an array in Java?",
+        "choices": [
+            "Initialize and Print",
+            "Declare and Create",
+            "Define and Sort",
+            "Allocate and Fill"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Creating an array is a two step process: 1. Declare an array object 2. Create an array object.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "If `marks` is an array of size 5, which index refers to the last element?",
+        "choices": [
+            "5",
+            "4",
+            "marks.length",
+            "0"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Here, marks[0] refers to the first element and marks[4] refers to the last element.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Can you specify the size of dimensions during declaration like `int marks[5]`?",
+        "choices": [
+            "Yes, always",
+            "No, it is illegal syntax",
+            "Only for 2D arrays",
+            "Only for local variables"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In Java, we can not specify both the size of dimensions and initial values... Figure 9.4 shows illegal start of expression `int marks[5]`.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does `Arrays.sort(list)` do to the array `list`?",
+        "choices": [
+            "Sorts it in ascending order",
+            "Sorts it in descending order",
+            "Randomizes it",
+            "Does nothing"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Method sort() is used to sort entire or part of array... Text example output shows elements sorted 6.0, 7.0, 8.0... (ascending implied).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How is a 2-D array accessed in memory using indexes?",
+        "choices": [
+            "Row-major order",
+            "Column-major order",
+            "Array of references",
+            "Linked list"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 9.9 shows `marks` reference pointing to `marks[0]`, `marks[1]` etc., which are references to other arrays. Element Reference using indexes.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which method is used to sort only a range of elements in an array?",
+        "choices": [
+            "sortRange()",
+            "sort(array, fromIndex, toIndex)",
+            "sort(array, index)",
+            "partialSort()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When we invoke this method with 3 arguments: array, start, last; it sorts partial array from element at index start to element at index (last-1).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "If `int[] marks = {90, 70, 77}`, what is the value of `marks[1]`?",
+        "choices": [
+            "90",
+            "70",
+            "77",
+            "0"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Index 0 is 90, Index 1 is 70. marks[1] refers to the element at index 1.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which keyword is used to access the length of an array?",
+        "choices": [
+            "size()",
+            "length()",
+            "length",
+            "count"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In the code snippets (e.g., Fig 9.6), the property `list.length` is used to get the array size.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does `fill(list, 1, 5, 0)` do?",
+        "choices": [
+            "Fills index 1 to 5 with 0",
+            "Fills index 1 to 4 with 0",
+            "Fills 5 elements starting at 1 with 0",
+            "Fills index 0 with 1, 5 times"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The fill method with range assigns value to elements from index start to (last-1). So indices 1, 2, 3, 4.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "An array variable is actually a:",
+        "choices": [
+            "Primitive type",
+            "Reference variable",
+            "Constant",
+            "String"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "An array is an object... An array variable representing a collection... An object is a reference variable.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "If you create an array `new int[5]`, the elements are stored in:",
+        "choices": [
+            "Random locations",
+            "Contiguous locations",
+            "Linked locations",
+            "Separate files"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "All the elements of an array are stored in memory using contiguous storage space.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What type of search is `Linear Search`?",
+        "choices": [
+            "Comparison in serial fashion",
+            "Divide and conquer",
+            "Using hash map",
+            "Sorting first"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Linear search method does element comparison in a serial fashion.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the `binarySearch()` method return if the element is found?",
+        "choices": [
+            "True",
+            "The element itself",
+            "The index position",
+            "1"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "It returns index position when an element is found.",
+        "timeSeconds": 30
+    }
+]

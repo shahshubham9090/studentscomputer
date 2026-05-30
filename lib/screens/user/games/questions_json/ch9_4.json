@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Which package must be imported to use the `Date` class?",
+        "choices": [
+            "java.io",
+            "java.lang",
+            "java.util",
+            "java.sql"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Date class is provided in the java.util package.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the `str1 == str2` operator check when applied to String objects?",
+        "choices": [
+            "The content of the strings",
+            "The memory address (reference) of the objects",
+            "The length of the strings",
+            "The hash code"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The operator `==` compares the references (memory locations) of the objects, not their content. If two objects refer to different memory locations, it returns false.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which String constructor creates a string from a character array?",
+        "choices": [
+            "String(char ary[])",
+            "String(char c)",
+            "String(int[] ary)",
+            "String(byte b)"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The constructor `String(char ary[])` creates a String object with its initial value using an array argument.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the return type of the `length()` method in the String class?",
+        "choices": [
+            "long",
+            "float",
+            "int",
+            "void"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The `int length()` method returns the number of characters in the invoking string.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "If `String s1 = \"Hello\"` and `String s2 = \"Hello\"` (using literals), what is the result of `s1 == s2`?",
+        "choices": [
+            "true",
+            "false",
+            "error",
+            "null"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "When two String objects are created using same string literals, memory is not allocated for the second object. Both objects refer to the same memory location.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which method is used to compare two strings for equality while ignoring case?",
+        "choices": [
+            "equals()",
+            "compare()",
+            "equalsIgnoreCase()",
+            "matchCase()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`boolean equalsIgnoreCase(String str)` returns true if invoking string is same as str after ignoring case.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does `compareTo()` return if the invoking string is equal to the argument string?",
+        "choices": [
+            "1",
+            "-1",
+            "0",
+            "true"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`int compareTo(String str)` returns 0 if invoking string is equal to str.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "The `Date()` constructor (without arguments) initializes the object with:",
+        "choices": [
+            "January 1, 1970",
+            "The current system time",
+            "A random time",
+            "Null"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`Date()` constructs a Date object using current system time.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which method returns the character at a specific index in a string?",
+        "choices": [
+            "getChar()",
+            "charAt()",
+            "indexAt()",
+            "valueAt()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`char charAt(int index)` returns character at index position from the invoking string.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which constant in the Calendar class represents the day of the month?",
+        "choices": [
+            "DAY",
+            "DATE",
+            "MONTH_DAY",
+            "DAY_NUM"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The constant `DATE` represents the Day of calendar month.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "How many bytes does Java use to store a single character?",
+        "choices": [
+            "1 byte",
+            "2 bytes",
+            "4 bytes",
+            "8 bytes"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In Java, characters are stored using two bytes.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the `getTime()` method of the Date class return?",
+        "choices": [
+            "Current year",
+            "String representation of date",
+            "Number of milliseconds since Jan 1, 1970",
+            "Current nanoseconds"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`long getTime()` returns number of milliseconds since January 1, 1970 GMT.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which method appends one string to the end of another?",
+        "choices": [
+            "append()",
+            "add()",
+            "concat()",
+            "join()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`String concat(String str)` returns a string after appending str with the invoking string.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "The `AM_PM` constant in Calendar class has a value of 0 for:",
+        "choices": [
+            "AM",
+            "PM",
+            "Noon",
+            "Midnight"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "`AM_PM`: 0 for AM, 1 for PM.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which constructor allows creating a String from a subset of a character array?",
+        "choices": [
+            "String(char[], start, len)",
+            "String(char[], end)",
+            "String(char[], index)",
+            "String(substring)"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "`String(char ary[], int start, int len)` creates a String object using 1-D ary argument starting at ary[start] with len number of characters.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does `s1.compareTo(s2)` return if `s1` is greater than `s2`?",
+        "choices": [
+            "0",
+            "A negative integer (<0)",
+            "A positive integer (>0)",
+            "False"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "It returns >0 integer if invoking string (`s1`) is greater than `str` (`s2`).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "To convert a String into an array of bytes, which method is used?",
+        "choices": [
+            "toByte()",
+            "getBytes()",
+            "convertByte()",
+            "byteArray()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`byte[] getBytes()` returns an array of characters as bytes from invoking string.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which class helps in extracting detailed calendar information like year, month, and date?",
+        "choices": [
+            "Date",
+            "Calendar",
+            "Time",
+            "Clock"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Calendar class... can be used to extract detailed calendar information like year, month, date, hour, minute and second.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "If you use `new String(\"Hello\")`, where is the memory allocated?",
+        "choices": [
+            "It reuses existing literal memory",
+            "It allocates separate memory",
+            "It stores it on the hard disk",
+            "It doesn't allocate memory"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Separate memory is allocated when string objects are created using `new` operator even if strings are identical.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the Calendar constant for the hour in 24-hour notation?",
+        "choices": [
+            "HOUR",
+            "HOUR_OF_DAY",
+            "HR_24",
+            "TIME_24"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`HOUR` is for 12-hour notation; `HOUR_OF_DAY` is for 24-hour notation.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which method converts all characters in a string to lower case?",
+        "choices": [
+            "toLower()",
+            "toLowerCase()",
+            "changeCase(lower)",
+            "setLowerCase()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`String toLowerCase()` returns a string with all characters of invoking string converted to lowercase.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Can we create a String object using a byte array?",
+        "choices": [
+            "Yes, using String(byte[]) constructor",
+            "No, only char arrays allowed",
+            "Yes, but only for numbers",
+            "No, bytes are for images"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "We can use a constructor with array of bytes as an argument... try the same program by replacing char array with byte array.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the constant `DAY_OF_WEEK` used for?",
+        "choices": [
+            "Day number within a month",
+            "Day number within a week (1 for Sunday)",
+            "Week number within a year",
+            "Current hour"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`DAY_OF_WEEK`: Day number within a week (1 for Sunday, 7 for Saturday).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which constructor allows you to specify a String literal directly?",
+        "choices": [
+            "String(int)",
+            "String(String strObj)",
+            "String(literal)",
+            "String(boolean)"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`String (string literal)` creates a String object that refers to the literal specified in argument.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the `toString()` method of the `Date` class return?",
+        "choices": [
+            "A string representing date and time",
+            "The milliseconds count",
+            "The current year only",
+            "The timezone"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "`String toString()` returns a string representing date and time of invoking object.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "The Calendar constant `MONTH` uses 0 to represent which month?",
+        "choices": [
+            "March",
+            "January",
+            "December",
+            "February"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`MONTH`: Month of calendar (0 for January, 11 for December).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "To copy characters from a string into a character array, which method is used?",
+        "choices": [
+            "getChars()",
+            "copyChars()",
+            "toChars()",
+            "setChars()"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "`void getChars(int fromIndx, int toIndx, char target[], int targetIndx)` copies characters of invoking string... to target array.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which subclass of Calendar is commonly used?",
+        "choices": [
+            "GregorianCalendar",
+            "JulianCalendar",
+            "LunarCalendar",
+            "SolarCalendar"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Here, we will see the use of `GregorianCalendar` subclass of Calendar class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "String literals are enclosed in which symbols?",
+        "choices": [
+            "Single quotes",
+            "Double quotes",
+            "Brackets",
+            "Parentheses"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "String literal is a sequence of characters enclosed in double quotes.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "The `Date(long elapsedTime)` constructor expects time in:",
+        "choices": [
+            "Seconds",
+            "Minutes",
+            "Milliseconds",
+            "Days"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`Date (long elapsedTime)` constructs Date object using specified time in milliseconds elapsed since January 1, 1970 GMT.",
+        "timeSeconds": 30
+    }
+]

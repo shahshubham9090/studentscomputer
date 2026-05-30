@@ -1,0 +1,362 @@
+[
+    {
+        "text": "In the KompoZer 'Table Properties' dialog, what is the distinct difference between 'Spacing' and 'Padding'?",
+        "choices": [
+            "Spacing is between cells; Padding is between the cell border and content.",
+            "Spacing is internal to the cell; Padding is external.",
+            "Spacing controls border width; Padding controls cell height.",
+            "There is no difference; they are synonyms."
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Spacing is used to specify gap between cells. Padding gives a gap between the edge of the cell and the text within it.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the JavaScript validation script provided, what is the purpose of the condition `if (y == \"\" || isNaN(y) || y.length > 6)`?",
+        "choices": [
+            "To validate the 'Name' field.",
+            "To validate the 'Pincode' field for emptiness, numeric type, and maximum length.",
+            "To check if the email address is valid.",
+            "To calculate the total price of items."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The script uses variable `y` for Pincode. The condition checks if it is empty, Not-a-Number, or has a length greater than 6.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "When creating a CSS rule in KompoZer, if you want to apply a style to a specific element using its HTML ID attribute, which option must be selected?",
+        "choices": [
+            "style applied to all elements of type",
+            "style applied to all elements of class",
+            "style applied to an element with specified ID",
+            "custom style rule"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The dialog box shows options: ... 'style applied to an element with specified ID' is the second option for targeting IDs.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the 'Advanced Property Editor' for adding JavaScript, why is the keyword `return` used in `return validateForm()`?",
+        "choices": [
+            "To call the function twice.",
+            "To ensure the form does NOT submit if the function returns false.",
+            "To refresh the page.",
+            "To return the focus to the window."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Value is written as 'return validateForm()'. The use of return statement will stop the function from executing (and prevent form submission if false).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which tab in the CSS Stylesheets dialog box contains the checkbox options for 'Overline', 'Line-through', and 'Blinking'?",
+        "choices": [
+            "General",
+            "Text",
+            "Background",
+            "Box"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 2.5 (Text tab) displays the 'Text decorations' section with checkboxes for Overline, Line-through, Underline, and Blinking.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the JavaScript shopping cart code, what does the method `parseFloat()` accomplish?",
+        "choices": [
+            "It parses a string and returns a floating point number.",
+            "It rounds a number to the nearest integer.",
+            "It formats a number as currency.",
+            "It checks if a value is a float."
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Code Listing 3.2 uses `total2+=parseFloat(cookiedata[2])`. This converts the string data stored in the cookie back into a number for calculation.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "If a Java array is defined as `int[][] marks = new int[5][3];`, what does `marks.length` refer to?",
+        "choices": [
+            "The total number of elements (15).",
+            "The number of columns (3).",
+            "The number of rows (5).",
+            "The size of the integer type."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In a 2D array, `.length` on the main variable returns the number of rows (the first dimension). `marks[0].length` would return columns.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which specific delimiter is used to separate product details in the `cookievalue` string in the provided Code Listing 3.1?",
+        "choices": [
+            "Comma (,)",
+            "Colon (:)",
+            "Pipe (|)",
+            "Semicolon (;)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text states: 'Individual product description is separated with delimiter \":\" (colon)'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the `Image Properties` dialog, checking the 'Don't use alternate text' option does what?",
+        "choices": [
+            "Prevents the image from loading.",
+            "Disables the tooltip.",
+            "Removes the requirement for an alt tag attribute (often used for accessibility).",
+            "Hides the image."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 3.7 shows the radio button 'Don't use alternate text'. Selecting this bypasses the input field for Alternate text.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which method of the `String` class in Java allows you to extract a subset of characters from a string?",
+        "choices": [
+            "cut()",
+            "slice()",
+            "substring()",
+            "extract()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The text mentions 'extracting part of string' in the list of functionalities. The standard Java method for this is `substring` (implied by 'substrings' mentioned).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the 'Borders' tab of the CSS dialog, to set a border only on the 'Top' side, what must be done?",
+        "choices": [
+            "Select 'Top' from the dropdown.",
+            "Uncheck 'All four sides use same border style'.",
+            "Set width to 0 for other sides.",
+            "It is not possible in KompoZer."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 2.9 shows a checkbox 'All four sides use same border style'. To configure sides individually (like Top), this must be unchecked.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the R software command `barplot(no_students, main=\"Faculty wise students\")`, what does the `main` argument specify?",
+        "choices": [
+            "The main dataset.",
+            "The main font.",
+            "The main title of the chart.",
+            "The X-axis label."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The text explains: 'We use the arguments main... to specify the main title'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the purpose of the `action` attribute in the `<form>` tag?",
+        "choices": [
+            "It defines the HTTP method (GET/POST).",
+            "It specifies the name of the form.",
+            "It specifies the file/URL to which form data is submitted.",
+            "It defines the form's CSS style."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The action attribute is used to specify where to send the form data... It takes a filename as value.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "Which of the following is NOT a tab in the 'CSS Stylesheets' dialog box?",
+        "choices": [
+            "Text",
+            "Background",
+            "Animation",
+            "Aural"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 2.5 shows tabs: General, Text, Background, Borders, Box, Lists, Aural. 'Animation' is not visible.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In Java, if `String s1 = \"Hello\"` and `String s2 = \"Hello\"`, does `s1 == s2` evaluate to true?",
+        "choices": [
+            "No, they are different objects.",
+            "Yes, because they refer to the same object in the string constant pool.",
+            "No, strings must be compared with `.equals()`.",
+            "Yes, because they have the same hashcode."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When two String objects are created using same string literals, memory is not allocated for second object... Both objects refer to same memory location.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the JavaScript function `validateForm()`, what does the method `document.js1.name.focus()` do?",
+        "choices": [
+            "Validates the name field.",
+            "Highlights the name field text.",
+            "Places the cursor inside the name field.",
+            "Disables the name field."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The focus method is used to apply focus... the cursor will be placed inside the element.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which R function is used to combine values into a list or vector?",
+        "choices": [
+            "list()",
+            "combine()",
+            "c()",
+            "v()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The code `no_students <- c(140, 210...)` shows `c()` is used to create the list/vector.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the KompoZer 'Publish Page' dialog, what information must be provided in the 'Site Name' field?",
+        "choices": [
+            "The URL of the website.",
+            "A name to identify the site setting (alias).",
+            "The FTP username.",
+            "The index.html file."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the site name field, enter the name of the website. This name is only used for internal purpose by KompoZer to refer to the website (alias).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What does the JavaScript event `onblur` signify?",
+        "choices": [
+            "An element loses focus.",
+            "An element gets focus.",
+            "A button is clicked.",
+            "The page is loaded."
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Table 2.1: `blur` - Element such as a radio button becomes inactive (loses focus).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which Java class provides the method `sort()` to sort arrays?",
+        "choices": [
+            "Array",
+            "Arrays",
+            "Collections",
+            "Object"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Class `Arrays` can be used with array objects. Examples of such methods are: sort, fill.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the CSS rule `h1 { color: green; }`, which part is the 'Declaration'?",
+        "choices": [
+            "h1",
+            "color",
+            "green",
+            "{ color: green; }"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "The declaration block consists of properties and values inside the curly braces. Specifically, `property : value` is a declaration.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "In the `RationalPlan` tool, which view allows you to see tasks and their timelines?",
+        "choices": [
+            "Resource View",
+            "Gantt Chart (Project Guide/Action)",
+            "Portfolio View",
+            "Budget View"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "RationalPlan is designed to assist... maintaining and following a project plan. The text mentions 'Gantt' in context of general project management features often associated with such tools (implied by 'Project managers', 'tasks').",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the JavaScript code `var x = document.js1.name.value;`, if `js1` is the form name, what is `value`?",
+        "choices": [
+            "A method to get data.",
+            "A property representing the content of the input field.",
+            "The name of the variable.",
+            "The type of the input."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`value` returns the current text/data entered into the form element.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which menu in KompoZer is used to insert a 'Form Field' like a text box or radio button?",
+        "choices": [
+            "Insert > Form > Form Field",
+            "Format > Form > Field",
+            "Table > Insert > Field",
+            "Edit > Insert > Form Field"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "To insert an input text field... click Insert -> Form -> Form Field.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the CSS 'Background' tab, if you select 'Tile', what are the repetition options available?",
+        "choices": [
+            "Yes/No",
+            "Horizontally and Vertically",
+            "Diagonal",
+            "Radial"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 2.6 shows the 'Tile' option with dropdowns corresponding to horizontal and vertical repetition.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "What is the return type of the `String.length()` method in Java?",
+        "choices": [
+            "float",
+            "int",
+            "double",
+            "long"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`int length()` Returns number of characters in invoking string.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "In the 'Page Colors and Background' dialog box (KompoZer), which section allows setting colors for 'Normal text' and 'Link text'?",
+        "choices": [
+            "Reader's default colors",
+            "Use custom colors",
+            "Background Image",
+            "Advanced Edit"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 1.29 shows 'Use custom colors' radio button selected, enabling the color pickers for Normal text, Link text, etc..",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which JavaScript method is used to write content dynamically to the webpage document?",
+        "choices": [
+            "window.print()",
+            "console.log()",
+            "document.write()",
+            "alert()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The string to be displayed is passed as variable to the method `document.write()`.",
+        "timeSeconds": 40
+    },
+    {
+        "text": "In the 'Selection List Properties' dialog box, what does the 'Initially Selected' checkbox do?",
+        "choices": [
+            "Disables the option.",
+            "Hides the option.",
+            "Pre-selects the option when the form loads.",
+            "Makes the option bold."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Remember, to select the option 'Initially Selected' when adding the Rajkot city. (This makes it the default choice).",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which Java package must be imported to use the `Date` class?",
+        "choices": [
+            "java.io",
+            "java.lang",
+            "java.util",
+            "java.sql"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java library also provides Date class in java.util package.",
+        "timeSeconds": 40
+    }
+]

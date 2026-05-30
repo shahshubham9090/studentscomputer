@@ -1,0 +1,362 @@
+[
+    {
+        "text": "In the Object-Oriented paradigm, what is the focus compared to procedural programming?",
+        "choices": [
+            "Functions only",
+            "Data and functionality together",
+            "Procedures and modules",
+            "Global variables"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the object-oriented paradigm, the focus is on objects which contain both data and functionality together.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which term describes a template for multiple objects with similar features?",
+        "choices": [
+            "Attribute",
+            "Method",
+            "Class",
+            "Instance"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "A class is a template for multiple objects with similar features. It describes a group of objects with similar attributes and common behavior.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In a UML Class diagram, what does the top section contain?",
+        "choices": [
+            "Attributes",
+            "Name of the class",
+            "Operations",
+            "Initial values"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In a class diagram, a class is represented with a rectangle split into three sections. The top section contains the Name of the class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which concept protects data from unintended actions by wrapping data and methods into a single unit?",
+        "choices": [
+            "Polymorphism",
+            "Inheritance",
+            "Encapsulation",
+            "Abstraction"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Encapsulation provides protection to data and methods. It wraps them into a single unit known as a class and keeps data safe from unintended actions.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the empty diamond symbol represent in a class diagram?",
+        "choices": [
+            "Composition",
+            "Inheritance",
+            "Aggregation",
+            "Association"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Aggregation is represented using an empty diamond symbol next to the whole class.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which feature allows different methods to have the same name but different signatures?",
+        "choices": [
+            "Method Overloading",
+            "Data Hiding",
+            "Inheritance",
+            "Aggregation"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Object-oriented programming allows defining more than one method having the same name but different signatures. This feature is known as function or method overloading.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In inheritance, what is the relationship between a subclass and a superclass generally referred to as?",
+        "choices": [
+            "Has-a",
+            "Is-a",
+            "Part-of",
+            "Uses-a"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Inheritance is generally referred to as an 'is-a-kind-of' relationship between two classes.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the filled diamond symbol represent in a relationship between classes?",
+        "choices": [
+            "Aggregation",
+            "Composition",
+            "Generalization",
+            "Realization"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Composition relationships are represented using a filled diamond symbol next to the whole class.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In UML notation, which symbol represents 'private' visibility?",
+        "choices": [
+            "+",
+            "#",
+            "-",
+            "~"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In UML, visibility can be private, protected, public or package, represented using symbols -, #, + and ~ respectively.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which concept hides the complexity and implementation details, showing only essential features?",
+        "choices": [
+            "Data Abstraction",
+            "Polymorphism",
+            "Inheritance",
+            "Aggregation"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Data abstraction is a process of representing the essential features of the objects without including implementation detail.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In a Composition relationship, what happens to the 'part' class if the 'owner' class is deleted?",
+        "choices": [
+            "It remains active.",
+            "It is also deleted.",
+            "It is archived.",
+            "It becomes independent."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In Composition, the lifetime of the part class depends on the existence of the owner class. If the owner is deleted, the part class object is also deleted.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the specific term for an object's characteristics (like name, city, gender)?",
+        "choices": [
+            "Methods",
+            "Behaviors",
+            "Attributes",
+            "Operations"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In object-oriented terminology, such characteristics (like name, city, gender) are known as properties or attributes.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "If a class 'Teacher' inherits from class 'Person', which is the superclass?",
+        "choices": [
+            "Teacher",
+            "Person",
+            "Both",
+            "None"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the example provided, 'Person' is a superclass (or parent class) and 'Teacher' is a subclass.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is 'Polymorphism' best defined as?",
+        "choices": [
+            "Data hiding",
+            "Many forms",
+            "Single inheritance",
+            "Code duplication"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Polymorphism means 'many forms'. There may be different forms of single method or operation.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which arrow is used to represent Inheritance in a class diagram?",
+        "choices": [
+            "Dotted line",
+            "Arrow pointing to subclass",
+            "Arrow pointing to superclass",
+            "Diamond line"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In a class diagram, inheritance is represented using an arrow pointing to the superclass.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of these is NOT a visibility modifier symbol in UML?",
+        "choices": [
+            "+",
+            "*",
+            "-",
+            "#"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The symbols used are -, #, + and ~. The symbol * is not listed as a visibility modifier in the text.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the expression 'Date 1 - Date 2', if the '-' operator calculates the difference in days, this is an example of:",
+        "choices": [
+            "Function Overloading",
+            "Operator Overloading",
+            "Inheritance",
+            "Aggregation"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When an operator is given different meanings depending on the data types of operands (like '-' for dates vs numbers), it is achieved through operator overloading.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What identifies an object and distinguishes it from others?",
+        "choices": [
+            "State",
+            "Behavior",
+            "Identity",
+            "Class"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "All objects have unique identity and are distinguishable from each other.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "The relationship 'Motherboard is part of Computer' is best described as:",
+        "choices": [
+            "Inheritance",
+            "Aggregation/Composition",
+            "Generalization",
+            "Polymorphism"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "This represents a 'has-a' or 'a-part-of' relationship, known as aggregation or composition.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which section of the UML class diagram holds the methods or operations?",
+        "choices": [
+            "Top",
+            "Middle",
+            "Bottom",
+            "Side"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The rectangle is split into three sections. The bottom section contains Behavior or operations or methods of the class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What happens when you declare a variable inside a block (between { })?",
+        "choices": [
+            "It is global.",
+            "It is visible everywhere.",
+            "It ceases to exist after the block.",
+            "It is promoted to the main method."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "When we declare variables inside a block, they are local in that block and such variables will cease to exist after the block.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the statement 'x = (y = (z = 7));', which assignment happens first?",
+        "choices": [
+            "x = y",
+            "y = z",
+            "z = 7",
+            "All at once"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Associativity determines the direction. For assignment, it is Right-to-left, so z=7 is evaluated first.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the purpose of the 'break' statement in a loop?",
+        "choices": [
+            "Skip one iteration",
+            "Restart the loop",
+            "Transfer control outside the loop",
+            "Define a label"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The break statement breaks the nearest enclosing loop and transfers the control outside the loop.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which operator performs a logical XOR?",
+        "choices": [
+            "&&",
+            "||",
+            "^",
+            "!"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "There is operator ^ to perform logical XOR (exclusive OR).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How is a short-hand assignment 'a += b' expanded?",
+        "choices": [
+            "a = b",
+            "a = a + b",
+            "b = a + b",
+            "a + b = a"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "a += b is same as a = a + b.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the output of 'System.out.println(\"a / b = \" + (12.5 / 7.2));'?",
+        "choices": [
+            "1",
+            "5.3",
+            "1.7361112",
+            "Error"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "a / b where a=12.5 and b=7.2 results in 1.7361112.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the default value of the boolean literal in Java?",
+        "choices": [
+            "0",
+            "1",
+            "true / false",
+            "null"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "For the type boolean, there are precisely two literals: true and false. In Java, they are not associated with numeric values like 0 or 1.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which escape sequence represents a 'Carriage return'?",
+        "choices": [
+            "\\n",
+            "\\r",
+            "\\f",
+            "\\b"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The escape code \\r represents Carriage return.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In Java, if 'x = 6' and 'y = -4', what is 'x % y'?",
+        "choices": [
+            "-2",
+            "2",
+            "-1",
+            "1"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The result of x%y has the sign of the first operand. Since x (6) is positive, the result is 2.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which term refers to 'data hiding' capability in OOP?",
+        "choices": [
+            "Encapsulation",
+            "Polymorphism",
+            "Inheritance",
+            "Overloading"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Encapsulation provides data hiding capability. Private members are not available directly to the outside world.",
+        "timeSeconds": 30
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "text": "What is the primary benefit of data compression techniques?",
+        "choices": [
+            "To encrypt data",
+            "To reduce storage space and transmission time",
+            "To increase file size",
+            "To organize files alphabetically"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "These techniques allow us to reduce the amount of memory and disk space required to store the information and transfer large files faster.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the context of Linux systems, what does 'tar' stand for?",
+        "choices": [
+            "Total Archive",
+            "Tape Archiver",
+            "Temporary Archive",
+            "Terminal Archive"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "On Linux systems, tar (tape archiver) is the most common archive format.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which application is used to combine many files into a single archive file on Linux?",
+        "choices": [
+            "File Combiner",
+            "Archive Manager",
+            "Zip Master",
+            "Compressor"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Archive Manager permits us to combine many files or an entire directory tree into a single file known as an archive.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Data compression generally works by identifying and eliminating what?",
+        "choices": [
+            "Viruses",
+            "Repetition in the data",
+            "System files",
+            "Empty folders"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Data compression generally works by identifying repetition in the data and encoding the data in a way that reduces or eliminates such repetition.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does VLC stand for in 'VLC media player'?",
+        "choices": [
+            "Video LAN Client",
+            "Virtual Linux Computer",
+            "Visual Link Control",
+            "Video Local Center"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "We have discussed earlier that Ubuntu comes with built-in tools... VideoLAN Client (VLC) media player is shown in figure 13.3.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which menu in VLC media player allows you to convert multimedia files from one format to another?",
+        "choices": [
+            "Tools",
+            "Media",
+            "View",
+            "Playback"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "After starting VLC from the Applications, we may open one or more files using the Media -> Open File... or Convert / Save option from the menu.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Google Maps is a free internet-based service provided by Google for:",
+        "choices": [
+            "Social networking",
+            "Searching web pages",
+            "Viewing maps, satellite imagery, and directions",
+            "Video hosting"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Google Maps... has over a period of years, collected extensive map data... satellite imagery, cars with cameras... directions.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which view in Google Maps displays actual photographs of the earth?",
+        "choices": [
+            "Map View",
+            "Satellite View",
+            "Traffic View",
+            "Terrain View"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "By clicking on the Satellite button, we may switch to the satellite image view, shown in figure 13.5.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "R is a free software environment used primarily for:",
+        "choices": [
+            "Video editing",
+            "Statistical computing and graphics",
+            "Web browsing",
+            "Email management"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "R is a free software environment for statistical computing. It is a GNU project....",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which command is used to start the R software from the terminal?",
+        "choices": [
+            "start r",
+            "run r",
+            "R",
+            "open R"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "To invoke the R scripts from terminal window, open terminal and type R on the command prompt.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In R software, which function is used to draw a bar chart?",
+        "choices": [
+            "chart()",
+            "plot()",
+            "barplot()",
+            "drawbar()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We may use the function barplot with various arguments for drawing the plot as shown in figure 13.12.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which symbol is used to define a list of values in R?",
+        "choices": [
+            "l()",
+            "d()",
+            "c()",
+            "list()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In R, lists are defined using 'c'. Example: no_students <- c(140, 210, 700...).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Is the R language case-sensitive?",
+        "choices": [
+            "Yes",
+            "No",
+            "Only for commands",
+            "Only for variables"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "It has its own scripting language. It is a case-sensitive language.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which tool is used to enter Unicode characters (like Gujarati or Hindi) into an application?",
+        "choices": [
+            "Text Editor",
+            "Character Map",
+            "Terminal",
+            "Archive Manager"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Character Map program... can be used to enter Unicode characters into any application... like the long 'II' in Gujarati.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "RationalPlan is an open-source software used for:",
+        "choices": [
+            "Project Management",
+            "3D Modeling",
+            "Audio Recording",
+            "Web Design"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "RationalPlan is an open source software designed to assist project managers in preparing, maintaining and following a well defined project plan.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which version of RationalPlan is designed to manage independent projects?",
+        "choices": [
+            "RationalPlan Multi",
+            "RationalPlan Single",
+            "RationalPlan Viewer",
+            "RationalPlan Solo"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "RationalPlan Single allows us to manage independent projects that do not have common resources.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Skype allows users to communicate using:",
+        "choices": [
+            "Voice, video, and text",
+            "Only text",
+            "Only voice",
+            "Only video"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The Skype service allows users to communicate with peers using voice, video as well as text.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What type of file extension is commonly used for archives in Linux?",
+        "choices": [
+            ".exe",
+            ".tar.gz",
+            ".txt",
+            ".bmp"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The most common compressed file formats are the zip file format and the tar.gz file format.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the R command `barplot`, what does the `xlab` argument specify?",
+        "choices": [
+            "The title of the graph",
+            "The label for the Y-axis",
+            "The label for the X-axis",
+            "The color of the bars"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We use the arguments... xlab to specify X-axis label.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which function in R is used to produce a histogram?",
+        "choices": [
+            "bar()",
+            "history()",
+            "hist()",
+            "plot_hist()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The histogram can be drawn using the code shown in figure 13.14 (code snippet shows `hist(marks, col=\"lightblue\")`).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What allows VLC to support many different audio and video formats?",
+        "choices": [
+            "It uses the internet to play files",
+            "It has a modular design with many codecs",
+            "It converts everything to MP3 first",
+            "It only plays standard formats"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Each multimedia data format requires its own codec. The advantage of VLC is that it supports all the popular codecs and hence all the popular formats.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Can Google Maps provide turn-by-turn guidance?",
+        "choices": [
+            "No, it only shows static maps",
+            "Yes, using GPS on mobile devices",
+            "Only on desktop computers",
+            "Only for walking directions"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The service even provides turn-by-turn guidance while traveling if we use a mobile device equipped with GPS receiver.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In RationalPlan, which product is used to manage interdependent projects sharing resources?",
+        "choices": [
+            "RationalPlan Single",
+            "RationalPlan Multi",
+            "RationalPlan Viewer",
+            "RationalPlan Complex"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "RationalPlan Multi allows us to manage projects that share company resources... It includes all features of RationalPlan Single.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which software is proprietary and not available for modification (unlike R or RationalPlan)?",
+        "choices": [
+            "Skype",
+            "R",
+            "RationalPlan",
+            "Archive Manager"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The Skype software can be downloaded free of cost, though its source code is proprietary and not available for modification.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What prompt does R issue if a command is incomplete when you press ENTER?",
+        "choices": [
+            ">",
+            "+",
+            "?",
+            "#"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Observe that for long commands, when we press ENTER before the command is complete, R issues the + prompt until we complete the command.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "To create a playlist in VLC, which view option is used?",
+        "choices": [
+            "View -> Playlist",
+            "Media -> Playlist",
+            "Tools -> Playlist",
+            "Edit -> Playlist"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The playlist for playing the same tracks again... using the View -> Playlist option.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the `names.arg` argument do in the `barplot` function?",
+        "choices": [
+            "Sets the name of the file",
+            "Sets the labels for the bars",
+            "Sets the title of the graph",
+            "Sets the color of the bars"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "names.arg to specify... the values to be displayed for the bars (e.g., faculty names).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which operating system comes with Archive Manager by default?",
+        "choices": [
+            "Windows",
+            "Ubuntu Linux",
+            "MacOS",
+            "Android"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "There is no menu item to start the archive manager by default... This will create a new archive... with that file or directory as its contents. (Context: Ubuntu/Linux mentioned throughout chapter).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What allows Skype to call traditional telephone networks?",
+        "choices": [
+            "It is free for everyone",
+            "Using Skype Credit / Debit based user account",
+            "It uses satellite radio",
+            "It is not possible"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The calls to landline telephones or mobile phones are charged via a debit based user account system....",
+        "timeSeconds": 30
+    },
+    {
+        "text": "How do you copy a character from Character Map to your document?",
+        "choices": [
+            "Drag and drop",
+            "File -> Save",
+            "Copy and Paste",
+            "Print Screen"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We first select the script... double click characters to insert them into the Text to copy area... After we get a substantial amount of content, we may copy the content and paste into an application.",
+        "timeSeconds": 45
+    }
+]

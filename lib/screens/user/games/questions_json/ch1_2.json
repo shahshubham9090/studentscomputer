@@ -1,0 +1,362 @@
+[
+    {
+        "text": "According to the text, what is the specific difference between the 'Split' tab and the 'Source' tab in KompoZer?",
+        "choices": [
+            "Split shows the preview and code side-by-side; Source shows only code.",
+            "Split displays the HTML source of the current element; Source shows all details of the HTML code.",
+            "Split allows editing CSS; Source allows editing HTML.",
+            "There is no difference; they are synonymous."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text explicitly states: 'The Split tab displays the HTML source of the current element. Source tab shows all details of the HTML code.'.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the KompoZer interface, where is the 'Edit Mode Toolbar' located?",
+        "choices": [
+            "Top of the window, below the menu bar.",
+            "Left side, inside the Site Manager.",
+            "Bottom right side of the window.",
+            "Bottom left, next to the DOM Explorer."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The text describes the interface: 'The bottom right side of the window shows Edit mode toolbar with three viewing modes'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "When using the POST method, how is the data transmitted to the server?",
+        "choices": [
+            "It is appended to the URL as query parameters.",
+            "It is sent as a block through the HTTP transaction.",
+            "It is sent as a separate email.",
+            "It is encrypted into a 'hidden' input field automatically."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the POST method, the data is sent as a block through the HTTP transaction. The data is included in the body of the request.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which visual cue indicates the presence of a Form when viewing a page in KompoZer's 'Normal' view?",
+        "choices": [
+            "A red dashed border.",
+            "A yellow marker icon.",
+            "A light blue colored outline.",
+            "A dotted blue box surrounding elements."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "You can see the form inserted with light blue colored outline in the untitled page as shown in figure 1.6.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What specific limitation does the 'Preview' mode have regarding scripts?",
+        "choices": [
+            "It executes scripts slower than a browser.",
+            "It runs scripts but blocks pop-ups.",
+            "The scripts do not run.",
+            "It only runs JavaScript, not CSS."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Preview mode offers the page view as seen in a browser... The links also do not operate in preview mode. The scripts do not run.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the HTML Tags view, what does a 'yellow marker' represent?",
+        "choices": [
+            "A syntax error.",
+            "The start tag for all elements.",
+            "A comment.",
+            "A form field."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The HTML Tags view helps those who are familiar with HTML. A yellow marker is used to indicate the start tag for all elements.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which shortcut key is used to close the Site Manager pane in KompoZer?",
+        "choices": [
+            "F5",
+            "F9",
+            "Ctrl+S",
+            "Esc"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "You can close the site manager pane by clicking on close button or press F9.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "To ensure multiple radio buttons belong to the same group (allowing only one selection), what attribute must be identical for all of them?",
+        "choices": [
+            "id",
+            "value",
+            "name",
+            "type"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Though the text doesn't explicitly define the grouping logic in the summary table, the Example column shows: `<INPUT TYPE='radio' NAME='var' ...>`. In HTML, sharing the same `NAME` groups them. The text implies this by saying 'select a single item from a given group'.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the precise menu path to insert a label for a form field?",
+        "choices": [
+            "Format > Form > Label",
+            "Insert > Form > Define Label",
+            "Insert > Label > Define",
+            "Edit > Form > Label"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "From the menu bar, select Insert -> Form -> Define Label.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If the `method` attribute is left empty in the Form Properties, what is the default behavior?",
+        "choices": [
+            "It defaults to POST.",
+            "It defaults to GET.",
+            "The form will not submit.",
+            "It prompts the user to choose."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The default value for method attribute is GET.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the `cols` attribute in a `<textarea>` specifically control?",
+        "choices": [
+            "The font width.",
+            "The maximum number of characters allowed.",
+            "The number of columns of text visible without scrolling.",
+            "The total width of the form."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The cols attribute is used to set the number of columns of text that will be visible without scrolling right or left.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following form elements is a container tag (i.e., has a closing tag)?",
+        "choices": [
+            "<input>",
+            "<textarea>",
+            "<br>",
+            "<img>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The tag `<textarea>...</textarea>` is used to implement this element. Input is typically shown as `<input ...>` (void element).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the Form Properties dialog box, which field corresponds to the 'Action' attribute?",
+        "choices": [
+            "Form Name",
+            "Action URL",
+            "Target URL",
+            "Submission Path"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 1.4 shows the dialog box with the field labeled 'Action URL'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the effect of the GET method on the URL upon submission?",
+        "choices": [
+            "The URL remains unchanged.",
+            "The data is appended to the end of the URL.",
+            "The URL is encrypted.",
+            "The URL redirects to the homepage."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The GET method retrieves the data from the form and sends it to the server by attaching it at the end of the URL.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which toolbar allows for formatting operations like adding bullets and numbering?",
+        "choices": [
+            "Composition Toolbar",
+            "Format Toolbar 1",
+            "Format Toolbar 2",
+            "Edit Mode Toolbar"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Format toolbar1 and Format toolbar2 are used to format the text, add bullets, numbering....",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How many viewing modes does KompoZer provide in the Edit Mode Toolbar?",
+        "choices": [
+            "Two (Design, Source)",
+            "Three (Normal, HTML Tags, Preview)",
+            "Four (Design, Split, Source, Preview)",
+            "Three (Design, Split, Source)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The bottom right side of the window shows Edit mode toolbar with three viewing modes: Normal, HTML Tags and Preview.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which attribute of the `form` element takes a filename as its value?",
+        "choices": [
+            "name",
+            "method",
+            "action",
+            "id"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The action attribute... It takes a filename as value.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What happens to the form data when the 'Reset' button is clicked?",
+        "choices": [
+            "It is sent to the server.",
+            "It is deleted from the database.",
+            "Values are cleared and set back to default values.",
+            "The form is hidden."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "On clicking the reset button, the values of data entered in the form are cleared and set back to default values.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Why does the POST method not have restrictions on data length compared to GET?",
+        "choices": [
+            "Because it uses a larger URL buffer.",
+            "Because data is sent as a block in the HTTP transaction, not in the URL.",
+            "Because it compresses the data.",
+            "Because it splits data into multiple GET requests."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "This method (GET) allows only a limited amount of information... In the POST method, the data is sent as a block... This method does not have any restrictions on data length.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the Site Manager pane, what key can you press to close it?",
+        "choices": [
+            "F12",
+            "F9",
+            "F5",
+            "Ctrl+Q"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "You can close the site manager pane by clicking on close button or press F9.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which element allows creating a menu where items are defined by `<option>` tags?",
+        "choices": [
+            "<menu>",
+            "<list>",
+            "<select>",
+            "<input type='dropdown'>"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The select element is used to create a drop down list or menu... The tag <select>...</select> is used... The tag <option> is used to create elements.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the function of the 'Composition Toolbar'?",
+        "choices": [
+            "It formats text style (bold, italic).",
+            "It displays the HTML source.",
+            "It is used to create new files, open, save, or publish web pages.",
+            "It manages the site files."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The composition toolbar is used to create new file, open a file, save a file or publish a web page.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which tab would you select to see the HTML source code of the specific element currently selected?",
+        "choices": [
+            "Source",
+            "Split",
+            "Design",
+            "Preview"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Split tab displays the HTML source of the *current element*.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the Password input field, characters are converted into:",
+        "choices": [
+            "Hexadecimal codes.",
+            "Non-readable format (dots/asterisks).",
+            "Encrypted hash strings.",
+            "Invisible text."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The characters are not displayed to the user. Instead the character typed is converted into non readable format.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which tag corresponds to the 'Submit' button described in the text?",
+        "choices": [
+            "<button type='submit'>",
+            "<input type='submit'>",
+            "<submit>",
+            "<action type='submit'>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Example column shows: `<INPUT TYPE = \"submit\" VALUE = \"label\" >`.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "To open an existing file in KompoZer via the menu bar, which path is correct?",
+        "choices": [
+            "File -> Open -> File",
+            "File -> Open",
+            "View -> Open",
+            "Format -> File"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Alternatively, you can also click on File -> Open.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "The 'Action' attribute specifies the filename. When is this file opened?",
+        "choices": [
+            "Immediately when the form loads.",
+            "When the user clicks the submit button.",
+            "When the user clicks the reset button.",
+            "When the browser closes."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "This file is opened when the user clicks on the submit button after filling the data in the form.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the primary role of the 'Site Manager'?",
+        "choices": [
+            "To manage CSS styles.",
+            "To navigate within the site or between sites.",
+            "To preview the page.",
+            "To debug HTML code."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Site manager is a powerful tool used to navigate within the site or between the sites.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which toolbar allows you to create a form by clicking a 'Form' button?",
+        "choices": [
+            "Format Toolbar 1",
+            "Format Toolbar 2",
+            "Composition Toolbar",
+            "Status Bar"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Alternatively, you can also click on 'Form' in the composition toolbar.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which file extension is associated with Cascading Style Sheets in KompoZer?",
+        "choices": [
+            ".html",
+            ".css",
+            ".style",
+            ".sheet"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "It also supports the use of 'Styles' through Cascading Style Sheet (CSS).",
+        "timeSeconds": 30
+    }
+]

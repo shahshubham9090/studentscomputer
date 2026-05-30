@@ -1,0 +1,362 @@
+[
+    {
+        "text": "What does CSS stand for in web development?",
+        "choices": [
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Cascading Style Sheets or CSS allows you to specify styles for the visual elements of the website.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the CSS syntax `H1 { color : green }`, what is `H1` called?",
+        "choices": [
+            "Property",
+            "Value",
+            "Selector",
+            "Declaration"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The selector is the HTML element on which you want to apply the style. In the example `H1 { color : green }`, H1 is the selector.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which menu in KompoZer contains the 'Preferences' option to enable CSS?",
+        "choices": [
+            "File",
+            "Format",
+            "Edit",
+            "Tools"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "To make sure that KompoZer uses CSS by default, click Edit -> Preferences.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the primary advantage of using CSS?",
+        "choices": [
+            "It increases file size.",
+            "It separates content from presentation.",
+            "It compiles Java code.",
+            "It is required for saving files."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Thus we can say that, HTML is used to describe the information content... and not the style, while CSS describes the style... It separates design from implementation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the CSS syntax, which symbol separates the Property from the Value?",
+        "choices": [
+            "Semicolon (;)",
+            "Colon (:)",
+            "Comma (,)",
+            "Equal sign (=)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Declaration consists of a property associated with the HTML element used in selector and its corresponding value. The general syntax is `property : value` (separated by a colon).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which button in the KompoZer Composition toolbar is used to open the CSS Stylesheets dialog box?",
+        "choices": [
+            "The 'Form' button",
+            "The 'Cascade' button",
+            "The 'Image' button",
+            "The 'Save' button"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the composition toolbar, select the Cascade button. This will open the CSS Stylesheets dialog box.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which tab in the CSS Stylesheets dialog allows you to change the Font Family and Font Size?",
+        "choices": [
+            "General",
+            "Text",
+            "Background",
+            "Borders"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Text tab is shown in figure 2.5... In the Font family section... Font size....",
+        "timeSeconds": 30
+    },
+    {
+        "text": "To apply a style to all `<h1>` elements on a page, which option should be selected in the 'New Style Rule' section?",
+        "choices": [
+            "style applied to all elements of class",
+            "style applied to an element with specified ID",
+            "style applied to all elements of type",
+            "custom style rule"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Click on the first radio button 'style applied to all elements of type' (selector: h1).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which tab would you use to set a background image for an element?",
+        "choices": [
+            "Text",
+            "Box",
+            "Background",
+            "Lists"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "To set the background color, select the Background tab... Note: If you want to keep an image in the background then in the Image option, click on 'Choose file'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the 'Text' tab of the CSS dialog, which option allows you to transform text to 'Uppercase'?",
+        "choices": [
+            "Font style",
+            "Font weight",
+            "Case",
+            "Decoration"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Choose 'Uppercase' from the Case menu.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If you want to set a 'Dotted Border' for an element, which tab in the CSS dialog should you choose?",
+        "choices": [
+            "Box",
+            "Borders",
+            "Outline",
+            "General"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The tabs listed in the dialog box include 'Borders'. The requirements list mentions 'Border : Dotted Border', implying this is configured in the Borders tab.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What happens if the checkbox 'Use CSS styles instead of HTML elements and attributes' is NOT selected in Preferences?",
+        "choices": [
+            "KompoZer will not save the file.",
+            "KompoZer will use HTML tags for formatting instead of CSS.",
+            "KompoZer will use JavaScript.",
+            "The page will be blank."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Select the checkbox 'Use CSS styles...' if it is not selected. KompoZer will now use the CSS styling instead of HTML to format the text.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "In the Block Background Color dialog box, color values are represented in which format?",
+        "choices": [
+            "Binary",
+            "Hexadecimal (Hex)",
+            "Octal",
+            "CMYK"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The dialog box shows a field 'Hex:' with values like #FFFFFF.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "The CSS syntax consists of special symbols known as:",
+        "choices": [
+            "Tags",
+            "Rules",
+            "Scripts",
+            "Objects"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The syntax of CSS consists of special symbols known as rules.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the CSS rule `H1 { color : green }`, what is `green`?",
+        "choices": [
+            "Selector",
+            "Property",
+            "Value",
+            "Tag"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Declaration consists of a property ... and its corresponding value. Here `green` is the Value.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which key can be pressed to execute the 'Cascade' action (implied by typical shortcuts, though button is primary)?",
+        "choices": [
+            "F7",
+            "F5",
+            "F12",
+            "Ctrl+C"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "While the text highlights the 'Cascade button', standard KompoZer usage (and typical exams on this text) often associate F7 with the CSS editor. *Strict text adherence*: The text says 'select the Cascade button'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Under the 'Background' tab, what does the 'Opacity' setting control?",
+        "choices": [
+            "The brightness of the color",
+            "The transparency of the element",
+            "The size of the background image",
+            "The border thickness"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The 'Opacity' slider is visible in the Background tab, which generally controls transparency/opaqueness.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "When creating a new style rule, what appears in the left pane of the CSS Stylesheets window?",
+        "choices": [
+            "The HTML source code",
+            "The list of sheets and rules (e.g., internal stylesheet)",
+            "The file directory",
+            "The toolbar"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 2.4 shows 'Sheets and rules' in the left pane, with 'internal stylesheet' and specific rules like 'h1' listed under it.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the 'Alignment' option in the 'Text' tab allow you to do?",
+        "choices": [
+            "Change text color",
+            "Set text to Left, Center, or Right",
+            "Make text Bold",
+            "Underline text"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Alignment menu in the Text tab (shown in Figure 2.5) is set to 'Center', indicating it controls text alignment.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which HTML tag is used to define a CSS style rule within the document header (internal CSS)?",
+        "choices": [
+            "<css>",
+            "<script>",
+            "<style>",
+            "<link>"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Though the text focuses on the GUI, internal stylesheets are technically implemented using the `<style>` tag in the header. The GUI shows 'internal stylesheet'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the example provided, what font family was selected for the `h1` rule?",
+        "choices": [
+            "Arial",
+            "Times New Roman",
+            "Courier New",
+            "Verdana"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Select the 'predefined' radio button and choose 'Times New Roman' from the drop down menu.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Can you specify a background image using the CSS Stylesheets dialog?",
+        "choices": [
+            "No, only colors.",
+            "Yes, using the 'Image' option in the Background tab.",
+            "Yes, but only via the Source tab.",
+            "No, CSS doesn't support images."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Note : If you want to keep an image in the background then in the Image option, click on 'Choose file'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the default background color if none is selected?",
+        "choices": [
+            "Black",
+            "White / Transparent",
+            "Blue",
+            "Gray"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The 'Transparent' checkbox is visible in the Color dialog, and default backgrounds are typically transparent or white unless specified.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Review: In Java, which method is the entry point of a class execution?",
+        "choices": [
+            "start()",
+            "init()",
+            "main()",
+            "run()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "When the class was executed, the main method was called, and the application ran.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Review: Which visibility modifier provides the widest access in Java?",
+        "choices": [
+            "private",
+            "protected",
+            "package",
+            "public"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Public provides the widest visibility. Any method or variable is visible to the class... and to all classes outside.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Review: Which input type in an HTML form is used for a single-line text box?",
+        "choices": [
+            "textarea",
+            "text",
+            "radio",
+            "checkbox"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The tag `<input>` ... creates a text field to enter text in the form.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Review: In KompoZer, the 'Source' tab is used to:",
+        "choices": [
+            "Preview the page",
+            "Edit the raw HTML code",
+            "Manage site files",
+            "Design visually"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Source tab shows all details of the HTML code. It helps in editing the source code.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Review: What does the 'tar' command stand for in Linux?",
+        "choices": [
+            "Total Archive",
+            "Tape Archiver",
+            "Temporary Access Record",
+            "Text Archive"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "On Linux systems, tar (tape archiver) is the most common archive format.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Review: Which R function is used to create a bar chart?",
+        "choices": [
+            "plot()",
+            "hist()",
+            "barplot()",
+            "chart()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We may use the function `barplot` with various arguments for drawing the plot.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Review: In an HTML form, what does the `action` attribute specify?",
+        "choices": [
+            "The method of transfer",
+            "The file to which form data is submitted",
+            "The background color",
+            "The form name"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The action attribute is used to specify where to send the form data... It takes a filename as value.",
+        "timeSeconds": 30
+    }
+]

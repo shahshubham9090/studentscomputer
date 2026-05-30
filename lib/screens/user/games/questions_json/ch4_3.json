@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Easy: Which Java class is used to manipulate arrays (e.g., sorting, filling)?",
+        "choices": [
+            "ArrayHelper",
+            "Arrays",
+            "ArrayTool",
+            "Collection"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Class Arrays can be used with array objects. Examples of such methods are: sort, fill.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In JavaScript, what is the function of `alert()`?",
+        "choices": [
+            "To validate a form",
+            "To write text to the document body",
+            "To display a message in a pop-up box",
+            "To reload the page"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "JavaScript provides some inbuilt functions such as alert(). The alert() function takes the text and displays it in an alert box.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the KompoZer 'Block Background Color' dialog, color values are often represented by a code starting with '#'. What is this format called?",
+        "choices": [
+            "Binary",
+            "Decimal",
+            "Hexadecimal (Hex)",
+            "Octal"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 2.7 shows the 'Hex:' field with values like '#FFFFFF', which is the Hexadecimal color format.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is the primary purpose of an HTML `<form>`?",
+        "choices": [
+            "To play videos",
+            "To collect user input",
+            "To display images",
+            "To format text"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "A form in HTML is a container used to collect different kinds of inputs from the user.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which tab in KompoZer allows you to view both the design and the source code of the current element simultaneously?",
+        "choices": [
+            "Design",
+            "Source",
+            "Split",
+            "Preview"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Split tab displays the HTML source of the current element (alongside the design view implied).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In Java, when you create a String using a literal (e.g., `String s = \"Hello\"`), where is it stored?",
+        "choices": [
+            "In the Heap (general)",
+            "In the Stack",
+            "In the String Constant Pool (special memory area)",
+            "It is not stored"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Literals are stored in memory... note that 'str1 == str2' compares contents... separate memory is not allocated (implies pooling mechanism).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which website is an example of an online auction site?",
+        "choices": [
+            "www.google.com",
+            "www.ebay.com",
+            "www.facebook.com",
+            "www.wikipedia.org"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 4.3 shows the home page of online auction site www.ebay.com.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In the R language, what is the function `c()` used for?",
+        "choices": [
+            "To calculate cosine",
+            "To clear the screen",
+            "To create a list or vector of values",
+            "To comment out code"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The code `no_students <- c(140, 210...)` shows `c()` combining values into a list.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What specific value does the `<form>` attribute `action` expect?",
+        "choices": [
+            "A boolean (true/false)",
+            "A filename or URL",
+            "A method type (GET/POST)",
+            "A CSS style"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The action attribute is used to specify where to send the form data... It takes a filename as value.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: In CSS `H1 { color: green }`, what is `H1`?",
+        "choices": [
+            "Property",
+            "Value",
+            "Selector",
+            "Declaration"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The selector is the HTML element... In the example, H1 is the selector.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which event handler is executed when a form is submitted?",
+        "choices": [
+            "onclick",
+            "onchange",
+            "onsubmit",
+            "onload"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We need to use the onsubmit() event handler.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: Which function key is used to close the Site Manager pane in KompoZer?",
+        "choices": [
+            "F5",
+            "F12",
+            "F9",
+            "Esc"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "You can close the site manager pane by clicking on close button or press F9.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: Which property is used to find the size of an array in Java?",
+        "choices": [
+            "size",
+            "length",
+            "count",
+            "capacity"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Size of each row can be known using 'length' property of 1-D array.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does 'VLC' stand for?",
+        "choices": [
+            "Video Large Container",
+            "Video LAN Client",
+            "Virtual Linux Computer",
+            "Visual Link Control"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "VideoLAN Client (VLC) media player.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In a JavaScript validation function, what is the effect of `return false;`?",
+        "choices": [
+            "It returns an error code.",
+            "It prevents the form from being submitted to the server.",
+            "It closes the browser window.",
+            "It resets the form values."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The use of return statement, will stop the function from executing... (returning false prevents the default action, which is submission).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which HTML input type allows the selection of only one option from a group?",
+        "choices": [
+            "Checkbox",
+            "Radio",
+            "Text",
+            "Button"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Radio: Creates radio buttons... Generally used to select a single item from a given group.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In the CSS 'Text' tab, which option allows you to underline or blink text?",
+        "choices": [
+            "Font Family",
+            "Font Weight",
+            "Text decorations",
+            "Alignment"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Figure 2.5 shows 'Text decorations' with checkboxes for Underline, Blinking, etc..",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What does the Java method `s1.compareTo(s2)` return if `s1` is \"Apple\" and `s2` is \"Banana\"?",
+        "choices": [
+            "0",
+            "A positive integer",
+            "A negative integer",
+            "False"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "It returns <0 integer if invoking string (Apple) is less than str (Banana).",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: What is 'Net Banking'?",
+        "choices": [
+            "Playing games online",
+            "Conducting banking transactions over the Internet",
+            "Social networking",
+            "Searching for information"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Net banking... is the process of conducting the banking transactions over the Internet.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which Google Maps view displays actual photographs of the location?",
+        "choices": [
+            "Map View",
+            "Satellite View",
+            "Traffic View",
+            "Terrain View"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "By clicking on the Satellite button, we may switch to the satellite image view.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In JavaScript, what does `isNaN(\"123\")` return?",
+        "choices": [
+            "true",
+            "false",
+            "undefined",
+            "error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "isNaN(123) returns false as the value '123' is a number (strings are coerced if they contain numbers).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which button creates a submit button in an HTML form?",
+        "choices": [
+            "<input type='button'>",
+            "<input type='submit'>",
+            "<input type='reset'>",
+            "<input type='text'>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Submit: Creates a submit button... `<INPUT TYPE = \"submit\" ...>`.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which syntax is correct for creating a 2D array in Java?",
+        "choices": [
+            "int arr = new int[5,5]",
+            "int arr[][] = new int[5][5]",
+            "array arr[5][5]",
+            "int arr[5][5]"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 9.10 code shows: `int marks[][] = new int[5][3];`.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: If you select 'internal stylesheet' in the CSS dialog, where is the code generated?",
+        "choices": [
+            "In an external .css file",
+            "Inside the <head> tag of the HTML file",
+            "Inside the <body> tag",
+            "In the KompoZer preferences"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Figure 2.12 shows the CSS code generated in the head section of the page source code when using an internal stylesheet.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What is the main function of the Archive Manager?",
+        "choices": [
+            "To edit videos",
+            "To compress and extract files",
+            "To browse the web",
+            "To write code"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Archive Manager... permits us to combine many files... into a single file... and compress the file.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: To insert a table in KompoZer, which menu do you use?",
+        "choices": [
+            "Format",
+            "Insert",
+            "Table",
+            "Edit"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Go to Insert -> Table. Select single cell table and press OK button.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the Browser Object Model (BOM), the `document` object is a child of which object?",
+        "choices": [
+            "history",
+            "location",
+            "window",
+            "screen"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The top level object in the browser object model is Window object. The document object is below it in the hierarchy.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Easy: What is the default value for an integer element in a Java array?",
+        "choices": [
+            "1",
+            "null",
+            "0",
+            "-1"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Array elements are initialized with default values (0 for int).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which HTML tag allows multi-line text input?",
+        "choices": [
+            "<text>",
+            "<input type='text'>",
+            "<textarea>",
+            "<box>"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Textarea element allows multi-line text input.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In E-Commerce, what is a key advantage of 'Support Services' for companies?",
+        "choices": [
+            "Higher shipping costs",
+            "Reduced need for physical stores",
+            "Ability to solve problems online (e.g., software updates, complaints)",
+            "Slower customer response"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Support services... provides online complaint registration... software vendors also allow their licensed customers to download recent updates.",
+        "timeSeconds": 50
+    }
+]

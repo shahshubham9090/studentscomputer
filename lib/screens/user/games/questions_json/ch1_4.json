@@ -1,0 +1,362 @@
+[
+    {
+        "text": "Easy: What does WYSIWYG stand for in the context of KompoZer?",
+        "choices": [
+            "What You See Is What You Get",
+            "Where You See Is Where You Go",
+            "Who You See Is Who You Get",
+            "What You Say Is What You Get"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "KompoZer provides a web page editor which has a simple graphical interface known as WYSIWYG (What You See Is What You Get).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Easy: Which keyword is used to allocate memory for a new object in Java?",
+        "choices": [
+            "class",
+            "new",
+            "void",
+            "static"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The keyword 'new' is used to create the object by allocating memory.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Easy: What is the primary function of the 'R' software?",
+        "choices": [
+            "Video editing",
+            "Statistical computing and graphics",
+            "Project management",
+            "Web browsing"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "R is a free software environment for statistical computing.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is the difference between the GET and POST methods in HTML forms?",
+        "choices": [
+            "GET sends data as a block; POST appends it to the URL.",
+            "GET appends data to the URL; POST sends it as a block.",
+            "GET encrypts data; POST does not.",
+            "There is no difference."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "GET method retrieves data... attaching it at the end of the URL. In POST method, the data is sent as a block through the HTTP transaction.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Medium: In Java, how do you determine the size of an array named `list`?",
+        "choices": [
+            "list.size()",
+            "list.length()",
+            "list.length",
+            "list.count"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "With array variable, length is an attribute or property of array; whereas with String object, length is a method. So we need to use `list.length`.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the R environment, what does the '+' prompt indicate?",
+        "choices": [
+            "The command was executed successfully.",
+            "The previous command is incomplete and requires more input.",
+            "An arithmetic addition is pending.",
+            "The program has crashed."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Observe that for long commands, when we press ENTER before the command is complete, R issues the + prompt until we complete the command.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which HTML tag is used to create a multi-line text input area?",
+        "choices": [
+            "<input>",
+            "<textarea>",
+            "<text>",
+            "<box>"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Textarea element allows multi-line text input. The tag `<textarea>` is used to implement this element.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is the specific purpose of the `RationalPlan Multi` version?",
+        "choices": [
+            "To manage single, independent projects.",
+            "To play multimedia files.",
+            "To manage interdependent projects sharing common resources.",
+            "To view projects only."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "RationalPlan Multi allows us to manage projects that share company resources... It allows connections between tasks pertaining to different projects.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What specifically happens to the default constructor in a Java class if you define a parameterized constructor?",
+        "choices": [
+            "It remains available.",
+            "It is no longer available and must be explicitly defined if needed.",
+            "It becomes private.",
+            "It creates a compilation error immediately."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In presence of user-defined constructors in a class, default constructor is no more available.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which file extension represents a Java bytecode file?",
+        "choices": [
+            ".java",
+            ".class",
+            ".jar",
+            ".code"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When the program gets compiled... compiler creates a file with extension .class... This is our Java bytecode file.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In KompoZer, which tab displays the HTML source code of the current element only?",
+        "choices": [
+            "Design",
+            "Source",
+            "Split",
+            "Preview"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Split tab displays the HTML source of the current element. (The Source tab shows *all* details).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is the limitation of the 'Preview' mode in KompoZer regarding scripts?",
+        "choices": [
+            "Scripts run slower.",
+            "Scripts do not run.",
+            "Only CSS runs, not JS.",
+            "It opens a separate browser window."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Preview mode offers the page view as seen in a browser... The scripts do not run.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which input type allows a user to select multiple options from a group?",
+        "choices": [
+            "Radio",
+            "Checkbox",
+            "Select",
+            "Text"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Checkbox: Creates checkboxes in the form. Multiple check boxes can be selected at a time.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: Which method in the `Arrays` class is used to fill an array with a specific value?",
+        "choices": [
+            "set()",
+            "copy()",
+            "fill()",
+            "add()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Method `fill` is used to fill the whole or partial array with specified value.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Hard: In a 2-D array declared as `int marks[][] = new int[5][3]`, what does `marks.length` return?",
+        "choices": [
+            "15",
+            "3",
+            "5",
+            "8"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`marks` refers to the array of rows. There are 5 rows, so the length is 5.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: What symbol is used for a single-line comment in Java?",
+        "choices": [
+            "#",
+            "//",
+            "/*",
+            "--"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Single-line comment: It begins with double slashes (//).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does the `names.arg` argument do in the R `barplot` function?",
+        "choices": [
+            "Sets the title",
+            "Sets the Y-axis label",
+            "Sets the labels/names for the bars",
+            "Sets the color"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "`names.arg` to specify the values to be displayed for the bars.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: Why can't a static method access an instance variable directly?",
+        "choices": [
+            "Because instance variables are private.",
+            "Because static methods belong to the class, not an object.",
+            "Because static methods run before the class loads.",
+            "It can, but only using 'this'."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Instance variables cannot be accessed from class methods (static) because class methods are global to the class itself... (not tied to a specific instance).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which view in Google Maps shows actual photographs of the earth?",
+        "choices": [
+            "Map View",
+            "Satellite View",
+            "Traffic View",
+            "Terrain View"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "By clicking on the Satellite button, we may switch to the satellite image view.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In data compression, what is the 'tar' format on Linux systems?",
+        "choices": [
+            "A compressed file format.",
+            "A single uncompressed archive file.",
+            "A video format.",
+            "A system file."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The tar file format puts multiple files in a single uncompressed file... (Compression requires gzip/tar.gz).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is the specific result of `12.5 % 7.2` in Java?",
+        "choices": [
+            "5",
+            "5.3",
+            "1",
+            "Error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The modulus operator works on floating point numbers. 12.5 % 7.2 yields a remainder of 5.3.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Easy: Which tag is used to create a submit button in an HTML form?",
+        "choices": [
+            "<button>",
+            "<submit>",
+            "<input type='submit'>",
+            "<action>"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Submit: Creates a submit button... `<INPUT TYPE = \"submit\" ...>`.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What does the `toLowerCase()` method of the String class do?",
+        "choices": [
+            "Modifies the original string to lowercase.",
+            "Returns a new string with characters converted to lowercase.",
+            "Checks if the string is lowercase.",
+            "Returns the length of the string."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`String toLowerCase()` returns a string with all characters of invoking string converted to lowercase (Strings are immutable, returns new string implied).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: Which key is used to close the Site Manager pane in KompoZer?",
+        "choices": [
+            "F5",
+            "F12",
+            "F9",
+            "Esc"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "You can close the site manager pane by clicking on close button or press F9.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Easy: What is VLC Media Player used for?",
+        "choices": [
+            "Editing text",
+            "Playing audio and video",
+            "Creating databases",
+            "Browsing the web"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "VLC media player... provides several options for playback of audio and video.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: What is the difference between `float` and `double` literals in Java?",
+        "choices": [
+            "Float is the default; double requires a suffix.",
+            "Double is the default; float requires an 'f' suffix.",
+            "They are the same.",
+            "Float uses more memory."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Floating point literal by default is of the type double. To make a literal of type float, we have to append 'F' or 'f'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: In the data compression example, if the original file is 324 bytes, what is the compressed size?",
+        "choices": [
+            "100 bytes",
+            "226 bytes",
+            "300 bytes",
+            "150 bytes"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "While the size of the original file was 324 bytes, the size of the encoded file is just 226 bytes.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Easy: Which toolbar in KompoZer contains the 'Form' button?",
+        "choices": [
+            "Format Toolbar",
+            "Composition Toolbar",
+            "Edit Toolbar",
+            "Status Bar"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Alternatively, you can also click on 'Form' in the composition toolbar.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Medium: In Java, are 'constructors' inherited by subclasses?",
+        "choices": [
+            "Yes, always.",
+            "No, never.",
+            "Only public constructors.",
+            "Only if super() is called."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Note that constructors are not inherited in subclass.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Hard: What is the specific function of the `q()` command in R?",
+        "choices": [
+            "Query a database",
+            "Quit the environment",
+            "Queue a calculation",
+            "Quick save"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Exercise question 8: 'Which command is used to quit from R? ... (b) q()'.",
+        "timeSeconds": 45
+    }
+]

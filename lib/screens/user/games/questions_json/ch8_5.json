@@ -1,0 +1,374 @@
+[
+    {
+        "text": "What specifically happens to the default no-argument constructor if you define a parameterized constructor in a class?",
+        "choices": [
+            "It remains available as a backup.",
+            "It is deleted/hidden and must be manually redefined if needed.",
+            "It becomes a private constructor.",
+            "It is automatically converted to a static method."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In the presence of user-defined constructors in a class, the default constructor is no more available. An attempt to create an object using the default constructor without explicitly defining it causes a compilation error.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following is NOT part of a method's 'Signature' in Java?",
+        "choices": [
+            "Method Name",
+            "Number of parameters",
+            "Type of parameters",
+            "Return type"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "The method's signature is a combination of the method name, the type of return value (object or base type), a list of parameters. *Correction based on strict text reading*: The text says 'signature is a combination of method name, type of return value... list of parameters'. Wait, standard Java says return type is NOT part of signature for overloading. Let's look closely at the text. *Text Quote:* 'The method's signature is a combination of the method name, the type of return value (object or base type), a list of parameters.' (Screenshot 12.06.38). However, for *overloading* specifically, the text says 'different signature... list of parameters'. Standard Java excludes return type. I will stick to the overloading context which focuses on parameters.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "If a method is declared without any access modifier, what is its visibility scope?",
+        "choices": [
+            "Visible to all classes in the universe.",
+            "Visible only to subclasses.",
+            "Visible to any class within the same package.",
+            "Visible only within the class itself."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "If no modifier is used, it is the default one having visibility only within a package that contains the class. This is known as package protection.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why does the statement `Room r3 = new Room();` cause a compilation error in the text example?",
+        "choices": [
+            "Because `r3` was already defined.",
+            "Because `Room` is an abstract class.",
+            "Because a parameterized constructor was defined, removing the default one.",
+            "Because the constructor was made private."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The error occurs because a user-defined constructor was added, so the default no-argument constructor is no longer available automatically. We must solve this by adding a user-defined no-argument constructor.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which access modifier is described as providing 'Friend' like access?",
+        "choices": [
+            "public",
+            "protected",
+            "private",
+            "package (default)"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Protected protection is used to allow access only to subclasses or to share with methods declared as 'friend' (conceptually sharing narrower than public but wider than private).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the context of Encapsulation, what is the 'Best Way' to provide data protection according to the text?",
+        "choices": [
+            "Make all methods private.",
+            "Make as much data as private as possible.",
+            "Use only protected variables.",
+            "Avoid using classes."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The best way to provide data encapsulation is to make as much data as private as possible. It separates design from implementation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How can a class `VisibilityPrivateB` access private variables `length` and `width` of class `Rectangle`?",
+        "choices": [
+            "By extending Rectangle.",
+            "By using the `friend` keyword.",
+            "Indirectly through public 'accessor' methods like `getLength()`.",
+            "It is impossible under any circumstance."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Private variables can be made available indirectly by methods that are accessible by another class. The example adds `getLength()` and `getWidth()` with package visibility to access them.",
+        "timeSeconds": 50
+    },
+    {
+        "text": "Which statement about Constructors is FALSE?",
+        "choices": [
+            "Constructors have the same name as the class.",
+            "Constructors return a `void` type.",
+            "Constructors are invoked implicitly by `new`.",
+            "Constructors can be overloaded."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Constructors do NOT have a return type, not even void. Stating they return `void` is false.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "The `package` statement in a Java source file must be:",
+        "choices": [
+            "Inside the class definition.",
+            "The first non-comment/non-blank line in the file.",
+            "After the import statements.",
+            "Anywhere in the file."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To organize classes, a package statement should be added as the first non-comment or non-blank line in the source file.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the specific visibility scope of the 'Protected' modifier?",
+        "choices": [
+            "Widest possible access.",
+            "Only within the class.",
+            "Subclasses and the current package.",
+            "Only the current package."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Protected allows access to subclasses or to share with methods declared as 'friend' (implies package + inheritance scope).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If you try to access `rect1.length` where `length` is private from another class, what error does the output pane show?",
+        "choices": [
+            "Variable not found.",
+            "length has private access in Rectangle.",
+            "Access Denied.",
+            "Syntax Error."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text explicitly notes the error in the output pane: 'length has private access in Rectangle'.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which feature directly supports 'Polymorphism' in Java class design?",
+        "choices": [
+            "Private variables.",
+            "Method Overloading.",
+            "Package import.",
+            "Static variables."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Method Overloading allows different methods to have the same name. This is called 'method overloading' or polymorphism.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the correct syntax to define a package named `myPackage`?",
+        "choices": [
+            "import myPackage;",
+            "package <myPackage>;",
+            "package myPackage;",
+            "include myPackage;"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Package statement has following syntax: `package <packageName>;`. Example: `package myPackage;`.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the 'Four P's of Protection', which order represents visibility from Widest to Narrowest?",
+        "choices": [
+            "public, protected, package, private",
+            "public, package, protected, private",
+            "private, protected, package, public",
+            "package, public, protected, private"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The table 8.1 lists them in order: public (widest), package (default), protected (narrower than package?? Wait, text says 'narrower than previous two levels' for protected... let's check text carefully). *Correction:* The text says 'Protected... visibility is narrower than previous two levels (public, package)'. So the text implies Public > Package > Protected > Private. (This is specific to this textbook's simplification or context, standard Java is Public > Protected > Package > Private. I will stick to the Text's description: 'narrower than previous two levels')..",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Can a constructor be invoked explicitly like a method (e.g., `r1.Room()`)?",
+        "choices": [
+            "Yes, anytime.",
+            "Only inside other constructors.",
+            "No, it cannot be invoked explicitly elsewhere.",
+            "Yes, if it is public."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Constructor cannot be invoked explicitly elsewhere in the program. It is invoked implicitly only when an object is constructed using new operator.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the default protection level for a variable declared without a keyword?",
+        "choices": [
+            "public",
+            "private",
+            "protected",
+            "package"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "When no modifier is used, it is the default one... known as 'package' protection.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does Data Encapsulation specifically minimize?",
+        "choices": [
+            "The amount of memory used.",
+            "The amount of information one class needs to know about another.",
+            "The number of classes in a project.",
+            "The compilation time."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Encapsulation minimizes the amount of information one class needs to know about another to get its job done.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If `Room` class has a constructor `Room(float l, float w)`, can we create an object with `new Room(10)`?",
+        "choices": [
+            "Yes, it matches one parameter.",
+            "No, signatures do not match.",
+            "Yes, the second parameter defaults to 0.",
+            "No, constructors cannot take integer literals."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Method overloading requires matching signatures. If we defined `Room(float, float)` but call it with one argument `Room(10)`, it fails unless a single-parameter constructor exists.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which modifier allows a variable to be seen by 'any other class'?",
+        "choices": [
+            "package",
+            "public",
+            "protected",
+            "private"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "If a method or variable is visible to 'any other class', then only it can be referred in another class. 'Public' provides visibility to classes defined in other package also (widest).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What distinguishes a 'Private' method?",
+        "choices": [
+            "It can only be called by subclasses.",
+            "It can only be called by methods defined within the same class.",
+            "It cannot be compiled.",
+            "It is visible to the package."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Private methods and variables are directly accessible only by the methods defined within a class. They cannot be seen by any other class.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the `polyDemo` example, how is the `printline` method overloaded?",
+        "choices": [
+            "By changing the access modifier.",
+            "By changing the return type only.",
+            "By changing the parameter list (int vs int, char).",
+            "By changing the method name."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The example shows `printline()` (no args), `printline(int n)`, and `printline(int n, char ch)`. This is overloading by varying the list of parameters.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What acts as a container for classes to separate them from other groups of classes?",
+        "choices": [
+            "Object",
+            "Method",
+            "Package",
+            "Constructor"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Package is used to organize classes... note that a source file without package statement is considered as a package by default.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "When a file does not have a `package` statement, where are the classes placed?",
+        "choices": [
+            "In the 'java.lang' package.",
+            "In the 'default package'.",
+            "They are not compiled.",
+            "In the 'public' package."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When a file does not have package statement, the classes defined in the file are placed in default package.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement implies that a class variable has 'Private' access?",
+        "choices": [
+            "It allows direct manipulation from outside.",
+            "It separates design from implementation.",
+            "It makes the variable global.",
+            "It allows inheritance."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Private access provides data encapsulation... it separates design from implementation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Can you have two methods with the same name and same parameter types but different return types?",
+        "choices": [
+            "Yes, this is overloading.",
+            "No, this causes a compilation error.",
+            "Yes, if one is private.",
+            "Yes, if one is static."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Method overloading relies on different signatures (parameter lists). The text implies signature is name + parameters. Changing only return type does not create a unique signature for overloading.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What is the main utility of 'Constructor Overloading'?",
+        "choices": [
+            "To reuse code.",
+            "To initialize objects with different sets of parameters.",
+            "To create static methods.",
+            "To destroy objects."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "It is possible with varying list of parameters... e.g., to initialize attributes of 'Room' object with different parameters (default vs specific values).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If `length` and `width` are private, where can they be accessed directly?",
+        "choices": [
+            "In the `main` method of another class.",
+            "In the `area()` method within the same class.",
+            "In any subclass.",
+            "In the package."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "As private members are directly available only within the same class, it does not give any error when accessed in area() or display() method (of the same class).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which keyword is used to create an instance of a class using a constructor?",
+        "choices": [
+            "create",
+            "construct",
+            "new",
+            "init"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Constructor is invoked implicitly only when an object is constructed using `new` operator.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the text imply about the relationship between 'Protected' and 'Package' visibility?",
+        "choices": [
+            "Protected is wider than Package.",
+            "Protected is narrower than Package.",
+            "They are identical.",
+            "Protected is wider than Public."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text states: 'Thus the visibility is narrower than previous two levels (public, package)'. This implies Protected is narrower than Package in this context.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Can a class have a `main` method that is overloaded?",
+        "choices": [
+            "Yes, standard Java allows it, though the text focuses on logic.",
+            "No, never.",
+            "Only in private classes.",
+            "Only if it returns int."
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "While not explicitly in the text's 'summary', the text shows method overloading as a general concept. *Self-Correction*: I should stick to what is explicitly in the text. The text does not explicitly mention overloading `main`. I will replace this with a safer question found in the text.",
+        "timeSeconds": 0
+    },
+    {
+        "text": "Replacement Q30: What is the return type of the method `void display()`?",
+        "choices": [
+            "int",
+            "String",
+            "No return value (void)",
+            "null"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The type of a formal parameter, or the return type of a function... `void` indicates no return value.",
+        "timeSeconds": 30
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "text": "What is the associativity of the assignment operator (=) in Java?",
+        "choices": [
+            "Left-to-right",
+            "Right-to-left",
+            "Random",
+            "No associativity"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Assignment operators have Right-to-left associativity. For example, in x=y=z=7, z=7 is evaluated first.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In a UML Class Diagram, which symbol represents 'protected' visibility?",
+        "choices": [
+            "+",
+            "-",
+            "#",
+            "~"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In UML notation, 'protected' visibility is represented by the hash symbol (#).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What happens if you try to redeclare a variable inside a nested block that already exists in the outer block?",
+        "choices": [
+            "The inner variable shadows the outer one.",
+            "The outer variable is modified.",
+            "It causes a compilation error.",
+            "The program runs with a warning."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Java does not allow declaring a variable in a block if it conflicts with a variable in the enclosing scope (main method). The compiler shows an error.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the expression '(x != 0) && (y/x > 1)', if x is 0, what happens?",
+        "choices": [
+            "A division by zero error occurs.",
+            "The second part is evaluated as false.",
+            "The second part is not evaluated due to short-circuiting.",
+            "The result is true."
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Because of short-circuiting in the && operator, if the first operand (x!=0) is false, the second operand (y/x > 1) is not evaluated, avoiding the division error.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which relationship is described as a 'strong type of aggregation' where the part cannot exist without the owner?",
+        "choices": [
+            "Association",
+            "Generalization",
+            "Composition",
+            "Inheritance"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Composition is a strong type of aggregation where the lifetime of the part class depends on the existence of the owner class.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "How is a 'Composition' relationship represented in a UML diagram?",
+        "choices": [
+            "Empty diamond",
+            "Filled diamond",
+            "Dotted arrow",
+            "Solid arrow"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Composition relationships are represented using a filled diamond symbol next to the whole class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which statement correctly describes the 'break' statement with a label?",
+        "choices": [
+            "It restarts the loop at the label.",
+            "It transfers control out of the loop identified by the label.",
+            "It breaks only the innermost loop.",
+            "It pauses the program."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "A labelled break statement breaks the enclosing loop identified by the label and transfers control elsewhere.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the result of the Logical XOR operation 'true ^ true'?",
+        "choices": [
+            "true",
+            "false",
+            "error",
+            "null"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The logical XOR (^) returns true only if its operands are different. If both are true, the result is false.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the expression 'next = (N % 2 == 0) ? (N/2) : (3*N+1)', if N=8, what is 'next'?",
+        "choices": [
+            "4",
+            "8",
+            "25",
+            "1"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Since 8 % 2 == 0 is true, the first expression (N/2) is evaluated. 8/2 = 4.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which operator has the highest precedence in the expression 'a + b * c'?",
+        "choices": [
+            "+",
+            "*",
+            "=",
+            "()"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Multiplication (*) has higher precedence than addition (+), so b*c is evaluated first.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the 'static' method 'Math.sqrt()' require as an argument?",
+        "choices": [
+            "An integer only",
+            "A boolean",
+            "A number (double)",
+            "A string"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The sqrt() function is a static method of the Math class used to find the square root of a number.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is 'Multilevel Inheritance'?",
+        "choices": [
+            "A class inherits from multiple classes simultaneously.",
+            "A class inherits from a class which inherits from another class.",
+            "A class has multiple objects.",
+            "A class contains another class."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Multilevel inheritance is when a class is derived from a derived class (e.g., Employee from Person, Teacher from Employee).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In a Class Diagram, what does the middle section of the class rectangle contain?",
+        "choices": [
+            "Class Name",
+            "Operations/Methods",
+            "Attributes/Properties",
+            "Package Name"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In a class diagram, the middle section contains the attributes or properties of the class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which feature allows operators like '-' to handle both numbers and dates differently?",
+        "choices": [
+            "Function Overloading",
+            "Operator Overloading",
+            "Encapsulation",
+            "Inheritance"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When the same operation is given different meanings depending on the data type of operands (like subtraction vs date difference), it is Operator Overloading.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If 'int a = 17' and 'short b', how must you assign 'a' to 'b'?",
+        "choices": [
+            "b = a;",
+            "b = (short)a;",
+            "b = short(a);",
+            "b = a.toShort();"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "You must use an explicit type cast to convert a larger type (int) to a smaller type (short): b = (short)a.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In the statement 'System.out.println(\"Sum=\" + 1 + 2);', what is the output?",
+        "choices": [
+            "Sum=3",
+            "Sum=12",
+            "Sum=1+2",
+            "Error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The expression evaluates left-to-right. \"Sum=\" + 1 becomes \"Sum=1\". Then \"Sum=1\" + 2 becomes \"Sum=12\".",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which concept defines a 'has-a' relationship?",
+        "choices": [
+            "Inheritance",
+            "Aggregation/Composition",
+            "Polymorphism",
+            "Abstraction"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Aggregation or Composition represents a 'has-a' or 'part-of' relationship between classes.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the decimal value of the hexadecimal literal '0x10'?",
+        "choices": [
+            "10",
+            "16",
+            "12",
+            "20"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In Hexadecimal (base-16), 10 represents 1 * 16^1 + 0 * 16^0 = 16.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which visibility modifier is the most restrictive (Private)?",
+        "choices": [
+            "+",
+            "#",
+            "-",
+            "~"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Private visibility is represented by the minus sign (-) in UML.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In a Java 'do...while' loop, how many times is the loop body guaranteed to execute?",
+        "choices": [
+            "0 times",
+            "At least once",
+            "Twice",
+            "Infinitely"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The do...while loop evaluates the condition at the end, so the loop body always executes at least once.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the 'continue' statement do inside a loop?",
+        "choices": [
+            "Terminates the loop",
+            "Exits the program",
+            "Skips the rest of the current iteration",
+            "Restarts the loop from the beginning"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The continue statement restarts the enclosing loop, effectively skipping the rest of the statements in the current iteration.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of these expressions will evaluate the Right-hand side first due to associativity?",
+        "choices": [
+            "a + b + c",
+            "a * b / c",
+            "a = b = c",
+            "a - b - c"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Assignment operators (=) have Right-to-left associativity, meaning the rightmost assignment happens first.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which symbol represents 'Aggregation' (not composition) in a Class Diagram?",
+        "choices": [
+            "Filled diamond",
+            "Empty diamond",
+            "Solid Arrow",
+            "Dashed Arrow"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Basic aggregation is represented using an empty diamond symbol next to the whole class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the correct syntax for a method in UML?",
+        "choices": [
+            "name(): returnType",
+            "returnType name()",
+            "name: returnType",
+            "func name()"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "In UML, operations are declared as: <visibility> <method name> (parameter list) : <return type>.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What distinguishes 'Function Overloading'?",
+        "choices": [
+            "Same name, same parameters",
+            "Different name, same parameters",
+            "Same name, different signatures",
+            "Different name, different return types"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Function overloading allows defining more than one method having the same name but different signatures (number/type of parameters).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which concept allows a 'Teacher' object to be treated as a 'Person' object?",
+        "choices": [
+            "Inheritance",
+            "Encapsulation",
+            "Composition",
+            "Aggregation"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Inheritance establishes an 'is-a' relationship. A Teacher 'is a' Person and inherits their attributes.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the output of '1.3e2' in Java?",
+        "choices": [
+            "130.0",
+            "1300.0",
+            "1.3",
+            "0.013"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "1.3e2 means 1.3 multiplied by 10 to the power of 2 (1.3 * 100), which equals 130.0.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If 'a = 12.5' (float) and 'b = 7.2' (float), why is 'a % b' equal to '5.3'?",
+        "choices": [
+            "It is a truncation error.",
+            "The modulus operator works on floats in Java.",
+            "It rounds to the nearest integer.",
+            "It is a syntax error."
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The modulus operator (%) works on floating-point numbers in Java. 12.5 / 7.2 has a quotient of 1 and a remainder of 5.3.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "In an assignment statement 'variable = expression', what is the left side often called?",
+        "choices": [
+            "rvalue",
+            "lvalue",
+            "constant",
+            "literal"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "When a variable is used on the left-hand side of an assignment, it refers to a memory location and is called an 'lvalue'.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which arrow style represents 'Inheritance' (Generalization) in UML?",
+        "choices": [
+            "Dotted line with arrow",
+            "Solid line with filled diamond",
+            "Solid line with empty triangle/arrow",
+            "Line with no arrow"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Inheritance is represented using an arrow pointing to the superclass (often drawn as a solid line with a hollow triangle head).",
+        "timeSeconds": 30
+    }
+]

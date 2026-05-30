@@ -1,0 +1,354 @@
+[
+    {
+        "text": "What does 'R' software primarily help users with?",
+        "choices": [
+            "Video editing",
+            "Statistical computing and graphics",
+            "sending emails",
+            "Playing music"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "R is a free software environment for statistical computing.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the R software, which command is used to quit the environment?",
+        "choices": [
+            "exit()",
+            "stop()",
+            "q()",
+            "close()"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Based on the exercise questions provided in the text, `q()` is the command used to quit from R.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which of the following is NOT a feature of the Archive Manager?",
+        "choices": [
+            "Extract files",
+            "Create new archives",
+            "Edit video files",
+            "Password protection"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Archive Manager permits us to combine... extract files... compress... (Video editing is not mentioned).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the file extension for a RationalPlan project file?",
+        "choices": [
+            ".rp",
+            ".xrp",
+            ".plan",
+            ".xml"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "RationalPlan Viewer... developed to share the project in its original file format (.xrp).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Google Maps allows users to view traffic data. (True/False implied)",
+        "choices": [
+            "True, it provides traffic information.",
+            "False, only static maps.",
+            "False, only satellite images.",
+            "True, but only for airplanes."
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "The service... can also be used to display bus routes, current location of running trains, etc. (Implies live/traffic data capabilities described in text).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which argument in the R `barplot()` function is used to set the title of the graph?",
+        "choices": [
+            "title",
+            "head",
+            "main",
+            "caption"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We use the arguments `main`... to specify the main title.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the Linux command to install R mentioned in the 'Instruction for Teachers'?",
+        "choices": [
+            "install r-base",
+            "sudo apt-get install r-base r-base-dev",
+            "get-apt install R",
+            "download R-software"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "To install R use the command given below : `sudo apt-get install r-base r-base-dev`.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "VLC Media Player can convert multimedia files from one format to another.",
+        "choices": [
+            "True",
+            "False"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "We may open one or more files using... Convert / Save option from the menu.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the data compression example, what symbol marks the start of the encoded table?",
+        "choices": [
+            "$",
+            "#",
+            "^",
+            "&"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "We may mark the beginning of the table with a ^ (caret) symbol.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "RationalPlan Multi is designed for managing:",
+        "choices": [
+            "Single, independent projects",
+            "Interdependent projects sharing resources",
+            "Only financial portfolios",
+            "Personal to-do lists"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "RationalPlan Multi allows us to manage projects that share company resources....",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which character in the R console indicates that a command is incomplete?",
+        "choices": [
+            ">",
+            "+",
+            "?",
+            "!"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "R issues the + prompt until we complete the command.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Skype software source code is:",
+        "choices": [
+            "Open source",
+            "Proprietary",
+            "Public domain",
+            "Creative Commons"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Skype software... source code is proprietary and not available for modification.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which tool would you use to find the character code for a Gujarati vowel?",
+        "choices": [
+            "R",
+            "RationalPlan",
+            "Character Map",
+            "Archive Manager"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The Character Map program... can be used to enter Unicode characters... like the long 'II' in Gujarati.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In R, `no_students <- c(140, 210...)` creates what type of data structure?",
+        "choices": [
+            "A variable",
+            "A list (vector)",
+            "A chart",
+            "A file"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "We may define the number of students as a list....",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is the compressed size of the 'Ten Little Indians' file in the example?",
+        "choices": [
+            "324 bytes",
+            "226 bytes",
+            "100 bytes",
+            "500 bytes"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The size of the encoded file is just 226 bytes.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "To view a satellite image in Google Maps, what do you click?",
+        "choices": [
+            "The Map button",
+            "The Satellite button",
+            "The Earth button",
+            "The View button"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "By clicking on the Satellite button, we may switch to the satellite image view.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which VLC menu allows you to save a playlist?",
+        "choices": [
+            "Media",
+            "Playback",
+            "Audio",
+            "Video"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Using the Media -> Save Playlist to File... option.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What does the `col` argument specify in the `hist()` function in R?",
+        "choices": [
+            "Column width",
+            "Collection data",
+            "Color of the bars",
+            "Collapse bars"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In `hist(marks, col=\"lightblue\")`, 'col' specifies the color.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "RationalPlan Viewer allows you to:",
+        "choices": [
+            "Edit project files",
+            "Create new project files",
+            "Open and view project files (.xrp)",
+            "Convert files to video"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "RationalPlan Viewer is an additional tool developed to share the project... open Microsoft Project files.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "The `.tar` format compresses files by default.",
+        "choices": [
+            "True",
+            "False"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The tar file format puts multiple files in a single uncompressed file... (Compression requires gzip/tar.gz).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which R function argument sets the labels for the X-axis bars?",
+        "choices": [
+            "xlab",
+            "names.arg",
+            "ylab",
+            "main"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`names.arg` to specify the values to be displayed for the bars (names of faculties).",
+        "timeSeconds": 60
+    },
+    {
+        "text": "What technology allows Google Maps to show turn-by-turn guidance?",
+        "choices": [
+            "GPS",
+            "HTML",
+            "FTP",
+            "SMS"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "If we use a mobile device equipped with GPS receiver.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In the Archive Manager, the 'Extract' button is used to:",
+        "choices": [
+            "Add files",
+            "Delete files",
+            "Unpack files from the archive",
+            "Create a password"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Archive Manager... permits us to... extract files from the archives.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "RationalPlan Single helps manage projects that:",
+        "choices": [
+            "Are complex and interdependent",
+            "Share resources",
+            "Are independent",
+            "Are video-based"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "RationalPlan Single allows us to manage independent projects that do not have common resources.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Is R case-sensitive?",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "It is a case-sensitive language.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which button in VLC is marked with a right-pointing triangle?",
+        "choices": [
+            "Stop",
+            "Pause",
+            "Play",
+            "Record"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "The play button (marked with a little right-pointing triangle).",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What does the `ylim` argument do in R?",
+        "choices": [
+            "Limits the number of bars",
+            "Sets the Y-axis range",
+            "Changes the bar color",
+            "Sets the X-axis range"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "`ylim`... to specify the range of values to be plotted on the Y-axis.",
+        "timeSeconds": 60
+    },
+    {
+        "text": "Which Google service provides 360-degree street-level imagery (implied)?",
+        "choices": [
+            "Google Earth",
+            "Google Maps (Street View)",
+            "Google Drive",
+            "Google Search"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The text mentions 'cars with cameras mounted on them' collecting map data, which refers to Street View functionality within Google Maps.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Can Archive Manager create password-protected archives?",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Exercise question 3 asks: 'For which types of archives is the password protection option available?', implying it is a supported feature.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Skype calls to other Skype users are:",
+        "choices": [
+            "Charged per minute",
+            "Free",
+            "Charged monthly",
+            "Only allowed on weekends"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The Skype service allows users to communicate with peers... (Context implies peer-to-peer is free, while landlines are debit-based).",
+        "timeSeconds": 30
+    }
+]

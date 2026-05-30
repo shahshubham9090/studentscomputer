@@ -1,0 +1,362 @@
+[
+    {
+        "text": "What is the primary purpose of a Constructor in Java?",
+        "choices": [
+            "To delete an object",
+            "To initialize the object",
+            "To compile the class",
+            "To return a value"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Constructor is a special kind of method mainly designed to perform initializing actions when a new object is created.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which of the following is TRUE about a Constructor's name?",
+        "choices": [
+            "It must be 'main'",
+            "It can be anything",
+            "It must have the same name as the class",
+            "It must start with a lowercase letter"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Constructors differs from general methods in that a Constructor must have the same name as the class name.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the return type of a Constructor?",
+        "choices": [
+            "int",
+            "void",
+            "String",
+            "It does not have a return type"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Constructors do not have a return type, not even void.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "How is a constructor invoked?",
+        "choices": [
+            "Explicitly by the programmer anytime",
+            "Implicitly when an object is constructed using 'new'",
+            "Automatically when the class is compiled",
+            "Using the dot operator"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Constructor is invoked implicitly only when an object is constructed using the new operator. It cannot be invoked explicitly elsewhere.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What feature allows multiple methods to have the same name but different signatures?",
+        "choices": [
+            "Encapsulation",
+            "Method Overloading",
+            "Inheritance",
+            "Variable declaration"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Having different methods that have the same name but a different signature is called 'method overloading' or polymorphism.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which visibility modifier provides the 'widest' access?",
+        "choices": [
+            "private",
+            "protected",
+            "public",
+            "package"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Public provides the widest visibility. Any method or variable is visible to the class in which it is defined and to all classes outside.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the default access modifier if no keyword is used?",
+        "choices": [
+            "public",
+            "private",
+            "protected",
+            "package (default)"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "If no modifier is used, it is the default one having visibility only within a package that contains the class. This is known as 'package' protection.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which visibility level is restricted to only the class where it is defined?",
+        "choices": [
+            "public",
+            "private",
+            "protected",
+            "package"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Private provides the narrowest visibility. The private methods and variables are directly accessible only by the methods defined within a class.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What happens if you define a parameterized constructor but no no-argument constructor?",
+        "choices": [
+            "The default constructor is still available",
+            "The default constructor is no more available",
+            "The compiler creates one automatically",
+            "It causes a runtime error"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "In presence of user-defined constructors in a class, the default constructor is no more available. If needed, we must provide it explicitly.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which protection level is used to allow access to subclasses or 'friend' methods?",
+        "choices": [
+            "private",
+            "public",
+            "protected",
+            "static"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "Protected protection is used to allow the access only to subclasses or to share with the methods declared as 'friend' (in concept).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "What is Data Encapsulation best achieved by?",
+        "choices": [
+            "Making all variables public",
+            "Making as much data as private as possible",
+            "Using global variables",
+            "Avoiding constructors"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The best way to provide data encapsulation is to make as much data as private as possible, separating design from implementation.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "If a variable 'length' is private in class 'Rectangle', how can another class access it?",
+        "choices": [
+            "Rectangle.length",
+            "Directly accessing it",
+            "Through public getter methods like getLength()",
+            "It is impossible"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "It can be made available indirectly by the methods that are accessible by another class (e.g., getLength() and getWidth()).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Polymorphism means:",
+        "choices": [
+            "One form",
+            "Many forms",
+            "No forms",
+            "Hidden forms"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Polymorphism means 'many forms'. It allows different methods to have the same name.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Can constructors be overloaded?",
+        "choices": [
+            "No, never",
+            "Yes, by varying the parameter list",
+            "Only if they have different names",
+            "Only in subclasses"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Like other methods, constructors can also be overloaded. It is possible with varying list of parameters.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is a 'Default Constructor'?",
+        "choices": [
+            "A constructor with one argument",
+            "A constructor with no arguments",
+            "A private constructor",
+            "A static constructor"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Every class is having its default constructor; sometimes referred to as no-argument constructor.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which modifier provides visibility to classes defined in other packages?",
+        "choices": [
+            "private",
+            "package",
+            "protected",
+            "public"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Public provides visibility to classes defined in other package also. To provide public access, use access modifier public.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "When is the default constructor NOT generated automatically?",
+        "choices": [
+            "When the class is public",
+            "When the class has no variables",
+            "When a user-defined constructor is present",
+            "When the class is abstract"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "In presence of user-defined constructors in a class, default constructor is no more available.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Method signatures include:",
+        "choices": [
+            "Return type and Name",
+            "Name and Parameter List",
+            "Access Modifier and Name",
+            "Return type and Parameters"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The method's signature is a combination of the method name and the list of parameters.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the visibility of a variable declared without any modifier?",
+        "choices": [
+            "Private",
+            "Public",
+            "Protected",
+            "Package (Friend)"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "This is the next level of access that has no precise name... declared as 'friend'. It is the default level of protection (package).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which statement correctly calls a user-defined no-argument constructor?",
+        "choices": [
+            "new Room;",
+            "Room();",
+            "new Room();",
+            "create Room();"
+        ],
+        "correctChoiceIndex": 2,
+        "explanation": "To solve the error, add user-defined no-argument constructor 'Room() {}' and execute... Room r3 = new Room();.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Why do we use private variables?",
+        "choices": [
+            "To make code faster",
+            "To hide data from the world's sight (Encapsulation)",
+            "To allow easy access",
+            "To use less memory"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "This provides data encapsulation; hiding data from the world's sight and limiting its manipulation.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "In `printline(int n, char ch)`, what makes it different from `printline(int n)`?",
+        "choices": [
+            "The return type",
+            "The number/type of parameters",
+            "The visibility",
+            "The class it belongs to"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "It uses polymorphism to print a line as per specified parameters (different signature).",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Which access modifier is considered the 'narrowest'?",
+        "choices": [
+            "public",
+            "protected",
+            "package",
+            "private"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "Table 8.1 shows private has the narrowest visibility.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "If `rect1` is an object of `Rectangle` with private `length`, does `rect1.length = 10` work?",
+        "choices": [
+            "Yes",
+            "No, it causes an error",
+            "Only inside the main method",
+            "Only if rect1 is public"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Note the error in the output pane that says 'length has private access in Rectangle'. This means it is not accessible directly.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "A package statement is used to:",
+        "choices": [
+            "Compile code",
+            "Organize classes",
+            "Hide classes",
+            "Delete classes"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "Package is used to organize classes. Package statement should be added as the first non-comment line.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Which of these is NOT one of the 'Four P's of Protection'?",
+        "choices": [
+            "Public",
+            "Private",
+            "Protected",
+            "Permanent"
+        ],
+        "correctChoiceIndex": 3,
+        "explanation": "The Four P's of Protection are public, package (default), protected, and private.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "What is the syntax for a constructor of class `Room`?",
+        "choices": [
+            "void Room() {...}",
+            "Room() {...}",
+            "new Room() {...}",
+            "class Room() {...}"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "A constructor has the same name as the class and no return type. Example: `Room(float l, float w) ...`.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "Access modifiers are also known as:",
+        "choices": [
+            "Visibility modifiers",
+            "Type modifiers",
+            "Scope modifiers",
+            "Class modifiers"
+        ],
+        "correctChoiceIndex": 0,
+        "explanation": "Access control is about controlling visibility. So, access modifiers are also known as visibility modifiers.",
+        "timeSeconds": 30
+    },
+    {
+        "text": "Can a constructor initialize attributes with different values than the default?",
+        "choices": [
+            "No",
+            "Yes, using parameters",
+            "Only if they are public",
+            "Only for static variables"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "We may write our own constructors to initialize the attributes of 'Room' object with different parameters.",
+        "timeSeconds": 45
+    },
+    {
+        "text": "The scope of a private variable is:",
+        "choices": [
+            "The entire package",
+            "Only the class it is defined in",
+            "All subclasses",
+            "The entire project"
+        ],
+        "correctChoiceIndex": 1,
+        "explanation": "The private methods and variables are directly accessible only by the methods defined within a class. They cannot be seen by any other class.",
+        "timeSeconds": 30
+    }
+]
