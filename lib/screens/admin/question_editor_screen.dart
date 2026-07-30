@@ -35,6 +35,17 @@ class _QuestionEditorScreenState extends State<QuestionEditorScreen> {
     }
   }
 
+  @override
+  void dispose() {
+    _textController.dispose();
+    for (final c in _choiceControllers) {
+      c.dispose();
+    }
+    _timeController.dispose();
+    _explanationController.dispose();
+    super.dispose();
+  }
+
   void _save() {
     // Validate question text
     if (_textController.text.trim().isEmpty) {

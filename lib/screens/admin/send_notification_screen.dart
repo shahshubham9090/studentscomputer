@@ -17,6 +17,13 @@ class _SendNotificationScreenState extends State<SendNotificationScreen> {
   final _formKey = GlobalKey<FormState>();
   bool _isLoading = false;
 
+  @override
+  void dispose() {
+    _titleController.dispose();
+    _bodyController.dispose();
+    super.dispose();
+  }
+
   Future<void> _send() async {
     if (!_formKey.currentState!.validate()) return;
 

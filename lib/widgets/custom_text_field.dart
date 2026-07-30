@@ -53,18 +53,26 @@ class _CustomTextFieldState extends State<CustomTextField> {
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: const BorderRadius.all(Radius.circular(12)),
-          borderSide: BorderSide(color: Colors.grey.shade300),
+          borderSide: BorderSide(color: Theme.of(context).colorScheme.outline),
         ),
-        focusedBorder: const OutlineInputBorder(
+        focusedBorder: OutlineInputBorder(
+          borderRadius: const BorderRadius.all(Radius.circular(12)),
+          borderSide: BorderSide(color: Theme.of(context).colorScheme.primary, width: 2),
+        ),
+        errorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(12)),
-          borderSide: BorderSide(color: Colors.blue, width: 2),
+          borderSide: BorderSide(color: Theme.of(context).colorScheme.error, width: 2),
+        ),
+        focusedErrorBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.all(Radius.circular(12)),
+          borderSide: BorderSide(color: Theme.of(context).colorScheme.error, width: 2),
         ),
         prefixIcon: widget.prefixIcon != null ? Icon(widget.prefixIcon) : null,
         suffixIcon: widget.obscureText
             ? IconButton(
                 icon: Icon(
                   _obscureText ? Icons.visibility_off : Icons.visibility,
-                  color: Colors.grey,
+                  color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6),
                 ),
                 onPressed: () {
                   setState(() {

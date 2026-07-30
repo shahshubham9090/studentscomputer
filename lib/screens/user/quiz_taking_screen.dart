@@ -146,7 +146,7 @@ class _QuizTakingScreenState extends State<QuizTakingScreen> {
           const SizedBox(height: 4),
           Text(
             "${(progress * 100).toInt()}% Complete",
-            style: TextStyle(fontSize: 11, color: Colors.white.withOpacity(0.8)),
+            style: TextStyle(fontSize: 11, color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7)),
           ),
         ],
       ),
@@ -194,7 +194,7 @@ class _QuizTakingScreenState extends State<QuizTakingScreen> {
         height: 8,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(4),
-          color: Colors.white.withOpacity(0.2),
+          color: Theme.of(context).colorScheme.onSurface.withOpacity(0.12),
         ),
         child: FractionallySizedBox(
           alignment: Alignment.centerLeft,

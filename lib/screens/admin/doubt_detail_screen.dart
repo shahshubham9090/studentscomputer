@@ -26,6 +26,12 @@ class _DoubtDetailScreenState extends State<DoubtDetailScreen> {
     }
   }
 
+  @override
+  void dispose() {
+    _replyController.dispose();
+    super.dispose();
+  }
+
   Future<void> _submitReply() async {
     if (_replyController.text.trim().isEmpty) return;
 

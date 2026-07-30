@@ -114,7 +114,7 @@ class _GameLeaderboardList extends StatelessWidget {
             return Container(
               margin: const EdgeInsets.only(bottom: AppSpacing.s),
               decoration: BoxDecoration(
-                color: isMe ? AppColors.primary.withOpacity(0.05) : Colors.white,
+                color: isMe ? AppColors.primary.withOpacity(0.05) : Theme.of(context).colorScheme.surface,
                 borderRadius: BorderRadius.circular(12),
                 border: isMe 
                     ? Border.all(color: AppColors.primary.withOpacity(0.3)) 
@@ -133,7 +133,7 @@ class _GameLeaderboardList extends StatelessWidget {
                   user.displayName,
                   style: TextStyle(
                     fontWeight: isMe ? FontWeight.bold : FontWeight.w500,
-                    color: isMe ? AppColors.primary : AppColors.textPrimary,
+                    color: isMe ? AppColors.primary : Theme.of(context).colorScheme.onSurface,
                   ),
                 ),
                 trailing: Text(

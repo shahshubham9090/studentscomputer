@@ -91,7 +91,7 @@ class _TicTacToeScreenState extends State<TicTacToeScreen> {
           label,
           style: TextStyle(
             fontSize: 12,
-            color: AppColors.textSecondary,
+            color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
             fontWeight: FontWeight.w600,
           ),
         ),

@@ -63,7 +63,7 @@ class _StudySwiperScreenState extends State<StudySwiperScreen> {
               Text(
                 "Swipe right to master, left to review later",
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: AppColors.textSecondary,
+                  color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
                 ),
               ),
               const SizedBox(height: AppSpacing.l),
@@ -77,6 +77,9 @@ class _StudySwiperScreenState extends State<StudySwiperScreen> {
                   padding: const EdgeInsets.all(24.0),
                   cardBuilder: (context, index) {
                     final card = _flashcards[index];
+                    final isDark = Theme.of(context).brightness == Brightness.dark;
+                    final frontTextColor = isDark ? Colors.white : AppColors.textPrimary;
+                    final frontMutedColor = isDark ? Colors.white70 : AppColors.textSecondary;
                     return GestureDetector(
                       onTap: () {
                         setState(() {
@@ -88,9 +91,11 @@ class _StudySwiperScreenState extends State<StudySwiperScreen> {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(30),
                           gradient: LinearGradient(
-                            colors: _isFlipped 
+                            colors: _isFlipped
                                 ? [AppColors.secondary, AppColors.primary]
-                                : [Colors.white, Colors.indigo.shade50],
+                                : isDark
+                                    ? [const Color(0xFF2C2C2C), const Color(0xFF1E1E1E)]
+                                    : [Colors.white, Colors.indigo.shade50],
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight,
                           ),
@@ -111,7 +116,7 @@ class _StudySwiperScreenState extends State<StudySwiperScreen> {
                               Text(
                                 _isFlipped ? "Definition" : "Term",
                                 style: TextStyle(
-                                  color: _isFlipped ? Colors.white70 : AppColors.textSecondary,
+                                  color: _isFlipped ? Colors.white70 : frontMutedColor,
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1.2,
@@ -122,7 +127,7 @@ class _StudySwiperScreenState extends State<StudySwiperScreen> {
                                 _isFlipped ? card["definition"]! : card["term"]!,
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                  color: _isFlipped ? Colors.white : AppColors.textPrimary,
+                                  color: _isFlipped ? Colors.white : frontTextColor,
                                   fontSize: _isFlipped ? 22 : 36,
                                   fontWeight: _isFlipped ? FontWeight.normal : FontWeight.bold,
                                 ),
@@ -157,13 +162,13 @@ class _StudySwiperScreenState extends State<StudySwiperScreen> {
                     FloatingActionButton(
                       heroTag: "btn_nope",
                       onPressed: () => _controller.swipeLeft(),
-                      backgroundColor: Colors.white,
+                      backgroundColor: Theme.of(context).colorScheme.surface,
                       child: const Icon(Icons.close, color: Colors.redAccent, size: 30),
                     ),
                     FloatingActionButton(
                       heroTag: "btn_like",
                       onPressed: () => _controller.swipeRight(),
-                      backgroundColor: Colors.white,
+                      backgroundColor: Theme.of(context).colorScheme.surface,
                       child: const Icon(Icons.favorite, color: Colors.greenAccent, size: 30),
                     ),
                   ],

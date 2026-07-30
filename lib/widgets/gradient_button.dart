@@ -22,6 +22,12 @@ class GradientButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final buttonTextStyle = Theme.of(context).textTheme.titleMedium?.copyWith(
+      color: isDark ? Colors.black : Colors.white,
+      fontWeight: FontWeight.bold,
+    );
+
     return Container(
       width: width ?? double.infinity,
       decoration: BoxDecoration(
@@ -60,18 +66,15 @@ class GradientButton extends StatelessWidget {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         if (icon != null) ...[
-                          Icon(icon, color: Colors.white),
+                          Icon(icon, color: isDark ? Colors.black : Colors.white),
                           const SizedBox(width: 8),
                         ],
                         Text(
                           text,
-                          style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
+                          style: buttonTextStyle,
                         ),
                       ],
-                    ),
+                  ),
             ),
           ),
         ),

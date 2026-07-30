@@ -70,7 +70,7 @@ class QuizCardSkeleton extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: AppSpacing.m),
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(24),
       ),
       child: const Column(
@@ -106,7 +106,7 @@ class MaterialCardSkeleton extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: AppSpacing.m),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(20),
       ),
       child: const Row(
@@ -145,7 +145,7 @@ class StatCardSkeleton extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(AppSpacing.m),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(20),
       ),
       child: const Column(
@@ -171,7 +171,7 @@ class LeaderboardSkeletonItem extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: AppSpacing.s),
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(16),
       ),
       child: const Row(
@@ -198,7 +198,7 @@ class ResultCardSkeleton extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: AppSpacing.m),
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(20),
       ),
       child: const Row(

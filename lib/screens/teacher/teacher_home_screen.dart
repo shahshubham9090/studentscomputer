@@ -496,9 +496,9 @@ class _GroupDetailScreenState extends State<_GroupDetailScreen> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
+            Text(
               "Select students to invite to this group. They will receive an invitation to approve.",
-              style: TextStyle(color: AppColors.textSecondary, fontSize: 13),
+              style: TextStyle(color: Theme.of(ctx).colorScheme.onSurface.withOpacity(0.7), fontSize: 13),
             ),
             const SizedBox(height: 16),
             StudentMultiSelector(

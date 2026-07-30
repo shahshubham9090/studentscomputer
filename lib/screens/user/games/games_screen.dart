@@ -304,7 +304,7 @@ class GamesScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(28),
         border: Border.all(color: Colors.grey.withOpacity(0.2)),
         boxShadow: [
@@ -330,7 +330,7 @@ class GamesScreen extends StatelessWidget {
             'We\'re working on adding more exciting games for you to enjoy!',
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: AppColors.textSecondary,
+              color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
             ),
           ),
         ],

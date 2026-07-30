@@ -40,6 +40,13 @@ class _CreateQuizScreenState extends State<CreateQuizScreen> {
     }
   }
   
+  @override
+  void dispose() {
+    _titleController.dispose();
+    _descController.dispose();
+    super.dispose();
+  }
+
   void _addQuestion() async {
     final result = await Navigator.push(context, MaterialPageRoute(builder: (_) => const QuestionEditorScreen()));
     if (result != null && result is Question) {

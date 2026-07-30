@@ -121,7 +121,7 @@ class _UserHomeTabState extends State<UserHomeTab> {
                            "Quizzes will appear here once published by the admin.",
                            textAlign: TextAlign.center,
                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                             color: AppColors.textSecondary,
+                             color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
                            ),
                          ),
                        ],
@@ -477,7 +477,7 @@ class _UserHomeTabState extends State<UserHomeTab> {
                 ),
                 Text(
                   "Materials will appear here",
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(color: AppColors.textSecondary),
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7)),
                 ),
               ],
             ),

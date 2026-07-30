@@ -106,6 +106,7 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: AnimatedBottomNavigationBar.builder(
+        backgroundColor: Theme.of(context).colorScheme.surface,
         itemCount: 4,
         tabBuilder: (int index, bool isActive) {
           // Since we moved Games to the FAB, we need to map the 4 remaining tabs to the 5 total pages
