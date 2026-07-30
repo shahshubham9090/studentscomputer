@@ -22,6 +22,30 @@
           }
         },
         {
+          "client_id": "1010864816996-f16hnbcs2gu29ei6cnla0po7si3fp9ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.computerapp",
+            "certificate_hash": "0d0c17efc9a7bbde1823227a5f990b3478379c0c"
+          }
+        },
+        {
+          "client_id": "1010864816996-n2mrfp39ui125chvejsq6mcki4mvf025.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.computerapp",
+            "certificate_hash": "d23001984495f75391bc495d3d6db60083a5c208"
+          }
+        },
+        {
+          "client_id": "1010864816996-rf7pcvu1shjkdov0vrk0vvdpdn24noeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.computerapp",
+            "certificate_hash": "c8382de78bfd1f69908d0371cc919578832990e6"
+          }
+        },
+        {
           "client_id": "1010864816996-vfi1skou27r2u9trhe8fcfuh84h6oeo8.apps.googleusercontent.com",
           "client_type": 3
         }

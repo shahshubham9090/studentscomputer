@@ -1,7 +1,7 @@
 name: studentscomputer
 description: "QuizMaster - A production-ready Quiz App built with Flutter."
 publish_to: 'none'
-version: 1.0.1+2
+version: 1.0.3+4
 
 environment:
   sdk: ^3.5.3
