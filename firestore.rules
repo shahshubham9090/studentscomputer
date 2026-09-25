@@ -36,7 +36,7 @@ service cloud.firestore {
       // Users may edit their own profile, points and game scores, but never their role.
       allow update: if isAdmin()
                     || (isSelf(uid) && request.resource.data.role == resource.data.role);
-      allow delete: if isAdmin();
+      allow delete: if isAdmin() || isSelf(uid);
     }
 
     match /quizzes/{quizId} {
@@ -52,14 +52,15 @@ service cloud.firestore {
     match /quiz_attempts/{attemptId} {
       allow read: if signedIn();
       allow create: if signedIn() && request.resource.data.userId == request.auth.uid;
-      allow update, delete: if isAdmin();
+      allow update: if isAdmin();
+      allow delete: if isAdmin() || (signedIn() && resource.data.userId == request.auth.uid);
     }
 
     match /doubts/{doubtId} {
       allow read: if isStaff() || (signedIn() && resource.data.userId == request.auth.uid);
       allow create: if signedIn() && request.resource.data.userId == request.auth.uid;
       allow update: if isStaff();
-      allow delete: if isAdmin();
+      allow delete: if isAdmin() || (signedIn() && resource.data.userId == request.auth.uid);
     }
 
     match /groups/{groupId} {

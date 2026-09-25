@@ -161,6 +161,70 @@ class AuthProvider extends ChangeNotifier {
     }
   }
 
+  bool get signedInWithGoogle =>
+      _auth.currentUser?.providerData.any((p) => p.providerId == 'google.com') ?? false;
+
+  /// Permanently deletes the user's data and Firebase account.
+  /// [password] is required for email/password accounts; Google accounts
+  /// re-confirm through the Google account picker instead.
+  Future<void> deleteAccount({String? password}) async {
+    final user = _auth.currentUser;
+    if (user == null) return;
+    final uid = user.uid;
+    final isGoogle = signedInWithGoogle;
+
+    try {
+      // Re-authenticate first: Firebase refuses to delete accounts without a
+      // recent login, and we don't want to wipe data and then fail here.
+      final AuthCredential credential;
+      if (isGoogle) {
+        final googleUser = await GoogleSignIn().signIn();
+        if (googleUser == null) throw Exception('Account deletion cancelled');
+        final googleAuth = await googleUser.authentication;
+        credential = GoogleAuthProvider.credential(
+          accessToken: googleAuth.accessToken,
+          idToken: googleAuth.idToken,
+        );
+      } else {
+        credential = EmailAuthProvider.credential(email: user.email ?? '', password: password ?? '');
+      }
+      await user.reauthenticateWithCredential(credential);
+
+      final attempts = await _firestore.collection('quiz_attempts').where('userId', isEqualTo: uid).get();
+      final doubts = await _firestore.collection('doubts').where('userId', isEqualTo: uid).get();
+      final memberGroups = await _firestore.collection('groups').where('studentIds', arrayContains: uid).get();
+      final invitedGroups = await _firestore.collection('groups').where('pendingStudentIds', arrayContains: uid).get();
+
+      final writes = <void Function(WriteBatch)>[
+        for (final doc in [...attempts.docs, ...doubts.docs]) (b) => b.delete(doc.reference),
+        for (final doc in memberGroups.docs)
+          (b) => b.update(doc.reference, {'studentIds': FieldValue.arrayRemove([uid])}),
+        for (final doc in invitedGroups.docs)
+          (b) => b.update(doc.reference, {'pendingStudentIds': FieldValue.arrayRemove([uid])}),
+        (b) => b.delete(_firestore.collection('users').doc(uid)),
+      ];
+
+      // Firestore batches are limited to 500 writes.
+      for (var i = 0; i < writes.length; i += 500) {
+        final batch = _firestore.batch();
+        for (final write in writes.skip(i).take(500)) {
+          write(batch);
+        }
+        await batch.commit();
+      }
+
+      await NotificationService.unsubscribeFromUserTopic(uid);
+      await user.delete();
+      if (isGoogle) await GoogleSignIn().signOut();
+
+      _currentUser = null;
+      notifyListeners();
+    } catch (e) {
+      debugPrint("AuthProvider: Delete Account Error: $e");
+      throw Exception(AppErrorHandler.getErrorMessage(e));
+    }
+  }
+
   Future<void> resetPassword(String email) async {
     try {
       _setError(null);

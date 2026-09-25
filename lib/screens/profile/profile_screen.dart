@@ -63,6 +63,70 @@ class _ProfileScreenState extends State<ProfileScreen> {
     }
   }
 
+  Future<void> _confirmDeleteAccount() async {
+    final auth = context.read<AuthProvider>();
+    final needsPassword = !auth.signedInWithGoogle;
+    final passwordController = TextEditingController();
+
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Delete account?'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'This permanently deletes your profile, quiz results, points, game scores, doubts and group memberships. This cannot be undone.',
+            ),
+            const SizedBox(height: AppSpacing.m),
+            if (needsPassword)
+              TextField(
+                controller: passwordController,
+                obscureText: true,
+                decoration: const InputDecoration(labelText: 'Enter your password to confirm'),
+              )
+            else
+              const Text('You will be asked to choose your Google account to confirm.'),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text('Delete', style: TextStyle(color: AppColors.error)),
+          ),
+        ],
+      ),
+    );
+
+    // Not disposed here: the dialog's TextField is still attached while the
+    // close animation runs, and a controller without listeners is just GC'd.
+    final password = passwordController.text;
+    if (confirmed != true || !mounted) return;
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (_) => const Center(child: CircularProgressIndicator()),
+    );
+
+    try {
+      await auth.deleteAccount(password: needsPassword ? password : null);
+      if (!mounted) return;
+      Navigator.of(context).pushNamedAndRemoveUntil('/welcome', (route) => false);
+    } catch (e) {
+      if (!mounted) return;
+      Navigator.of(context).pop(); // close the progress dialog
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text(e.toString().replaceAll('Exception: ', ''))),
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final user = context.watch<AuthProvider>().currentUser;
@@ -159,6 +223,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   );
                  }
                },
+             ),
+             ListTile(
+               leading: const Icon(Icons.delete_forever_outlined, color: AppColors.error),
+               title: const Text('Delete Account', style: TextStyle(color: AppColors.error)),
+               subtitle: const Text('Permanently remove your account and data'),
+               onTap: _confirmDeleteAccount,
              ),
           ],
         ),
