@@ -15,3 +15,7 @@
 
 # Prevent obfuscation of serializable / model classes if needed
 -keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
+
+# Flutter's deferred components support references Play Core split-install
+# APIs that aren't included since this app doesn't use dynamic feature delivery.
+-dontwarn com.google.android.play.core.**
