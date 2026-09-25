@@ -271,24 +271,6 @@ class AuthProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> debugSwitchRole() async {
-    if (_currentUser == null) return;
-    final newRole = _currentUser!.role == UserRole.admin ? UserRole.user : UserRole.admin;
-    
-    // Optimistic Update
-    final prevUser = _currentUser;
-    _currentUser = _currentUser!.copyWith(role: newRole);
-    notifyListeners();
-
-    try {
-      await _firestore.collection('users').doc(_currentUser!.id).update({'role': newRole.name});
-    } catch (e) {
-      _currentUser = prevUser; // Rollback
-      notifyListeners();
-      debugPrint("AuthProvider: Sync Role Error: $e");
-    }
-  }
-
   Stream<List<UserModel>> getAllUsers() {
     return _firestore.collection('users').snapshots().map((snapshot) {
       return snapshot.docs

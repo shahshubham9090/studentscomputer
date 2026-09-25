@@ -1,0 +1,81 @@
+rules_version = '2';
+
+// Roles live in users/{uid}.role ("admin", "teacher" or "user").
+// Admins can only be created by setting that field in the Firebase Console.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isSelf(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    function role() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+
+    function isAdmin() {
+      return signedIn() && role() == 'admin';
+    }
+
+    function isStaff() {
+      return signedIn() && role() in ['admin', 'teacher'];
+    }
+
+    function changesOnly(keys) {
+      return request.resource.data.diff(resource.data).affectedKeys().hasOnly(keys);
+    }
+
+    match /users/{uid} {
+      // Leaderboards, group member lists and teacher student lists read other users.
+      allow read: if signedIn();
+      allow create: if isSelf(uid) && request.resource.data.role in ['user', 'teacher'];
+      // Users may edit their own profile, points and game scores, but never their role.
+      allow update: if isAdmin()
+                    || (isSelf(uid) && request.resource.data.role == resource.data.role);
+      allow delete: if isAdmin();
+    }
+
+    match /quizzes/{quizId} {
+      allow read: if signedIn();
+      allow write: if isStaff();
+    }
+
+    match /materials/{materialId} {
+      allow read: if signedIn();
+      allow write: if isStaff();
+    }
+
+    match /quiz_attempts/{attemptId} {
+      allow read: if signedIn();
+      allow create: if signedIn() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAdmin();
+    }
+
+    match /doubts/{doubtId} {
+      allow read: if isStaff() || (signedIn() && resource.data.userId == request.auth.uid);
+      allow create: if signedIn() && request.resource.data.userId == request.auth.uid;
+      allow update: if isStaff();
+      allow delete: if isAdmin();
+    }
+
+    match /groups/{groupId} {
+      // Students look groups up by join code, so any signed-in user can read.
+      allow read: if signedIn();
+      allow create: if isStaff() && request.resource.data.teacherId == request.auth.uid;
+      // The owning teacher or an admin can change anything; students can only
+      // join, accept or decline, which touches the membership lists.
+      allow update: if isAdmin()
+                    || (isStaff() && resource.data.teacherId == request.auth.uid)
+                    || (signedIn() && changesOnly(['studentIds', 'pendingStudentIds']));
+      allow delete: if isAdmin() || (isStaff() && resource.data.teacherId == request.auth.uid);
+    }
+
+    match /notification_queue/{docId} {
+      allow create: if isStaff();
+    }
+  }
+}

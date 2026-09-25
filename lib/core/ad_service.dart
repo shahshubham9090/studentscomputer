@@ -13,33 +13,24 @@ class AdService {
     try {
       await MobileAds.instance.initialize();
       _isInitialized = true;
-      if (kDebugMode) {
-        print("AdMob Initialized");
-      }
+      debugPrint("AdMob Initialized");
     } catch (e) {
       debugPrint("AdMob Initialization Failed: $e");
     }
   }
 
-  // TEST IDs from Google
+  // Debug builds use Google's test IDs so clicking our own ads during
+  // development can't get the AdMob account flagged.
   static String get bannerAdUnitId {
     if (kIsWeb) return ''; // Ads not supported on web via this plugin
-    
-    if (defaultTargetPlatform == TargetPlatform.android) {
-      return 'ca-app-pub-1477676833337384/9022710324';
-    } else if (defaultTargetPlatform == TargetPlatform.iOS) {
-      return 'ca-app-pub-3940256099942544/2934735716';
-    }
-    return '';
-  }
 
-  static String get interstitialAdUnitId {
-    if (kIsWeb) return '';
-    
     if (defaultTargetPlatform == TargetPlatform.android) {
-      return 'ca-app-pub-3940256099942544/1033173712';
+      return kDebugMode
+          ? 'ca-app-pub-3940256099942544/6300978111'
+          : 'ca-app-pub-1477676833337384/9022710324';
     } else if (defaultTargetPlatform == TargetPlatform.iOS) {
-      return 'ca-app-pub-3940256099942544/4411468910';
+      // TODO: replace with the real iOS banner ID before releasing on iOS.
+      return 'ca-app-pub-3940256099942544/2934735716';
     }
     return '';
   }
