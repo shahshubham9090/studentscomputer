@@ -46,3 +46,21 @@ app.*.map.json
 *.jks
 *.keystore
 *.properties
+
+# Local-only files (kept on disk, not pushed to GitHub)
+*.iml
+/mcq_paper*
+/paper.json
+/mock_data.json
+/sample_questions.csv
+/gen_paper.dart
+/temp_gen.py
+/flutter_*.png
+/textbook
+/pdf/
+/upload_certificate.pem
+/lib/screens/user/combined.json
+/lib/screens/user/question_paper.docx
+/lib/screens/user/games/15febpaper.json
+/lib/screens/user/games/update_paper.py
+/lib/screens/user/games/questions_json/
